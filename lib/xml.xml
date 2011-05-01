@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<persons>
+  <person username="MP123456">
+    <name>Иван</name>
+    <surname>Иванов</surname>
+  </person>
+  <person username="PK123456">
+    <name>Пётр</name>
+    <surname>Петров</surname>
+  </person>
+</persons>
