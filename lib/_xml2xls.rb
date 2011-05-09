@@ -82,44 +82,7 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
   @main_transforms = {}
   @item_transforms = {}
   @item_transform_templates = {}
-  class LibXML::XML::Reader
-    def find_descendant str
-      find_in_node self.node, str
-    end
-    protected
-    def find_in_node node, str
-      if node.name == str
-        return node
-      elsif node.child?
-        node.each do |n|
-          if n.name != "text"
-            node = find_in_node(n, str)
-            return node if node
-          else
-            next
-          end
-        end
-      else
-        return nil
-      end
-    end
-  end
   
-  class String
-    def format *args
-      str = self.dup
-      args.each_with_index do |a, i|
-        str.gsub!("{#{i}}", a)
-      end
-      str
-    end
-    def format! *args
-      args.each_with_index do |a, i|
-        self.gsub!("{#{i}}", a)
-      end
-      self
-    end
-  end
   
   def get_template template
     return @main_transforms[template] if @main_transforms[template]
