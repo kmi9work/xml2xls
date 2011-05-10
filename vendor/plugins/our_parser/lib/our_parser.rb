@@ -69,8 +69,8 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
   @xml_table_tpl_footer = "</s:Table>"
   @xml_work_sheet_tpl_footer = "</s:Worksheet>"
   @xml_workbook_tpl_footer = "</s:Workbook>"
-  @map_to_regex = Regexp.new "<mapTo list=\"(?<list>[^\"]+)\" firstcell=\"(?<first>[^\"]+)\" secondcell=\"(?<second>[^\"]+)\">(?<code>[^<]+)</mapTo>"
-  @convert_regex = Regexp.new "<mapTo list=\"(?<list>[^\"]+)\" tocode=\"(?<tocode>[^\"]+)\" firstcell=\"(?<first>[^\"]+)\" secondcell=\"(?<second>[^\"]+)\" thirdcell=\"(?<third>[^\"]+)\">(?<code>[^<]+)</mapTo>"
+  @map_to_regex = Regexp.new "(<mapTo list=\"(?<list>[^\"]+)\" firstcell=\"(?<first>[^\"]+)\" secondcell=\"(?<second>[^\"]+)\">(?<code>[^<]+)</mapTo>)" #take in brackets whole regexp's 'cause "aaaa".scan(/((a)a(a))/) => [[_"aaa"_, "a", "a"]]
+  @convert_regex = Regexp.new "(<mapTo list=\"(?<list>[^\"]+)\" tocode=\"(?<tocode>[^\"]+)\" firstcell=\"(?<first>[^\"]+)\" secondcell=\"(?<second>[^\"]+)\" thirdcell=\"(?<third>[^\"]+)\">(?<code>[^<]+)</mapTo>)"
   @map_substitution_string = "<mapTo list=\"{0}\" firstcell=\"{2}\" secondcell=\"{3}\">{1}</mapTo>"
   @convert_substitution_string = "<mapTo list=\"{0}\" tocode=\"{2}\" firstcell=\"{3}\" secondcell=\"{4}\" thirdcell=\"{5}\">{1}</mapTo>"
   @regex_tpls = {}
@@ -129,12 +129,12 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
   end
   
   def get_reader xml
-    return Nokogiri::XML::Reader(xml)
+    return Nokogiri::XML::Reader(xml.to_s)
   end
   
   
   def process_xml_node reader, template_name
-    #returns string, code
+    #returns string
     prefix = reader.prefix
     suffix = get_template_suffix(prefix)
     index = suffix.index("_")
@@ -167,15 +167,14 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     end
     doc = Nokogiri::XML node_xml
     out = xslt.transform(doc)
-    code = suffix
-    return out.to_s, code
+    return out.to_s
   end
   
   def initialize xml, template_name
     time = Time.now
     xsl_folder_path = FILEMANAGER["xslt"]
     if File.file? File.join(xsl_folder_path, template_name + "_sep.xsl")
-      reader = Nokogiri::XML::Reader(xml)
+      reader = get_reader(xml)
       processed_nodes = []
       while reader.read
         next if (reader.local_name != "Item")
@@ -184,6 +183,7 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
       reader.close
       #return processed_nodes.to_one_xml 
       #processed_nodes -- array[processed Item arrays[leaves from get_leaf_pi]] 
+      #NO out_xml!!!!
     else
       xslt = get_xslt(template_name)
       empty_xml = Nokogiri::XML::Document.new #transform empty xml with "#{template_name}.xsl" xslt
@@ -201,51 +201,48 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
           reader = get_reader(xml)
           while reader.read
             next if (local_name = reader.local_name) != "Item"
-            xml_text, code = process_xml_node(reader, template_name)
+            xml_text = process_xml_node(reader, template_name)
             next if xml_text.empty?
-            xml_text = process_text(xml_text) #!!!
+            xml_text = process_text(xml_text)
             out_xml += xml_text
           end
           reader.close
           out_xml += processed_xml[(index + MARKER.size + 1)..-1]
+          out_xml = Nokogiri::XML out_xml
         end
-        out_stream.close
       else
-        reader = LibXML::XML::Reader.string(xml)
+        reader = get_reader(processed_xml)
         while reader.read
           break if reader.local_name == "root"
         end
         columns_text = reader.read_inner_xml
-        size = File.size(xml_path)
-        xml_reader = LibXML::XML::Reader.file(xml_path)
-        xls_folder = FILEMANAGER["xls"]
-        file_name = xml_path
-        xls_path = File.join(xls_folder, file_name)
-        style_file_path = File.join(xls_folder_path, template_name + "_style.txt")
+        xml_reader = get_reader(xml)
+        style_file_path = File.join(xsl_folder_path, template_name + "_style.txt")
         style = ""
         if File.file? style_file_path
-          style = File.open(style_file_path, "r").read
+          style = File.read(style_file_path)
         end
         tbl_attributes_file_path = File.join(xsl_folder_path, template_name + "_tbl_attr.txt")
         tbl_attributes = ""
-        stream = File.open(xls_path, "w+")
-        stream.print @xml_tpl_header.format(style, tbl_attributes)
-        stream.print columns_text
+        if File.file? tbl_attributes_file_path
+          tbl_attributes = File.read(tbl_attributes_file_path)
+        end
+        out_xml = @xml_tpl_header.format(style, tbl_attributes)
+        out_xml += columns_text
         while xml_reader.read
           next if xml_reader.local_name != "Item"
           xml_text = process_xml_node(xml_reader, template_name)
           next if xml_text.empty?
           xml_text = process_text(xml_text)
-          stream.print xml_text
+          out_xml += xml_text
         end
         xml_reader.close
-        stream.print @xml_table_tpl_footer
-        stream.print @xml_work_sheet_tpl_footer
-        stream.print @xml_workbook_tpl_footer
-        stream.close
+        out_xml += @xml_table_tpl_footer
+        out_xml += @xml_work_sheet_tpl_footer
+        out_xml += @xml_workbook_tpl_footer
+        out_xml = Nokogiri::XML out_xml
       end
-      return xls_path
-      #////////////////
+      return make_stylesheet(out_xml)
     end
   rescue
     #make exceptions
@@ -279,7 +276,7 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     return processed_xmls
   end
   
-  def process_text text #take in brackets whole regexp's "aaaaaa".scan(/((a)a(a))/) => [["aaa", "a", "a"]]
+  def process_text text 
     temp = text.dup
     count = 0
     @regex_tpls.each do |key, value|
@@ -293,13 +290,46 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
         value = ""
         value = mapping[s] if mapping[s]
         new_val = match[0].gsub(">" + s + "<", ">" + value + "<")
-        temp = temp.gsub(match[0][0], new_val)
+        temp.gsub!(match[0], new_val)
       end
       count += 1
     end
     temp.scan(@map_to_regex).each do |match|
-      s = match[1][0].s
+      s = match[1].strip
+      code = match[4].strip
+      first = match[2].strip
+      second = match[3].strip
+      folder_path = FILEMANAGER["xslt"]
+      file_path = File.join(folder_path, s + "_.xml")
+      mapping = Mapping.new
+      mapping.read_xml2!(file_path, first, second)
+      value = ""
+      value = mapping[code] if mapping[code]
+      temp.gsub!(@map_substitution_string.format(s, code, first, second), value) 
     end
+    temp.scan(@convert_regex).each do |match|
+      s = match[1].strip
+      strs = match[6].strip.split(':').delete_if{|i| i.empty?}
+      next if strs.size < 2
+      code = strs[0]
+      value = strs[1].to_f
+      tocode = match[2].strip
+      first = match[3].strip
+      second = match[4].strip
+      third = match[5].strip
+      if code != tocode
+        folder_path = FILEMANAGER["xslt"]
+        file_path = File.join(folder_path, s + "_.xml")
+        mapping = Mapping.new
+        mapping.read_xml3!(file_path, first, second, third)
+        coeff = ""
+        coeff = mapping[code + ";" + tocode] if mapping[code + ";" + tocode]
+        next if coeff.empty?
+        value *= coeff.to_f
+      end
+      temp.gsub!(@convert_substitution_string.format(s, match[6].strip, tocode, first, second, third), value.to_s)
+    end
+    return temp
   end
   
 # //////  
@@ -356,33 +386,19 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     end
     reader.close
     return added_deleted_pi, dict
+  end  
+  
+  def make_stylesheet doc
+    doc
   end
   
-  def process_to_xls xml_path, template_name
-    log_message
-    xls_folder_path = "xslt" # or use FileManager
-    if File.file? File.join(xls_folder_path, template_name + "_sep.xsl")
-      reader = LibXML::XML::Reader.file(xml_path)
-      
-      while reader.read
-        next if reader.local_name != "Item"
-        process_xml_sep_node(reader, template_name, xml_path)
-      end
-      #transform xml only with _sep.xsl
-    elsif File.file? File.join(xls_folder_path, template_name + "_.xsl") or File.file? File.join(xls_folder_path, template_name + "_h.xsl") or File.file? File.join(xls_folder_path, template_name + "_gen.xsl")
-      #transform xml with all others xsl's
-    else
-      #transform xml via txt styles
-    end
-  end
 end
 
 
 
-include Xml2xls
 # require 'spreadsheet'
 # book = Spreadsheet.open "_ololo.xls"
 # sheet = book.worksheet 0
 # puts sheet.row(0).format(0).inspect.gsub(", ", "\n")
 
-puts xsl_transform ARGV[0], ARGV[1]
+puts OurParser.new ARGV[0], ARGV[1]
