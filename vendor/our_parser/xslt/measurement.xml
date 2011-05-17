@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Row>
+    <Cell>CMK</Cell>
+    <Cell>СМ2 Сантиметр квадратный</Cell>
+  </Row>
+  <Row>
+    <Cell>CMQ</Cell>
+    <Cell>СМ3 Сантиметр кубический</Cell>
+  </Row>
+  <Row>
+    <Cell>CMT</Cell>
+    <Cell>СМ Сантиметр</Cell>
+  </Row>
+  <Row>
+    <Cell>EA</Cell>
+    <Cell>ШТ Штука</Cell>
+  </Row>
+  <Row>
+    <Cell>GRM</Cell>
+    <Cell>ГР Грамм</Cell>
+  </Row>
+  <Row>
+    <Cell>HLT</Cell>
+    <Cell>ГЛ Гектолитр</Cell>
+  </Row>
+   <Row>
+    <Cell>LTR</Cell>
+    <Cell>Л Литр</Cell>
+  </Row>
+   <Row>
+    <Cell>KGM</Cell>
+    <Cell>КГ Килограмм</Cell>
+  </Row>
+  <Row>
+    <Cell>MGM</Cell>
+    <Cell>МГ Милиграмм</Cell>
+  </Row>
+  <Row>
+    <Cell>MLT</Cell>
+    <Cell>МЛ Миллилитр</Cell>
+  </Row>
+  <Row>
+    <Cell>MMT</Cell>
+    <Cell>ММ Миллиметр</Cell>
+  </Row>
+  <Row>
+    <Cell>MTK</Cell>
+    <Cell>М2 Метр квадратный</Cell>
+  </Row>
+  <Row>
+    <Cell>MTQ</Cell>
+    <Cell>М3 Метр кубический</Cell>
+  </Row>
+  <Row>
+    <Cell>MTR</Cell>
+    <Cell>М Метр</Cell>
+  </Row>
+  <Row>
+    <Cell>PCE</Cell>
+    <Cell>ШТ Штука</Cell>
+  </Row>
+  <Row>
+    <Cell>PR</Cell>
+    <Cell>ПАР Пара</Cell>
+  </Row>
+  <Row>
+    <Cell>801</Cell>
+    <Cell>Year</Cell>
+  </Row>  
+  <Row>
+    <Cell>802</Cell>
+    <Cell>Month</Cell>
+  </Row>  
+  <Row>
+    <Cell>803</Cell>
+    <Cell>Week</Cell>
+  </Row>  
+  <Row>
+    <Cell>804</Cell>
+    <Cell>Day/s</Cell>
+  </Row>  
+  <Row>
+    <Cell>805</Cell>
+    <Cell>Hour</Cell>
+  </Row>  
+  <Row>
+    <Cell>806</Cell>
+    <Cell>Minute</Cell>
+  </Row>  
+  <Row>
+    <Cell>APX</Cell>
+    <Cell>Troy ounce (31,10348 g)</Cell>
+  </Row>  
+  <Row>
+    <Cell>AV</Cell>
+    <Cell>Capsule</Cell>
+  </Row>
+  <Row>
+    <Cell>CEL</Cell>
+    <Cell>Degree Celsius</Cell>
+  </Row>
+    <Row>
+    <Cell>CLT</Cell>
+    <Cell>СЛ Сантилитр</Cell>
+  </Row>
+  <Row>
+    <Cell>DOS</Cell>
+    <Cell>Dose</Cell>
+  </Row>
+  <Row>
+    <Cell>DRG</Cell>
+    <Cell>Dragée</Cell>
+  </Row>
+  <Row>
+    <Cell>DZN</Cell>
+    <Cell>Dozen</Cell>
+  </Row>
+  <Row>
+    <Cell>FAH</Cell>
+    <Cell>Degree Fahrenheit</Cell>
+  </Row>
+  <Row>
+    <Cell>FOT</Cell>
+    <Cell>FOOT</Cell>
+  </Row>
+  <Row>
+    <Cell>FTQ</Cell>
+    <Cell>Cubic foot</Cell>
+  </Row>
+  <Row>
+    <Cell>GLI</Cell>
+    <Cell>Gallon (UK)</Cell>
+  </Row>
+  <Row>
+    <Cell>GM</Cell>
+    <Cell>Gram per square metre</Cell>
+  </Row>
+  <Row>
+    <Cell>GPD</Cell>
+    <Cell>g per 100 g</Cell>
+  </Row>
+  <Row>
+    <Cell>GRO</Cell>
+    <Cell>Gross</Cell>
+  </Row>
+  <Row>
+    <Cell>HLT</Cell>
+    <Cell>Hectolitre</Cell>
+  </Row>
+  <Row>
+    <Cell>INH</Cell>
+    <Cell>Inch (25.4 mm)</Cell>
+  </Row>
+  <Row>
+    <Cell>KEL</Cell>
+    <Cell>Kelvin</Cell>
+  </Row>
+  <Row>
+    <Cell>MC</Cell>
+    <Cell>Microgram</Cell>
+  </Row>
+  <Row>
+    <Cell>MMK</Cell>
+    <Cell>Square millimetre</Cell>
+  </Row>
+  <Row>
+    <Cell>NIU</Cell>
+    <Cell>Number of intern. units (IU)</Cell>
+  </Row>
+  <Row>
+    <Cell>ON</Cell>
+    <Cell>Ounce per square yard</Cell>
+  </Row>
+  <Row>
+    <Cell>ONZ</Cell>
+    <Cell>Ounce GB, US (28,349523 g)</Cell>
+  </Row>
+  <Row>
+    <Cell>OZA</Cell>
+    <Cell>Fluid ounce (US)</Cell>
+  </Row>
+  <Row>
+    <Cell>OZI</Cell>
+    <Cell>Fluid ounce (UK)</Cell>
+  </Row>
+  <Row>
+    <Cell>PND</Cell>
+    <Cell>Pound</Cell>
+  </Row>
+  <Row>
+    <Cell>PTI</Cell>
+    <Cell>Pint (UK)</Cell>
+  </Row>
+  <Row>
+    <Cell>PTN</Cell>
+    <Cell>Portion</Cell>
+  </Row>
+  <Row>
+    <Cell>SET</Cell>
+    <Cell>Set</Cell>
+  </Row>
+  <Row>
+    <Cell>ST</Cell>
+    <Cell>Sheet</Cell>
+  </Row>
+  <Row>
+    <Cell>TNE</Cell>
+    <Cell>Ton (metric ton)</Cell>
+  </Row>
+  <Row>
+    <Cell>U2</Cell>
+    <Cell>Tablet</Cell>
+  </Row>
+  <Row>
+    <Cell>UI</Cell>
+    <Cell>Unit of activity, predefined</Cell>
+  </Row>
+  <Row>
+    <Cell>YRD</Cell>
+    <Cell>Yard</Cell>
+  </Row>
+  <Row>
+    <Cell>WLO</Cell>
+    <Cell>Wash load (DE)</Cell>
+  </Row>
+  <Row>
+    <Cell>ZP</Cell>
+    <Cell>Page</Cell>
+  </Row>
+</Table>

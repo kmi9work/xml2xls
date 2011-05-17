@@ -1,0 +1,879 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Row>
+    <Cell>200</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>201</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>202</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>203</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>204</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>205</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>206</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>207</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>210</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>211</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>212</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>5L</Cell>
+    <Cell>МЕШ Мешок</Cell>
+  </Row>
+  <Row>
+    <Cell>5M</Cell>
+    <Cell>МЕШ Мешок</Cell>
+  </Row>
+  <Row>
+    <Cell>ADL</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>AE</Cell>
+    <Cell>ФЛ Флакон</Cell>
+  </Row>
+  <Row>
+    <Cell>AP</Cell>
+    <Cell>ФЛ Флакон</Cell>
+  </Row>
+  <Row>
+    <Cell>APE</Cell>
+    <Cell>КНС Канистра</Cell>
+  </Row>
+  <Row>
+    <Cell>AS1</Cell>
+    <Cell>КНС Канистра</Cell>
+  </Row>
+  <Row>
+    <Cell>AS3</Cell>
+    <Cell>КНС Канистра</Cell>
+  </Row>
+  <Row>
+    <Cell>AT</Cell>
+    <Cell>ФЛ Флакон</Cell>
+  </Row>
+  <Row>
+    <Cell>BA</Cell>
+    <Cell>БЧ  Бочка</Cell>
+  </Row>
+  <Row>
+    <Cell>BAS</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>BC</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>BE</Cell>
+    <Cell>РУЛ Рулон</Cell>
+  </Row>
+  <Row>
+    <Cell>BG</Cell>
+    <Cell>МЕШ Мешок</Cell>
+  </Row>
+  <Row>
+    <Cell>BGE</Cell>
+    <Cell>МЕШ Мешок</Cell>
+  </Row>
+  <Row>
+    <Cell>BIB</Cell>
+    <Cell>МЕШ Мешок</Cell>
+  </Row>
+  <Row>
+    <Cell>BJ</Cell>
+    <Cell>ВД  Ведро</Cell>
+  </Row>
+  <Row>
+    <Cell>BL</Cell>
+    <Cell>ПАЧ Пачка</Cell>
+  </Row>
+  <Row>
+    <Cell>BM</Cell>
+    <Cell>БЧ  Бочка</Cell>
+  </Row>
+  <Row>
+    <Cell>BME</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>BN</Cell>
+    <Cell>ПАЧ Пачка</Cell>
+  </Row>
+  <Row>
+    <Cell>BO</Cell>
+    <Cell>БУТ Бутылка</Cell>
+  </Row>
+  <Row>
+    <Cell>BR</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>BRI</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>BS</Cell>
+    <Cell>БУТ Бутылка</Cell>
+  </Row>
+  <Row>
+    <Cell>BTS</Cell>
+    <Cell>МЕШ Мешок</Cell>
+  </Row>
+  <Row>
+    <Cell>BU</Cell>
+    <Cell>БЧ  Бочка</Cell>
+  </Row>
+  <Row>
+    <Cell>BX</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>CA</Cell>
+    <Cell>БАН Банка</Cell>
+  </Row>
+  <Row>
+    <Cell>CBL</Cell>
+    <Cell>ФЛ Флакон</Cell>
+  </Row>
+  <Row>
+    <Cell>CCE</Cell>
+    <Cell>КОР Коробка</Cell>
+  </Row>
+  <Row>
+    <Cell>CD</Cell>
+    <Cell>БАН Банка</Cell>
+  </Row>
+  <Row>
+    <Cell>CG</Cell>
+    <Cell>СЕТ Сетка</Cell>
+  </Row>
+  <Row>
+    <Cell>CI</Cell>
+    <Cell>КНС Канистра</Cell>
+  </Row>
+  <Row>
+    <Cell>CMS</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>CN</Cell>
+    <Cell>КОН Контейнер</Cell>
+  </Row>
+  <Row>
+    <Cell>CP1</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>CP2</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>CR</Cell>
+    <Cell>СЕТ Сетка</Cell>
+  </Row>
+  <Row>
+    <Cell>CS</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>CT</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>CU</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>CW</Cell>
+    <Cell>СЕТ Сетка</Cell>
+  </Row>
+  <Row>
+    <Cell>CX</Cell>
+    <Cell>БАН Банка</Cell>
+  </Row>
+  <Row>
+    <Cell>CY</Cell>
+    <Cell>КНС Канистра</Cell>
+  </Row>
+  <Row>
+    <Cell>D99</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>DA</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>DB</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>DC</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>DG</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>DH</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>DJ</Cell>
+    <Cell>БУТ Бутылка</Cell>
+  </Row>
+  <Row>
+    <Cell>DK</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>DL</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>DM</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>DN</Cell>
+    <Cell>ФЛ Флакон</Cell>
+  </Row>
+  <Row>
+    <Cell>DOL</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>DP</Cell>
+    <Cell>БУТ Бутылка</Cell>
+  </Row>
+  <Row>
+    <Cell>DPE</Cell>
+    <Cell>ДП  Дисплей</Cell>
+  </Row>
+  <Row>
+    <Cell>DR</Cell>
+    <Cell>КНС Канистра</Cell>
+  </Row>
+  <Row>
+    <Cell>DS</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>DT</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>DU</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>DV</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>DW</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>DX</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>DY</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>EC</Cell>
+    <Cell>МЕШ Мешок</Cell>
+  </Row>
+  <Row>
+    <Cell>ED</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>EE</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>EF</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>EG</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>EH</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>EI</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>EN</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>EPL</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>ET</Cell>
+    <Cell>КОР Коробка</Cell>
+  </Row>
+  <Row>
+    <Cell>FOB</Cell>
+    <Cell>КОР Коробка</Cell>
+  </Row>
+  <Row>
+    <Cell>FP</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>FPE</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>FT</Cell>
+    <Cell>КОН Контейнер</Cell>
+  </Row>
+  <Row>
+    <Cell>FTE</Cell>
+    <Cell>КОН Контейнер</Cell>
+  </Row>
+  <Row>
+    <Cell>FTM</Cell>
+    <Cell>КОН Контейнер</Cell>
+  </Row>
+  <Row>
+    <Cell>GB</Cell>
+    <Cell>ФЛ Флакон</Cell>
+  </Row>
+  <Row>
+    <Cell>GDB</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>GDP</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>GK</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>GU</Cell>
+    <Cell>БАН Банка</Cell>
+  </Row>
+  <Row>
+    <Cell>HA</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>HB</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>HC</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>HR</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>HU</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>IA</Cell>
+    <Cell>ДП  Дисплей</Cell>
+  </Row>
+  <Row>
+    <Cell>IB</Cell>
+    <Cell>ДП  Дисплей</Cell>
+  </Row>
+  <Row>
+    <Cell>IC</Cell>
+    <Cell>ДП  Дисплей</Cell>
+  </Row>
+  <Row>
+    <Cell>ID</Cell>
+    <Cell>ДП  Дисплей</Cell>
+  </Row>
+  <Row>
+    <Cell>IE</Cell>
+    <Cell>ДП  Дисплей</Cell>
+  </Row>
+  <Row>
+    <Cell>IF</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>JC</Cell>
+    <Cell>КНС Канистра</Cell>
+  </Row>
+  <Row>
+    <Cell>JG</Cell>
+    <Cell>БАН Банка</Cell>
+  </Row>
+  <Row>
+    <Cell>JR</Cell>
+    <Cell>БАН Банка</Cell>
+  </Row>
+  <Row>
+    <Cell>JT</Cell>
+    <Cell>МЕШ Мешок</Cell>
+  </Row>
+  <Row>
+    <Cell>JY</Cell>
+    <Cell>КНС Канистра</Cell>
+  </Row>
+  <Row>
+    <Cell>KL1</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>KL2</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>KL3</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>KL4</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>KNL</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>KO1</Cell>
+    <Cell>СЕТ Сетка</Cell>
+  </Row>
+  <Row>
+    <Cell>KO2</Cell>
+    <Cell>СЕТ Сетка</Cell>
+  </Row>
+  <Row>
+    <Cell>KO3</Cell>
+    <Cell>СЕТ Сетка</Cell>
+  </Row>
+  <Row>
+    <Cell>KO5</Cell>
+    <Cell>СЕТ Сетка</Cell>
+  </Row>
+  <Row>
+    <Cell>KOT</Cell>
+    <Cell>КОР Коробка</Cell>
+  </Row>
+  <Row>
+    <Cell>KP1</Cell>
+    <Cell>ФЛ Флакон</Cell>
+  </Row>
+  <Row>
+    <Cell>KP2</Cell>
+    <Cell>ФЛ Флакон</Cell>
+  </Row>
+  <Row>
+    <Cell>LAB</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>LAY</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>LG</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>MAP</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>MP1</Cell>
+    <Cell>ПЛБ Пластиковая бутылка</Cell>
+  </Row>
+  <Row>
+    <Cell>MP2</Cell>
+    <Cell>ПЛБ Пластиковая бутылка</Cell>
+  </Row>
+  <Row>
+    <Cell>MP3</Cell>
+    <Cell>ПЛБ Пластиковая бутылка</Cell>
+  </Row>
+  <Row>
+    <Cell>MP4</Cell>
+    <Cell>ПЛБ Пластиковая бутылка</Cell>
+  </Row>
+  <Row>
+    <Cell>MP5</Cell>
+    <Cell>ПЛБ Пластиковая бутылка</Cell>
+  </Row>
+  <Row>
+    <Cell>MPE</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>NB</Cell>
+    <Cell>МЕШ Мешок</Cell>
+  </Row>
+  <Row>
+    <Cell>NE</Cell>
+    <Cell>УП Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>NPW</Cell>
+    <Cell>УП Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>NU</Cell>
+    <Cell>СЕТ Сетка</Cell>
+  </Row>
+  <Row>
+    <Cell>NV</Cell>
+    <Cell>СЕТ Сетка</Cell>
+  </Row>
+  <Row>
+    <Cell>OKO</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>OPE</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>PA</Cell>
+    <Cell>ПАК Пакет</Cell>
+  </Row>
+  <Row>
+    <Cell>PAE</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>PAL</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>PB</Cell>
+    <Cell>ЯЩ  Ящик</Cell>
+  </Row>
+  <Row>
+    <Cell>PC</Cell>
+    <Cell>ПАЧ Пачка</Cell>
+  </Row>
+  <Row>
+    <Cell>PD</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>PE</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>PF</Cell>
+    <Cell>БУТ Бутылка</Cell>
+  </Row>
+  <Row>
+    <Cell>PG</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>PIK</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>PK</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>PL</Cell>
+    <Cell>ВД  Ведро</Cell>
+  </Row>
+  <Row>
+    <Cell>PL1</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>PL3</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>PL4</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>PLP</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>PO</Cell>
+    <Cell>ПАК Пакет</Cell>
+  </Row>
+  <Row>
+    <Cell>POP</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>PP</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>PPE</Cell>
+    <Cell>ПАК Пакет</Cell>
+  </Row>
+  <Row>
+    <Cell>PT4</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>PU</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>PUE</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>PUN</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>PX</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>RB1</Cell>
+    <Cell>КОН Контейнер</Cell>
+  </Row>
+  <Row>
+    <Cell>RB2</Cell>
+    <Cell>КОН Контейнер</Cell>
+  </Row>
+  <Row>
+    <Cell>RB3</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>RCB</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>RG</Cell>
+    <Cell>РУЛ Рулон</Cell>
+  </Row>
+  <Row>
+    <Cell>RIG</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>RJ</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>RL</Cell>
+    <Cell>РУЛ Рулон</Cell>
+  </Row>
+  <Row>
+    <Cell>RO</Cell>
+    <Cell>РУЛ Рулон</Cell>
+  </Row>
+  <Row>
+    <Cell>SA</Cell>
+    <Cell>МЕШ Мешок</Cell>
+  </Row>
+  <Row>
+    <Cell>SEC</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>SH</Cell>
+    <Cell>ПАК Пакет</Cell>
+  </Row>
+  <Row>
+    <Cell>SL</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>SO</Cell>
+    <Cell>РУЛ Рулон</Cell>
+  </Row>
+  <Row>
+    <Cell>SR</Cell>
+    <Cell>КОН Контейнер</Cell>
+  </Row>
+  <Row>
+    <Cell>STL</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>SW</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>SX</Cell>
+    <Cell>КПЛ Комплект</Cell>
+  </Row>
+  <Row>
+    <Cell>TAE</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>TB</Cell>
+    <Cell>КНС Канистра</Cell>
+  </Row>
+  <Row>
+    <Cell>TEV</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>THE</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>TIK</Cell>
+    <Cell>КОН Контейнер</Cell>
+  </Row>
+  <Row>
+    <Cell>TLK</Cell>
+    <Cell>БАН Банка</Cell>
+  </Row>
+  <Row>
+    <Cell>TRE</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>TTE</Cell>
+    <Cell>ТЮБ Тюбик</Cell>
+  </Row>
+  <Row>
+    <Cell>TU</Cell>
+    <Cell>ТЮБ Тюбик</Cell>
+  </Row>
+  <Row>
+    <Cell>TUK</Cell>
+    <Cell>ТЮБ Тюбик</Cell>
+  </Row>
+  <Row>
+    <Cell>TV</Cell>
+    <Cell>ТЮБ Тюбик</Cell>
+  </Row>
+  <Row>
+    <Cell>TWE</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>TY</Cell>
+    <Cell>КНС Канистра</Cell>
+  </Row>
+  <Row>
+    <Cell>UUE</Cell>
+    <Cell>СЕТ Сетка</Cell>
+  </Row>
+  <Row>
+    <Cell>UVQ</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>VI</Cell>
+    <Cell>ФЛ Флакон</Cell>
+  </Row>
+  <Row>
+    <Cell>VKA</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>VP</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>X10</Cell>
+    <Cell>КОР Коробка</Cell>
+  </Row>
+  <Row>
+    <Cell>X11</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>X12</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>X14</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>X9</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>Y1</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>Y11</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>Y12</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>Y2</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>Y3</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>YY1</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>YY2</Cell>
+    <Cell>ПАЛ Паллета</Cell>
+  </Row>
+  <Row>
+    <Cell>ZG</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+  <Row>
+    <Cell>WRP</Cell>
+    <Cell>УП  Упаковка</Cell>
+  </Row>
+</Table>

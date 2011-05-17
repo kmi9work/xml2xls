@@ -1,0 +1,242 @@
+﻿<s:Styles>
+  <s:Style s:ID="Default" s:Name="Normal">
+    <s:Alignment s:Vertical="Bottom"/>
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" />
+    <s:Interior/>
+    <s:NumberFormat/>
+    <s:Protection/>
+  </s:Style>
+  <s:Style s:ID="s62" s:Name="Обычный 2">
+    <s:Alignment s:Vertical="Bottom"/>
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif"/>
+    <s:Interior/>
+    <s:NumberFormat/>
+    <s:Protection/>
+  </s:Style>
+  <s:Style s:ID="s64" s:Parent="s62">
+    <s:Borders>
+      <s:Border s:Position="Bottom" s:LineStyle="Continuous" s:Weight="2"/>
+      <s:Border s:Position="Left" s:LineStyle="Continuous" s:Weight="2"/>
+      <s:Border s:Position="Right" s:LineStyle="Continuous" s:Weight="2"/>
+      <s:Border s:Position="Top" s:LineStyle="Continuous" s:Weight="2"/>
+    </s:Borders>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss" s:Color="#FF0000"
+     s:Bold="1"/>
+    <s:Interior s:Color="#FFFF00" s:Pattern="Solid"/>
+    <s:NumberFormat s:Format="@"/>
+  </s:Style>
+  <s:Style s:ID="s67" s:Parent="s62">
+    <s:Borders>
+      <s:Border s:Position="Bottom" s:LineStyle="Continuous" s:Weight="2"/>
+      <s:Border s:Position="Left" s:LineStyle="Continuous" s:Weight="2"/>
+      <s:Border s:Position="Right" s:LineStyle="Continuous" s:Weight="2"/>
+      <s:Border s:Position="Top" s:LineStyle="Continuous" s:Weight="2"/>
+    </s:Borders>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss" s:Color="#FF0000"
+     s:Bold="1"/>
+    <s:Interior s:Color="#CCFFFF" s:Pattern="Solid"/>
+    <s:NumberFormat s:Format="@"/>
+  </s:Style>
+  <s:Style s:ID="s68" s:Parent="s62">
+    <s:Borders>
+      <s:Border s:Position="Bottom" s:LineStyle="Continuous" s:Weight="2"/>
+      <s:Border s:Position="Left" s:LineStyle="Continuous" s:Weight="2"/>
+      <s:Border s:Position="Right" s:LineStyle="Continuous" s:Weight="2"/>
+      <s:Border s:Position="Top" s:LineStyle="Continuous" s:Weight="2"/>
+    </s:Borders>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss" s:Bold="1"/>
+    <s:Interior s:Color="#FFFF00" s:Pattern="Solid"/>
+    <s:NumberFormat s:Format="@"/>
+  </s:Style>
+  <s:Style s:ID="s70" s:Parent="s62">
+    <s:Borders>
+      <s:Border s:Position="Bottom" s:LineStyle="Continuous" s:Weight="2"/>
+      <s:Border s:Position="Left" s:LineStyle="Continuous" s:Weight="2"/>
+      <s:Border s:Position="Right" s:LineStyle="Continuous" s:Weight="2"/>
+      <s:Border s:Position="Top" s:LineStyle="Continuous" s:Weight="2"/>
+    </s:Borders>
+    <s:Font s:FontName="MS Sans Serif" x:CharSet="204" x:Family="Swiss"
+     s:Color="#FF0000" s:Bold="1"/>
+    <s:Interior s:Color="#FFFF00" s:Pattern="Solid"/>
+    <s:NumberFormat s:Format="@"/>
+  </s:Style>
+  <s:Style s:ID="s71" s:Parent="s62">
+    <s:Alignment s:Horizontal="Center" s:Vertical="Bottom"/>
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss" s:Color="#FF0000"
+     s:Bold="1"/>
+    <s:Interior s:Color="#FFFF99" s:Pattern="Solid"/>
+    <s:NumberFormat s:Format="@"/>
+  </s:Style>
+  <s:Style s:ID="s72" s:Parent="s62">
+    <s:Alignment s:Horizontal="Center" s:Vertical="Center"/>
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss" s:Color="#FF0000"
+     s:Bold="1"/>
+    <s:Interior s:Color="#CCFFFF" s:Pattern="Solid"/>
+    <s:NumberFormat s:Format="@"/>
+  </s:Style>
+  <s:Style s:ID="s73" s:Parent="s62">
+    <s:Alignment s:Horizontal="Center" s:Vertical="Bottom"/>
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss" s:Bold="1"/>
+    <s:Interior s:Color="#FFFF99" s:Pattern="Solid"/>
+    <s:NumberFormat s:Format="\ #############\ 0000000000000"/>
+  </s:Style>
+  <s:Style s:ID="s74" s:Parent="s62">
+    <s:Alignment s:Horizontal="Center" s:Vertical="Bottom"/>
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss" s:Color="#FF0000"
+     s:Bold="1"/>
+    <s:Interior s:Color="#CCFFFF" s:Pattern="Solid"/>
+    <s:NumberFormat s:Format="@"/>
+  </s:Style>
+  <s:Style s:ID="s75" s:Parent="s62">
+    <s:Alignment s:Horizontal="Center" s:Vertical="Bottom"/>
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss" s:Bold="1"/>
+    <s:Interior s:Color="#FFFF99" s:Pattern="Solid"/>
+    <s:NumberFormat s:Format="@"/>
+  </s:Style>
+  <s:Style s:ID="s77" s:Parent="s62">
+    <s:Alignment s:Horizontal="Center" s:Vertical="Bottom"/>
+    <s:Font s:FontName="MS Sans Serif" x:CharSet="204" x:Family="Swiss"
+     s:Color="#FF0000" s:Bold="1"/>
+    <s:Interior s:Color="#FFFF99" s:Pattern="Solid"/>
+    <s:NumberFormat s:Format="@"/>
+  </s:Style>
+  <s:Style s:ID="s78" s:Parent="s62">
+    <s:Alignment s:Horizontal="Center" s:Vertical="Bottom"/>
+    <s:Font s:FontName="MS Sans Serif" x:CharSet="204" x:Family="Swiss" s:Bold="1"/>
+    <s:Interior s:Color="#FFFF99" s:Pattern="Solid"/>
+    <s:NumberFormat s:Format="@"/>
+  </s:Style>
+  <s:Style s:ID="s79" s:Parent="s62">
+    <s:Alignment s:Horizontal="Right" s:Vertical="Bottom"/>
+    <s:Borders/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="0"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s80" s:Parent="s62">
+    <s:Alignment s:Horizontal="Right" s:Vertical="Center"/>
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss"/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="0"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s81" s:Parent="s62">
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss"/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="#######"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s82" s:Parent="s62">
+    <s:Borders/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="@"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s83" s:Parent="s62">
+    <s:Alignment s:Horizontal="Left" s:Vertical="Center"/>
+    <s:Borders/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="@"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s84" s:Parent="s62">
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss"/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="@"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s85" s:Parent="s62">
+	<s:Alignment s:Horizontal="Right" s:Vertical="Bottom"/>
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss"/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="####\0000"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s86" s:Parent="s62">
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss"/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="#########\000000000"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s87" s:Parent="s62">
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss"/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="########00000000"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s88" s:Parent="s62">
+    <s:Borders/>
+    <s:Interior/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s89" s:Parent="s62">
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss"/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="Fixed"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s90" s:Parent="s62">
+    <s:Borders/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="Short Date"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s91" s:Parent="s62">
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss"/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="####0000"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s92" s:Parent="s62">
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss"/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="0.0000"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s93" s:Parent="s62">
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss"/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="00%"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+  <s:Style s:ID="s94" s:Parent="s62">
+   <s:Alignment s:Horizontal="Right" s:Vertical="Bottom"/>
+   <s:Borders/>
+   <s:Font s:FontName="MS Sans Serif" x:Family="Swiss"/>
+   <s:Interior/>
+   <s:NumberFormat s:Format="000#"/>
+   <s:Protection s:Protected="0"/>
+  </s:Style>
+   <s:Style s:ID="s95" s:Parent="s62">
+    <s:Alignment s:Horizontal="Right" s:Vertical="Bottom"/>
+    <s:Borders/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="0000000000000"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+   <s:Style s:ID="s96" s:Parent="s62">
+    <s:Alignment s:Horizontal="Center" s:Vertical="Bottom"/>
+    <s:Borders/>
+    <s:Font s:FontName="MS Sans Serif" x:Family="Swiss"/>
+    <s:Interior/>
+    <s:NumberFormat s:Format="@"/>
+    <s:Protection s:Protected="0"/>
+  </s:Style>
+</s:Styles>

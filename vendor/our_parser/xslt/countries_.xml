@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapping>
+  <row>
+    <code>AD</code>
+    <name>ANDORRA</name>
+    <rus>АНДОРРА</rus>
+    <withcode>AND Андорра</withcode>
+  </row>
+  <row>
+    <code>AE</code>
+    <name>UNITED ARAB EMIRATES</name>
+    <rus>ОБЪЕДИНЕННЫЕ АРАБСКИЕ ЭМИРАТЫ</rus>
+    <withcode>UAE ОБЪЕД. АРАБСКИЕ ЭМИРАТЫ</withcode>
+  </row>
+  <row>
+    <code>AF</code>
+    <name>AFGHANISTAN</name>
+    <rus>АФГАНИСТАН</rus>
+    <withcode>AFG АФГАНИСТАН</withcode>
+  </row>
+  <row>
+    <code>AG</code>
+    <name>ANTIGUA AND BARBUDA</name>
+    <rus>АНТИГУА И БАРБУДА</rus>
+    <withcode>459 АНТИГУА И БАРБУДА</withcode>
+  </row>
+  <row>
+    <code>AI</code>
+    <name>ANGUILLA</name>
+    <rus>АНГИЛЬЯ</rus>
+    <withcode>446 АНГИЛЬЯ</withcode>
+  </row>
+  <row>
+    <code>AL</code>
+    <name>ALBANIA</name>
+    <rus>АЛБАНИЯ</rus>
+    <withcode>AL АЛБАНИЯ</withcode>
+  </row>
+  <row>
+    <code>AM</code>
+    <name>ARMENIA</name>
+    <rus>АРМЕНИЯ</rus>
+    <withcode>77 АРМЕНИЯ</withcode>
+  </row>
+  <row>
+    <code>AN</code>
+    <name>NETHERLANDS ANTILLES</name>
+    <rus>НИДЕРЛАНДСКИЕ АНТИЛЬСКИЕ ОСТРОВА</rus>
+    <withcode>478 НИД. АНТИЛЬСКИЕ ОСТРОВА</withcode>
+  </row>
+  <row>
+    <code>AO</code>
+    <name>ANGOLA</name>
+    <rus>АНГОЛА</rus>
+    <withcode>ANG АНГОЛА</withcode>
+  </row>
+  <row>
+    <code>AQ</code>
+    <name>ANTARCTICA</name>
+    <rus>АНТАРКТИДА</rus>
+    <withcode>AQ АНТАРКТИДА</withcode>
+  </row>
+  <row>
+    <code>AR</code>
+    <name>ARGENTINA</name>
+    <rus>АРГЕНТИНА</rus>
+    <withcode>RA АРГЕНТИНА</withcode>
+  </row>
+  <row>
+    <code>AS</code>
+    <name>AMERICAN SAMOA</name>
+    <rus>АМЕРИКАНСКОЕ САМОА</rus>
+    <withcode>AS Американское самоа</withcode>
+  </row>
+  <row>
+    <code>AT</code>
+    <name>AUSTRIA</name>
+    <rus>АВСТРИЯ</rus>
+    <withcode>A АВСТРИЯ</withcode>
+  </row>
+  <row>
+    <code>AU</code>
+    <name>AUSTRALIA</name>
+    <rus>АВСТРАЛИЯ</rus>
+    <withcode>AUS АВСТРАЛИЯ</withcode>
+  </row>
+  <row>
+    <code>AW</code>
+    <name>ARUBA</name>
+    <rus>АРУБА</rus><withcode>474 АРУБА</withcode>
+  </row>
+  <row>
+    <code>AX</code>
+    <name>ÅLAND ISLANDS</name>
+    <rus>АЛАНДСКИЕ ОСТРОВА</rus><withcode>AX АЛАНДСКИЕ ОСТРОВА</withcode>
+  </row>
+  <row>
+    <code>AZ</code>
+    <name>AZERBAIJAN</name>
+    <rus>АЗЕРБАЙДЖАН</rus><withcode>AZ АЗЕРБАЙДЖАН</withcode>
+  </row>
+  <row>
+    <code>BA</code>
+    <name>BOSNIA AND HERZEGOVINA</name>
+    <rus>БОСНИЯ И ГЕРЦЕГОВИНА</rus><withcode>BA БОСНИЯ И ГЕРЦЕГОВИНА</withcode>
+  </row>
+  <row>
+    <code>BB</code>
+    <name>BARBADOS</name>
+    <rus>БАРБАДОС</rus><withcode>BDS БАРБАДОС</withcode>
+  </row>
+  <row>
+    <code>BD</code>
+    <name>BANGLADESH</name>
+    <rus>БАНГЛАДЕШ</rus><withcode>BD БАНГЛАДЕШ</withcode>
+  </row>
+  <row>
+    <code>BE</code>
+    <name>BELGIUM</name>
+    <rus>БЕЛЬГИЯ</rus><withcode>B БЕЛЬГИЯ</withcode>
+  </row>
+  <row>
+    <code>BF</code>
+    <name>BURKINA FASO</name>
+    <rus>БУРКИНА ФАСО</rus><withcode>BF БУРКИНА ФАСО</withcode>
+  </row>
+  <row>
+    <code>BG</code>
+    <name>BULGARIA</name>
+    <rus>БОЛГАРИЯ</rus><withcode>BG БОЛГАРИЯ</withcode>
+  </row>
+  <row>
+    <code>BH</code>
+    <name>BAHRAIN</name>
+    <rus>БАХРЕЙН</rus><withcode>BRN БАХРЕЙН</withcode>
+  </row>
+  <row>
+    <code>BI</code>
+    <name>BURUNDI</name>
+    <rus>БУРУНДИ</rus><withcode>BI БУРГУНДИЯ</withcode>
+  </row>
+  <row>
+    <code>BJ</code>
+    <name>BENIN</name>
+    <rus>БЕНИН</rus><withcode>DY БЕНИН</withcode>
+  </row>
+  <row>
+    <code>BL</code>
+    <name>BARTHÈLEMY</name>
+    <rus>BARTHELEMY</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>BM</code>
+    <name>BERMUDA</name>
+    <rus>БЕРМУДСКИЕ ОСТРОВА</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>BN</code>
+    <name>BRUNEI DARUSSALAM</name>
+    <rus>БРУНЕЙ-ДАРУССАЛАМ</rus><withcode>BRU БРУНЕИ</withcode>
+  </row>
+  <row>
+    <code>BO</code>
+    <name>BOLIVIA</name>
+    <rus>БОЛИВИЯ</rus><withcode>BOL БОЛИВИЯ</withcode>
+  </row>
+  <row>
+    <code>BR</code>
+    <name>BRAZIL</name>
+    <rus>БРАЗИЛИЯ</rus><withcode>BR БРАЗИЛИЯ</withcode>
+  </row>
+  <row>
+    <code>BS</code>
+    <name>BAHAMAS</name>
+    <rus>БАГАМСКИЕ ОСТРОВА</rus><withcode>BS БАГАМСКИЕ ОСТРОВА</withcode>
+  </row>
+  <row>
+    <code>BT</code>
+    <name>BHUTAN</name>
+    <rus>БУТАН</rus><withcode>675 БУТАН</withcode>
+  </row>
+  <row>
+    <code>BV</code>
+    <name>BOUVET ISLAND</name>
+    <rus>ОСТРОВ БУВЕ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>BW</code>
+    <name>BOTSWANA</name>
+    <rus>БОТСВАНА</rus><withcode>RB БОТСВАНА</withcode>
+  </row>
+  <row>
+    <code>BY</code>
+    <name>BELARUS</name>
+    <rus>БЕЛАРУСЬ</rus><withcode>BY БЕЛАРУССИЯ</withcode>
+  </row>
+  <row>
+    <code>BZ</code>
+    <name>BELIZE</name>
+    <rus>БЕЛИЗ</rus><withcode>BH БЕЛИЗ</withcode>
+  </row>
+  <row>
+    <code>CA</code>
+    <name>CANADA</name>
+    <rus>КАНАДА</rus><withcode>CDN КАНАДА</withcode>
+  </row>
+  <row>
+    <code>CC</code>
+    <name>COCOS (KEELING) ISLANDS</name>
+    <rus>Кокосовые (Килинг) острова</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>CD</code>
+    <name>CONGO, THE DEMOCRATIC REPUBLIC OF THE</name>
+    <rus>Конго, Демократическая Республика</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>CF</code>
+    <name>CENTRAL AFRICAN REPUBLIC</name>
+    <rus>ЦЕНТРАЛЬНОАФРИКАНСКАЯ РЕСПУБЛИКА</rus><withcode>RCA ЦЕНТРАЛЬНО-АФРИКАНСКАЯ РЕСПУБЛИКА</withcode>
+  </row>
+  <row>
+    <code>CG</code>
+    <name>CONGO</name>
+    <rus>КОНГО</rus><withcode>RCB КОНГО</withcode>
+  </row>
+  <row>
+    <code>CH</code>
+    <name>SWITZERLAND</name>
+    <rus>ШВЕЙЦАРИЯ</rus><withcode>CH ШВЕЙЦАРИЯ</withcode>
+  </row>
+  <row>
+    <code>CI</code>
+    <name>COTE D'IVOIRE</name>
+    <rus>КОТ-Д'ИВУАР</rus><withcode>272 БЕРЕГ СЛОНОВОЙ КОСТИ</withcode>
+  </row>
+  <row>
+    <code>CK</code>
+    <name>COOK ISLANDS</name>
+    <rus>ОСТРОВА КУКА</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>CL</code>
+    <name>CHILE</name>
+    <rus>ЧИЛИ</rus><withcode>RCH ЧИЛИ</withcode>
+  </row>
+  <row>
+    <code>CM</code>
+    <name>CAMEROON</name>
+    <rus>КАМЕРУН</rus><withcode>302 КАМЕРУН</withcode>
+  </row>
+  <row>
+    <code>CN</code>
+    <name>CHINA</name>
+    <rus>КИТАЙ</rus><withcode>CHI КИТАЙ</withcode>
+  </row>
+  <row>
+    <code>CO</code>
+    <name>COLOMBIA</name>
+    <rus>КОЛУМБИЯ</rus><withcode>CO КОЛУМБИЯ</withcode>
+  </row>
+  <row>
+    <code>CR</code>
+    <name>COSTA RICA</name>
+    <rus>КОСТА РИКА</rus><withcode>CR КОСТА РИКА</withcode>
+  </row>
+  <row>
+    <code>CU</code>
+    <name>CUBA</name>
+    <rus>КУБА</rus><withcode>C КУБА</withcode>
+  </row>
+  <row>
+    <code>CV</code>
+    <name>CAPE VERDE</name>
+    <rus>КАБО-ВЕРДЕ</rus><withcode>247 РЕСПУБЛИКА КАРБО-ВЕРДЕ</withcode>
+  </row>
+  <row>
+    <code>CX</code>
+    <name>CHRISTMAS ISLAND</name>
+    <rus>ОСТРОВ РОЖДЕСТВА</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>CY</code>
+    <name>CYPRUS</name>
+    <rus>КИПР</rus><withcode>CY КИПР</withcode>
+  </row>
+  <row>
+    <code>CZ</code>
+    <name>CZECH REPUBLIC</name>
+    <rus>ЧЕХИЯ</rus><withcode>CZ ЧЕХИЯ</withcode>
+  </row>
+  <row>
+    <code>DE</code>
+    <name>GERMANY</name>
+    <rus>ГЕРМАНИЯ</rus><withcode>D ФРГ</withcode>
+  </row>
+  <row>
+    <code>DJ</code>
+    <name>DJIBOUTI</name>
+    <rus>ДЖИБУТИ</rus><withcode>338 ДЖИБУТИ</withcode>
+  </row>
+  <row>
+    <code>DK</code>
+    <name>DENMARK</name>
+    <rus>ДАНИЯ</rus><withcode>DK ДАНИЯ</withcode>
+  </row>
+  <row>
+    <code>DM</code>
+    <name>DOMINICA</name>
+    <rus>ДОМИНИКА</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>DO</code>
+    <name>DOMINICAN REPUBLIC</name>
+    <rus>ДОМИНИКАНСКАЯ РЕСПУБЛИКА</rus><withcode>DOM ДОМИНИКАНСКАЯ РЕСПУБЛИКА</withcode>
+  </row>
+  <row>
+    <code>DZ</code>
+    <name>ALGERIA</name>
+    <rus>АЛЖИР</rus><withcode>DZ АЛЖИР</withcode>
+  </row>
+  <row>
+    <code>EC</code>
+    <name>ECUADOR</name>
+    <rus>ЭКВАДОР</rus><withcode>EC ЭКВАДОР</withcode>
+  </row>
+  <row>
+    <code>EE</code>
+    <name>ESTONIA</name>
+    <rus>ЭСТОНИЯ</rus><withcode>EW ЭСТОНИЯ</withcode>
+  </row>
+  <row>
+    <code>EG</code>
+    <name>EGYPT</name>
+    <rus>ЕГИПЕТ</rus><withcode>ET ЕГИПЕТ</withcode>
+  </row>
+  <row>
+    <code>EH</code>
+    <name>WESTERN SAHARA</name>
+    <rus>ЗАПАДНАЯ САХАРА</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>ER</code>
+    <name>ERITREA</name>
+    <rus>ЭРИТРЕЯ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>ES</code>
+    <name>SPAIN</name>
+    <rus>ИСПАНИЯ</rus><withcode>E ИСПАНИЯ</withcode>
+  </row>
+  <row>
+    <code>ET</code>
+    <name>ETHIOPIA</name>
+    <rus>ЭФИОПИЯ</rus><withcode>ETH ЭФИОПИЯ</withcode>
+  </row>
+  <row>
+    <code>EU</code>
+    <name>EUROPEAN UNION (GS1 Code)</name>
+    <rus>ЕВРОПЕЙСКИЙ СОЮЗ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>FI</code>
+    <name>FINLAND</name>
+    <rus>ФИНЛЯНДИЯ</rus><withcode>FIN ФИНЛЯНДИЯ</withcode>
+  </row>
+  <row>
+    <code>FJ</code>
+    <name>FIJI</name>
+    <rus>ФИДЖИ</rus><withcode>FJI ФИДЖИ</withcode>
+  </row>
+  <row>
+    <code>FK</code>
+    <name>FALKLAND ISLANDS (MALVINAS)</name>
+    <rus>ФОЛКЛЕНДСКИЕ (МАЛЬВИНСКИЕ) ОСТРОВА</rus><withcode>529 ФОЛКЛЕНДСКИЕ ОСТРОВА</withcode>
+  </row>
+  <row>
+    <code>FM</code>
+    <name>MICRONESIA, FEDERATED STATES OF</name>
+    <rus>Федеративные Штаты Микронезии</rus><withcode>823 ФЕДЕРАТ. ШТАТЫ МИКРОНЕЗИИ</withcode>
+  </row>
+  <row>
+    <code>FO</code>
+    <name>FAROE ISLANDS</name>
+    <rus>ФАРЕРСКИЕ ОСТРОВА</rus><withcode>25 ФАРЕРСКИЕ ОСТРОВА</withcode>
+  </row>
+  <row>
+    <code>FR</code>
+    <name>FRANCE</name>
+    <rus>ФРАНЦИЯ</rus><withcode>F ФРАНЦИЯ</withcode>
+  </row>
+  <row>
+    <code>GA</code>
+    <name>GABON</name>
+    <rus>ГАБОН</rus><withcode>314 ГАБОН</withcode>
+  </row>
+  <row>
+    <code>GB</code>
+    <name>UNITED KINGDOM</name>
+    <rus>ВЕЛИКОБРИТАНИЯ</rus><withcode>GB ВЕЛИКОБРИТАНИЯ</withcode>
+  </row>
+  <row>
+    <code>GD</code>
+    <name>GRENADA</name>
+    <rus>ГРЕНАДА</rus><withcode>WG ГРЕНАДА</withcode>
+  </row>
+  <row>
+    <code>GE</code>
+    <name>GEORGIA</name>
+    <rus>ГРУЗИЯ</rus><withcode>GE ГРУЗИЯ</withcode>
+  </row>
+  <row>
+    <code>GF</code>
+    <name>FRENCH GUIANA</name>
+    <rus>ФРАНЦУЗСКАЯ ГВИАНА</rus><withcode>496 ФРАНЦУЗСКАЯ ГВИАНА</withcode>
+  </row>
+  <row>
+    <code>GG</code>
+    <name>GUENRSEY</name>
+    <rus>GUENRSEY</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>GH</code>
+    <name>GHANA</name>
+    <rus>ГАНА</rus><withcode>GH ГАНА</withcode>
+  </row>
+  <row>
+    <code>GI</code>
+    <name>GIBRALTAR</name>
+    <rus>ГАБРАЛТАР</rus><withcode>44 ГАБРАЛТАР</withcode>
+  </row>
+  <row>
+    <code>GL</code>
+    <name>GREENLAND</name>
+    <rus>ГРЕНЛАНДИЯ</rus><withcode>406 ГРЕНЛАНДИЯ</withcode>
+  </row>
+  <row>
+    <code>GM</code>
+    <name>GAMBIA</name>
+    <rus>ГАМБИЯ</rus><withcode>WAG ГАМБИЯ</withcode>
+  </row>
+  <row>
+    <code>GN</code>
+    <name>GUINEA</name>
+    <rus>ГВИНЕЯ</rus><withcode>260 ГВИНЕЯ</withcode>
+  </row>
+  <row>
+    <code>GP</code>
+    <name>GUADELOUPE</name>
+    <rus>ГВАДЕЛУПА</rus><withcode>458 ГВАДЕЛУПА</withcode>
+  </row>
+  <row>
+    <code>GQ</code>
+    <name>EQUATORIAL GUINEA</name>
+    <rus>ЭКВАТОРИАЛЬНАЯ ГВИНЕЯ</rus><withcode>310 ЭКВАТОРИАЛЬНАЯ ГВИНЕЯ</withcode>
+  </row>
+  <row>
+    <code>GR</code>
+    <name>GREECE</name>
+    <rus>ГРЕЦИЯ</rus><withcode>GR ГРЕЦИЯ</withcode>
+  </row>
+  <row>
+    <code>GS</code>
+    <name>SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</name>
+    <rus>ЮЖНАЯ ДЖОРДЖИЯ И ЮЖНЫЕ САНДВИЧЕВЫ ОСТРОВА</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>GT</code>
+    <name>GUATEMALA</name>
+    <rus>ГВАТЕМАЛА</rus><withcode>GCA ГВАТЕМАЛА</withcode>
+  </row>
+  <row>
+    <code>GU</code>
+    <name>GUAM</name>
+    <rus>ГУАМ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>GW</code>
+    <name>GUINEA-BISSAU</name>
+    <rus>ГВИНЕЯ-БИСАУ</rus><withcode>257 ГВИНЕЯ-БИСАУ</withcode>
+  </row>
+  <row>
+    <code>GY</code>
+    <name>GUYANA</name>
+    <rus>ГАЙАНА</rus><withcode>GUY ГАЙАНА</withcode>
+  </row>
+  <row>
+    <code>HK</code>
+    <name>HONG KONG</name>
+    <rus>ГОНКОНГ</rus><withcode>HK ГОНКОНГ</withcode>
+  </row>
+  <row>
+    <code>HM</code>
+    <name>HEARD ISLAND AND MCDONALD ISLANDS</name>
+    <rus>ОСТРОВА ХЕРД И МАКДОНАЛЬД</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>HN</code>
+    <name>HONDURAS</name>
+    <rus>ГОНДУРАС</rus><withcode>HN ГОНДУРАС</withcode>
+  </row>
+  <row>
+    <code>HR</code>
+    <name>CROATIA</name>
+    <rus>ХОРВАТИЯ</rus><withcode>HR ХОРВАТИЯ</withcode>
+  </row>
+  <row>
+    <code>HT</code>
+    <name>HAITI</name>
+    <rus>ГАИТИ</rus><withcode>RH ГАИТИ</withcode>
+  </row>
+  <row>
+    <code>HU</code>
+    <name>HUNGARY</name>
+    <rus>ВЕНГРИЯ</rus><withcode>H ВЕНГРИЯ</withcode>
+  </row>
+  <row>
+    <code>ID</code>
+    <name>INDONESIA</name>
+    <rus>ИНДОНЕЗИЯ</rus><withcode>RI ИНДОНЕЗИЯ</withcode>
+  </row>
+  <row>
+    <code>IE</code>
+    <name>IRELAND</name>
+    <rus>ИРЛАНДИЯ</rus><withcode>IRL ИРЛАНДИЯ</withcode>
+  </row>
+  <row>
+    <code>IL</code>
+    <name>ISRAEL</name>
+    <rus>ИЗРАИЛЬ</rus><withcode>IL ИЗРАИЛЬ</withcode>
+  </row>
+  <row>
+    <code>IM</code>
+    <name>ISLE OF MAN</name>
+    <rus>ОСТРОВ МЭН</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>IN</code>
+    <name>INDIA</name>
+    <rus>ИНДИЯ</rus><withcode>IND ИНДИЯ</withcode>
+  </row>
+  <row>
+    <code>IO</code>
+    <name>BRITISH INDIAN OCEAN TERRITORY</name>
+    <rus>БРИТАНСКАЯ ТЕРРИТОРИЯ В ИНДИЙСКОМ ОКЕАНЕ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>IQ</code>
+    <name>IRAQ</name>
+    <rus>ИРАК</rus><withcode>IRQ ИРАК</withcode>
+  </row>
+  <row>
+    <code>IR</code>
+    <name>IRAN (ISLAMIC REPUBLIC OF)</name>
+    <rus>ИРАН (ИСЛАМСКАЯ РЕСПУБЛИКА)</rus><withcode>IR ИРАН</withcode>
+  </row>
+  <row>
+    <code>IS</code>
+    <name>ICELAND</name>
+    <rus>ИСЛАНДИЯ</rus><withcode>IS ИСЛАНДИЯ</withcode>
+  </row>
+  <row>
+    <code>IT</code>
+    <name>ITALY</name>
+    <rus>ИТАЛИЯ</rus><withcode>I ИТАЛИЯ</withcode>
+  </row>
+  <row>
+    <code>JE</code>
+    <name>JERSEY</name>
+    <rus>ДЖЕРСИ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>JM</code>
+    <name>JAMAICA</name>
+    <rus>ЯМАЙКА</rus><withcode>JA ЯМАЙКА</withcode>
+  </row>
+  <row>
+    <code>JO</code>
+    <name>JORDAN</name>
+    <rus>ИОРДАНИЯ</rus><withcode>JOR ИОРДАНИЯ</withcode>
+  </row>
+  <row>
+    <code>JP</code>
+    <name>JAPAN</name>
+    <rus>ЯПОНИЯ</rus><withcode>J ЯПОНИЯ</withcode>
+  </row>
+  <row>
+    <code>KE</code>
+    <name>KENYA</name>
+    <rus>КЕНИЯ</rus><withcode>EAK КЕНИЯ</withcode>
+  </row>
+  <row>
+    <code>KG</code>
+    <name>KYRGYZSTAN</name>
+    <rus>КЫРГЫЗСТАН</rus><withcode>83 КИРГИЗСТАН</withcode>
+  </row>
+  <row>
+    <code>KH</code>
+    <name>CAMBODIA</name>
+    <rus>КАМБОДЖИЯ</rus><withcode>K КАМБОДЖА</withcode>
+  </row>
+  <row>
+    <code>KI</code>
+    <name>KIRIBATI</name>
+    <rus>КИРИБАТИ</rus><withcode>812 КИРИБАТИ</withcode>
+  </row>
+  <row>
+    <code>KM</code>
+    <name>COMOROS</name>
+    <rus>КОМОРЫ</rus><withcode>375 КОМОРСКИЕ ОСТРОВА</withcode>
+  </row>
+  <row>
+    <code>KN</code>
+    <name>SAINT KITTS AND NEVIS</name>
+    <rus>СЕНТ-КИТС И НЕВИС</rus><withcode>449 СЕНТ-КРИСТОФ (СЕНТ-КИТС)</withcode>
+  </row>
+  <row>
+    <code>KP</code>
+    <name>KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF</name>
+    <rus>НАРОДНО-ДЕМОКРАТИЧЕСКАЯ РЕСПУБЛИКА КОРЕЯ</rus><withcode>ROK ЮЖНАЯ КОРЕЯ</withcode>
+  </row>
+  <row>
+    <code>KR</code>
+    <name>KOREA, REPUBLIC OF</name>
+    <rus>РЕСПУБЛИКА КОРЕЯ</rus><withcode>724 СЕВЕРНАЯ КОРЕЯ</withcode>
+  </row>
+  <row>
+    <code>KW</code>
+    <name>KUWAIT</name>
+    <rus>КУВЕЙТ</rus><withcode>KWT КУВЕЙТ</withcode>
+  </row>
+  <row>
+    <code>KY</code>
+    <name>CAYMAN ISLANDS</name>
+    <rus>КАЙМАНОВЫ ОСТРОВА</rus><withcode>463 КАЙМАНСКИЕ ОСТРОВА</withcode>
+  </row>
+  <row>
+    <code>KZ</code>
+    <name>KAZAKHSTAN</name>
+    <rus>КАЗАХСТАН</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>LA</code>
+    <name>LAO PEOPLES DEMOCRATIC REPUBLIC</name>
+    <rus>НАРОДНАЯ РЕСПУБЛИКА ЛАОС</rus><withcode>LAO ЛАОС</withcode>
+  </row>
+  <row>
+    <code>LB</code>
+    <name>LEBANON</name>
+    <rus>ЛИВАН</rus><withcode>RL ЛИВАН</withcode>
+  </row>
+  <row>
+    <code>LC</code>
+    <name>SAINT LUCIA</name>
+    <rus>СЕНТ-ЛЮСИЯ</rus><withcode>WL СЕНТ-ЛЮСИЯ</withcode>
+  </row>
+  <row>
+    <code>LI</code>
+    <name>LIECHTENSTEIN</name>
+    <rus>ЛИХТЕНШТЕЙН</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>LK</code>
+    <name>SRI LANKA</name>
+    <rus>ШРИ-ЛАНКА</rus><withcode>SRI ШРИ ЛАНКА</withcode>
+  </row>
+  <row>
+    <code>LR</code>
+    <name>LIBERIA</name>
+    <rus>ЛИБЕРИЯ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>LS</code>
+    <name>LESOTHO</name>
+    <rus>ЛЕСОТО</rus><withcode>LS ЛЕСОТО</withcode>
+  </row>
+  <row>
+    <code>LT</code>
+    <name>LITHUANIA</name>
+    <rus>ЛИТВА</rus><withcode>LT ЛИТВА</withcode>
+  </row>
+  <row>
+    <code>LU</code>
+    <name>LUXEMBOURG</name>
+    <rus>ЛЮКСЕМБУРГ</rus><withcode>L ЛЮКСЕМБУРГ</withcode>
+  </row>
+  <row>
+    <code>LV</code>
+    <name>LATVIA</name>
+    <rus>ЛАТВИЯ</rus><withcode>LAT ЛАТВИЯ</withcode>
+  </row>
+  <row>
+    <code>LY</code>
+    <name>LIBYAN ARAB JAMAHIRIYA</name>
+    <rus>Ливийская Арабская Джамахирия</rus><withcode>216 ЛИВИЯ</withcode>
+  </row>
+  <row>
+    <code>MA</code>
+    <name>MOROCCO</name>
+    <rus>МАРОККО</rus><withcode>MA МАРОККО</withcode>
+  </row>
+  <row>
+    <code>MC</code>
+    <name>MONACO</name>
+    <rus>МОНАКО</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>MD</code>
+    <name>MOLDOVA</name>
+    <rus>МОЛДОВА</rus><withcode>74 МОЛДАВИЯ</withcode>
+  </row>
+  <row>
+    <code>ME</code>
+    <name>MONTENEGRO</name>
+    <rus>ЧЕРНОГОРИЯ</rus><withcode>825 ЧЕРНОГОРИЯ</withcode>
+  </row>
+  <row>
+    <code>MF</code>
+    <name>SAINT MARTIN</name>
+    <rus>ОСТРОВ СВЯТОГО МАРТИНА</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>MG</code>
+    <name>MADAGASCAR</name>
+    <rus>МАДАГАСКАР</rus><withcode>RM МАДАГАСКАР</withcode>
+  </row>
+  <row>
+    <code>MH</code>
+    <name>MARSHALL ISLANDS</name>
+    <rus>МАРШАЛЛОВЫ ОСТРОВА</rus><withcode>824 МАРШАЛЛОВЫ ОСТРОВА</withcode>
+  </row>
+  <row>
+    <code>MK</code>
+    <name>MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</name>
+    <rus>Македония, Бывшая югославская Республика</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>ML</code>
+    <name>MALI</name>
+    <rus>МАЛИ</rus><withcode>RMM МАЛИ</withcode>
+  </row>
+  <row>
+    <code>MM</code>
+    <name>MYANMAR</name>
+    <rus>МЬЯНМА</rus><withcode>MYA МЬЯНМА</withcode>
+  </row>
+  <row>
+    <code>MN</code>
+    <name>MONGOLIA</name>
+    <rus>МОНГОЛИЯ</rus><withcode>716 МОНГОЛИЯ</withcode>
+  </row>
+  <row>
+    <code>MO</code>
+    <name>MACAU</name>
+    <rus>МАКАО</rus><withcode>743 МАКАО</withcode>
+  </row>
+  <row>
+    <code>MP</code>
+    <name>NORTHERN MARIANA ISLANDS</name>
+    <rus>СЕВЕРНЫЕ МАРИАНСКИЕ ОСТРОВА</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>MQ</code>
+    <name>MARTINIQUE</name>
+    <rus>МАРТИНИКА</rus><withcode>462 МАРТИНИКА</withcode>
+  </row>
+  <row>
+    <code>MR</code>
+    <name>MAURITANIA</name>
+    <rus>МАВРИТАНИЯ</rus><withcode>RIM МАВРИТАНИЯ</withcode>
+  </row>
+  <row>
+    <code>MS</code>
+    <name>MONTSERRAT</name>
+    <rus>МОНТСЕРРАТ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>MT</code>
+    <name>MALTA</name>
+    <rus>МАЛЬТА</rus><withcode>M</withcode>
+  </row>
+  <row>
+    <code>MU</code>
+    <name>MAURITIUS</name>
+    <rus>МАВРИКИЙ</rus><withcode>MS РЕСПУБЛИКА МАВРИКИЙ</withcode>
+  </row>
+  <row>
+    <code>MV</code>
+    <name>MALDIVES</name>
+    <rus>МАЛЬДИВЫ</rus><withcode>667 МАЛЬДИВСКИЕ</withcode>
+  </row>
+  <row>
+    <code>MW</code>
+    <name>MALAWI</name>
+    <rus>МАЛАВИ</rus><withcode>MW МАЛАВИ</withcode>
+  </row>
+  <row>
+    <code>MX</code>
+    <name>MEXIKO</name>
+    <rus>МЕКСИКА</rus><withcode>MEX МЕКСИКА</withcode>
+  </row>
+  <row>
+    <code>MY</code>
+    <name>MALAYSIA</name>
+    <rus>МАЛАЙЗИЯ</rus><withcode>MAL МАЛАЙЗИЯ</withcode>
+  </row>
+  <row>
+    <code>MZ</code>
+    <name>MOZAMBIQUE</name>
+    <rus>МОЗАМБИК</rus><withcode>MOC МОЗАМБИК</withcode>
+  </row>
+  <row>
+    <code>NA</code>
+    <name>NAMIBIA</name>
+    <rus>НАМИБИЯ</rus><withcode>NAM НАМИБИЯ</withcode>
+  </row>
+  <row>
+    <code>NC</code>
+    <name>NEW CALEDONIA</name>
+    <rus>НОВАЯ КАЛЕДОНИЯ</rus><withcode>809 НОВАЯ КАЛЕДОНИЯ</withcode>
+  </row>
+  <row>
+    <code>NE</code>
+    <name>NIGER</name>
+    <rus>НИГЕР</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>NF</code>
+    <name>NORFOLK ISLAND</name>
+    <rus>ОСТРОВ НОРФОЛК</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>NG</code>
+    <name>NIGERIA</name>
+    <rus>НИГЕРИЯ</rus><withcode>RN НИГЕРИЯ</withcode>
+  </row>
+  <row>
+    <code>NI</code>
+    <name>NICARAGUA</name>
+    <rus>НИКАРАГУА</rus><withcode>NIC НИКАРАГУА</withcode>
+  </row>
+  <row>
+    <code>NL</code>
+    <name>NETHERLANDS</name>
+    <rus>НИДЕРЛАНДЫ</rus><withcode>NL НИДЕРЛАНДЫ</withcode>
+  </row>
+  <row>
+    <code>NO</code>
+    <name>NORWAY</name>
+    <rus>НОРВЕГИЯ</rus><withcode>N НОРВЕРИЯ</withcode>
+  </row>
+  <row>
+    <code>NP</code>
+    <name>NEPAL</name>
+    <rus>НЕПАЛ</rus><withcode>672 НЕПАЛ</withcode>
+  </row>
+  <row>
+    <code>NR</code>
+    <name>NAURU</name>
+    <rus>НАУРУ</rus><withcode>803 НАУРУ</withcode>
+  </row>
+  <row>
+    <code>NU</code>
+    <name>NIUE</name>
+    <rus>NIUE</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>NZ</code>
+    <name>NEW ZEALAND</name>
+    <rus>НОВАЯ ЗЕЛАНДИЯ</rus><withcode>NZ НОВАЯ ЗЕЛАНДИЯ</withcode>
+  </row>
+  <row>
+    <code>OM</code>
+    <name>OMAN</name>
+    <rus>ОМАН</rus><withcode>OM ОМАН</withcode>
+  </row>
+  <row>
+    <code>PA</code>
+    <name>PANAMA</name>
+    <rus>ПАНАМА</rus><withcode>PA ПАНАМА</withcode>
+  </row>
+  <row>
+    <code>PE</code>
+    <name>PERU</name>
+    <rus>ПЕРУ</rus><withcode>PE ПЕРУ</withcode>
+  </row>
+  <row>
+    <code>PF</code>
+    <name>FRENCH POLYNESIA</name>
+    <rus>ФРАНЦУЗСКАЯ ПОЛИНЕЗИЯ</rus><withcode>822 ФРАНЦУЗСКАЯ ПОЛИНЕЗИЯ</withcode>
+  </row>
+  <row>
+    <code>PG</code>
+    <name>PAPUA NEW GUINEA</name>
+    <rus>ПАПУА-НОВАЯ ГВИНЕЯ</rus><withcode>801 ПАПУА-НОВАЯ ГВИНЕЯ</withcode>
+  </row>
+  <row>
+    <code>PH</code>
+    <name>PHILIPPINES</name>
+    <rus>ФИЛИППИНЫ</rus><withcode>RP ФИЛИППИНЫ</withcode>
+  </row>
+  <row>
+    <code>PK</code>
+    <name>PAKISTAN</name>
+    <rus>ПАКИСТАН</rus><withcode>PAK ПАКИСТАН</withcode>
+  </row>
+  <row>
+    <code>PL</code>
+    <name>POLAND</name>
+    <rus>ПОЛЬША</rus><withcode>PL ПОЛЬША</withcode>
+  </row>
+  <row>
+    <code>PM</code>
+    <name>SAINT PIERRE AND MIQUELON</name>
+    <rus>СЕН-ПЬЕР И МИКЕЛОН</rus><withcode>408 СЕН-ПЬЕР И МИКЕЛОН</withcode>
+  </row>
+  <row>
+    <code>PN</code>
+    <name>PITCAIRN</name>
+    <rus>ПИТКЕРН</rus><withcode>813 ПИТКЕРН</withcode>
+  </row>
+  <row>
+    <code>PR</code>
+    <name>PUERTO RICO</name>
+    <rus>ПУЭРТО-РИКО</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>PS</code>
+    <name>PALESTINIAN TERRITORY, OCCUPIED</name>
+    <rus>ПАЛЕСТИНСКАЯ ТЕРРИТОРИЯ, ОКУПИРОВАННАЯ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>PT</code>
+    <name>PORTUGAL</name>
+    <rus>ПОРТУГАЛИЯ</rus><withcode>P ПОРТУГАЛИЯ</withcode>
+  </row>
+  <row>
+    <code>PW</code>
+    <name>PALAU</name>
+    <rus>ПАЛАУ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>PY</code>
+    <name>PARAGUAY</name>
+    <rus>ПАРАГВАЙ</rus><withcode>PY ПАРАГВАЙ</withcode>
+  </row>
+  <row>
+    <code>QA</code>
+    <name>QATAR</name>
+    <rus>КАТАР</rus><withcode>Q КАТАР</withcode>
+  </row>
+  <row>
+    <code>QU </code>
+    <name>COUNTRIES OR REGIONS NOT DETERMINED (DE-Code)</name>
+    <rus>НЕ ОПРЕДЕЛЕНО</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>RE</code>
+    <name>REUNION</name>
+    <rus>РЕЮНЬОН</rus><withcode>372 РЕЮНЬОН</withcode>
+  </row>
+  <row>
+    <code>RO</code>
+    <name>RUMANIA</name>
+    <rus>РУМЫНИЯ</rus><withcode>RO РУМЫНИЯ</withcode>
+  </row>
+  <row>
+    <code>RS</code>
+    <name>SERBIA</name>
+    <rus>СЕРБИЯ</rus><withcode>SE СЕРБИЯ</withcode>
+  </row>
+  <row>
+    <code>RU</code>
+    <name>RUSSIA</name>
+    <rus>РОССИЯ</rus><withcode>RUS РОССИЯ</withcode>
+  </row>
+  <row>
+    <code>RW</code>
+    <name>RWANDA</name>
+    <rus>РУАНДА</rus><withcode>RWA РУАНДА</withcode>
+  </row>
+  <row>
+    <code>SA</code>
+    <name>SAUDI ARABIA</name>
+    <rus>САУДОВСКАЯ АРАВИЯ</rus><withcode>632 САУДОВСКАЯ АРАВИЯ</withcode>
+  </row>
+  <row>
+    <code>SB</code>
+    <name>SOLOMON ISLANDS</name>
+    <rus>СОЛОМОНОВЫ ОСТРОВА</rus><withcode>806 СОЛОМОНОВЫ ОСТРОВА</withcode>
+  </row>
+  <row>
+    <code>SC</code>
+    <name>SEYCHELLES</name>
+    <rus>СЕЙШЕЛЬСКИЕ ОСТРОВА</rus><withcode>SY СЕЙШЕЛЬСКИЕ ОСТРОВА</withcode>
+  </row>
+  <row>
+    <code>SD</code>
+    <name>SUDAN</name>
+    <rus>СУДАН</rus><withcode>224 СУДАН</withcode>
+  </row>
+  <row>
+    <code>SE</code>
+    <name>SWEDEN</name>
+    <rus>ШВЕЦИЯ</rus><withcode>S ШВЕЦИЯ</withcode>
+  </row>
+  <row>
+    <code>SG</code>
+    <name>SINGAPORE</name>
+    <rus>СИНГАПУР</rus><withcode>SGP СИНГАПУР</withcode>
+  </row>
+  <row>
+    <code>SH</code>
+    <name>SAINT HELENA</name>
+    <rus>ОСТРОВ СВЯТОЙ ЕЛЕНЫ</rus><withcode>329 ОСТРОВ СВЯТОЙ ЕЛЕНЫ</withcode>
+  </row>
+  <row>
+    <code>SI</code>
+    <name>SLOVENIA</name>
+    <rus>СЛОВЕНИЯ</rus><withcode>SLO СЛОВЕНИЯ</withcode>
+  </row>
+  <row>
+    <code>SJ</code>
+    <name>SVALBARD AND JAN MAYEN</name>
+    <rus>СВАЛЬБАРД И ЯН-МАЙЕН</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>SK</code>
+    <name>SLOVAKIA</name>
+    <rus>СЛОВАКИЯ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>SL</code>
+    <name>SIERRA LEONE</name>
+    <rus>СЬЕРРА-ЛЕОНЕ</rus><withcode>SL СЬЕРРА-ЛЕОНЕ</withcode>
+  </row>
+  <row>
+    <code>SM</code>
+    <name>SAN MARINO</name>
+    <rus>САН-МАРИНО</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>SN</code>
+    <name>SENEGAL</name>
+    <rus>СЕНЕГАЛ</rus><withcode>SN СЕНЕГАЛ</withcode>
+  </row>
+  <row>
+    <code>SO</code>
+    <name>SOMALIA</name>
+    <rus>СОМАЛИ</rus><withcode>SP СОМАЛИ</withcode>
+  </row>
+  <row>
+    <code>SR</code>
+    <name>SURINAME</name>
+    <rus>СУРИНАМ</rus><withcode>SME СУРИНАМ</withcode>
+  </row>
+  <row>
+    <code>ST</code>
+    <name>SAO TOME AND PRINCIPE</name>
+    <rus>САН-ТОМЕ И ПРИНСИПИ</rus><withcode>311 САН-ТОМЕ И ПРИНСИПИ</withcode>
+  </row>
+  <row>
+    <code>SV</code>
+    <name>EL SALVADOR</name>
+    <rus>САЛЬВАДОР</rus><withcode>ES САЛЬВАДОР</withcode>
+  </row>
+  <row>
+    <code>SY</code>
+    <name>SYRIAN ARAB REPUBLIC</name>
+    <rus>СИРИЙСКАЯ АРАБСКАЯ РЕСПУБЛИКА</rus><withcode>SYR СИРИЯ</withcode>
+  </row>
+  <row>
+    <code>SZ</code>
+    <name>SWAZILAND</name>
+    <rus>СВАЗИЛЕНД</rus><withcode>SD СВАЗИЛЕНД</withcode>
+  </row>
+  <row>
+    <code>TC</code>
+    <name>TURKS AND CAICOS ISLANDS</name>
+    <rus>ОСТРОВА ТЕРКС И КАЙКОС</rus><withcode>454 ТЕРКС И КАЙКОС</withcode>
+  </row>
+  <row>
+    <code>TD</code>
+    <name>CHAD</name>
+    <rus>ЧАД</rus><withcode>244 ЧАД</withcode>
+  </row>
+  <row>
+    <code>TL</code>
+    <name>TIMOR LESTE</name>
+    <rus>ТИМОР-ЛЕШТИ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>TF</code>
+    <name>FRENCH SOUTHERN TERRITORIES</name>
+    <rus>ФРАНЦУЗСКИЕ ЮЖНЫЕ ТЕРРИТОРИИ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>TG</code>
+    <name>TOGO</name>
+    <rus>ТОГО</rus><withcode>RT ТОГО</withcode>
+  </row>
+  <row>
+    <code>TH</code>
+    <name>THAILAND</name>
+    <rus>ТАЙЛАНД</rus><withcode>T ТАИЛАНД</withcode>
+  </row>
+  <row>
+    <code>TJ</code>
+    <name>TAJIKISTAN</name>
+    <rus>ТАДЖИКИСТАН</rus><withcode>TD ТАДЖИКИСТАН</withcode>
+  </row>
+  <row>
+    <code>TK</code>
+    <name>TOKELAU</name>
+    <rus>ТОКЕЛАУ</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>TM</code>
+    <name>TURKMENISTAN</name>
+    <rus>ТУРКМЕНИСТАН</rus><withcode>TMN ТУРКМЕНИСТАН</withcode>
+  </row>
+  <row>
+    <code>TN</code>
+    <name>TUNISIA</name>
+    <rus>ТУНИС</rus><withcode>TN ТУНИС</withcode>
+  </row>
+  <row>
+    <code>TO</code>
+    <name>TONGA</name>
+    <rus>ТОНГА</rus><withcode>817 ТОНГА</withcode>
+  </row>
+  <row>
+    <code>TP</code>
+    <name>EAST TIMOR</name>
+    <rus>ВОСТОЧНЫЙ ТИМОР</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>TR</code>
+    <name>TURKEY</name>
+    <rus>ТУРЦИЯ</rus><withcode>TR ТУРЦИЯ</withcode>
+  </row>
+  <row>
+    <code>TT</code>
+    <name>TRINIDAD AND TOBAGO</name>
+    <rus>ТРИНИДАД И ТОБАГО</rus><withcode>TT ТРИНИДАД И ТОБАГО</withcode>
+  </row>
+  <row>
+    <code>TV</code>
+    <name>TUVALU</name>
+    <rus>ТУВАЛУ</rus><withcode>807 ТУВАЛУ</withcode>
+  </row>
+  <row>
+    <code>TW</code>
+    <name>TAIWAN, PROVINCE OF CHINA</name>
+    <rus>ТАЙВАНЬ</rus><withcode>RC ТАЙВАНЬ</withcode>
+  </row>
+  <row>
+    <code>TZ</code>
+    <name>TANZANIA, UNITED REPUBLIC OF</name>
+    <rus>ТАНЗАНИЯ, ОБЪЕДИНЕННАЯ РЕСПУБЛИКА</rus><withcode>EAT ТАНЗАНИЯ</withcode>
+  </row>
+  <row>
+    <code>UA</code>
+    <name>UKRAINE</name>
+    <rus>УКРАИНА</rus><withcode>UA УКРАИНА</withcode>
+  </row>
+  <row>
+    <code>UG</code>
+    <name>UGANDA</name>
+    <rus>УГАНДА</rus><withcode>EAU УГАНДА</withcode>
+  </row>
+  <row>
+    <code>UM</code>
+    <name>UNITED STATES MINOR OUTLYING ISLANDS</name>
+    <rus>ВНЕШНИЕ МАЛЫЕ ОСТРОВА</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>US</code>
+    <name>UNITED STATES</name>
+    <rus>СОЕДИНЕННЫЕ ШТАТЫ</rus><withcode>USA США</withcode>
+  </row>
+  <row>
+    <code>UY</code>
+    <name>URUGUAY</name>
+    <rus>УРУГВАЙ</rus><withcode>ROU УРУГВАЙ</withcode>
+  </row>
+  <row>
+    <code>UZ</code>
+    <name>UZBEKISTAN</name>
+    <rus>УЗБЕКИСТАН</rus><withcode>81 УЗБЕКИСТАН</withcode>
+  </row>
+  <row>
+    <code>VA</code>
+    <name>HOLY SEE (VATICAN CITY STATE)</name>
+    <rus>Святой Престол (Ватикан)</rus><withcode>V ВАТИКАН</withcode>
+  </row>
+  <row>
+    <code>VC</code>
+    <name>SAINT VINCENT AND THE GRENADINES</name>
+    <rus>Сен-Винсент и Гренадины</rus><withcode>WV СЕН-ВИНСЕНТ</withcode>
+  </row>
+  <row>
+    <code>VE</code>
+    <name>VENEZUELA</name>
+    <rus>ВЕНЕСУЭЛА</rus><withcode>YV ВЕНЕСУЭЛА</withcode>
+  </row>
+  <row>
+    <code>VG</code>
+    <name>VIRGIN ISLANDS, BRITISH</name>
+    <rus>ВИРГИНСКИЕ ОСТРОВА, БРИТАНСКИЕ</rus><withcode>461 БРИТ. ВИРГИНСКИЕ ОСТРОВА</withcode>
+  </row>
+  <row>
+    <code>VI</code>
+    <name>VIRGIN ISLANDS, U.S.</name>
+    <rus>ВИРГИНСКИЕ ОСТРОВА, США</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>VN</code>
+    <name>VIET NAM</name>
+    <rus>ВЬЕТНАМ</rus><withcode>VN ВЬЕТНАМ</withcode>
+  </row>
+  <row>
+    <code>VU</code>
+    <name>VANUATU</name>
+    <rus>ВАНУАТУ</rus><withcode>816 ВАНУАТУ</withcode>
+  </row>
+  <row>
+    <code>WF</code>
+    <name>WALLIS AND FUTUNA</name>
+    <rus>УОЛЛИС И ФУТУНА</rus><withcode>811 УОЛЛИС И ФОТУНА</withcode>
+  </row>
+  <row>
+    <code>WS</code>
+    <name>SAMOA</name>
+    <rus>САМОА</rus><withcode>819 ЗАПАДНОЕ САМОА</withcode>
+  </row>
+  <row>
+    <code>XK</code>
+    <name>KOSOVO</name>
+    <rus>КОСОВО</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>YE</code>
+    <name>YEMEN</name>
+    <rus>ЙЕМЕН</rus><withcode>653 ИЕМЕН</withcode>
+  </row>
+  <row>
+    <code>YT</code>
+    <name>MAYOTTE</name>
+    <rus>МАЙОТТА</rus><withcode>PR ПРОЧИЕ ЗАРУБЕЖНЫЕ СТРАНЫ</withcode>
+  </row>
+  <row>
+    <code>ZA</code>
+    <name>SOUTH AFRICA</name>
+    <rus>ЮЖНАЯ АФРИКА</rus><withcode>ZA ЮЖНАЯ АФРИКА</withcode>
+  </row>
+  <row>
+    <code>ZM</code>
+    <name>ZAMBIA</name>
+    <rus>ЗАМБИЯ</rus><withcode>Z ЗАМБИЯ</withcode>
+  </row>
+  <row>
+    <code>ZW</code>
+    <name>ZIMBABWE</name>
+    <rus>ЗИМБАБВЕ</rus><withcode>ZW ЗИМБАБВЕ</withcode>
+  </row>
+</mapping>

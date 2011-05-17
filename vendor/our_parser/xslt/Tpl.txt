@@ -1,0 +1,1 @@
+﻿<xsl:if test="./fnf_{0}:GTIN='{1}'"><xsl:call-template name="for.item"><xsl:with-param name="firstColumn"><xsl:text>{2}</xsl:text></xsl:with-param><xsl:with-param name="item" select="." /></xsl:call-template>{3}</xsl:if>
