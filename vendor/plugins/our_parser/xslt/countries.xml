@@ -1,0 +1,1035 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table>
+  <Row>
+    <Cell>AU</Cell>
+    <Cell>AUS АВСТРАЛИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>AT</Cell>
+    <Cell>A АВСТРИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>AZ</Cell>
+    <Cell>AZ АЗЕРБАЙДЖАН</Cell>
+  </Row>
+  <Row>
+    <Cell>AL</Cell>
+    <Cell>AL АЛБАНИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>DZ</Cell>
+    <Cell>DZ АЛЖИР</Cell>
+  </Row>
+  <Row>
+    <Cell>AI</Cell>
+    <Cell>446 АНГИЛЬЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>AO</Cell>
+    <Cell>ANG АНГОЛА</Cell>
+  </Row>
+  <Row>
+    <Cell>AQ</Cell>
+    <Cell>ANTARCTICA</Cell>
+  </Row>
+  <Row>
+    <Cell>AD</Cell>
+    <Cell>AND АНДОРРА</Cell>
+  </Row>
+  <Row>
+    <Cell>AG</Cell>
+    <Cell>459 АНТИГУА И БАРБУДА</Cell>
+  </Row>
+  <Row>
+    <Cell>AR</Cell>
+    <Cell>RA АРГЕНТИНА</Cell>
+  </Row>
+  <Row>
+    <Cell>AS</Cell>
+    <Cell>AMERICAN SAMOA</Cell>
+  </Row>
+  <Row>
+    <Cell>AM</Cell>
+    <Cell>77 АРМЕНИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>AX</Cell>
+    <Cell>ÅLAND ISLANDS</Cell>
+  </Row>
+  <Row>
+    <Cell>AW</Cell>
+    <Cell>474 АРУБА</Cell>
+  </Row>
+  <Row>
+    <Cell>AF</Cell>
+    <Cell>AFG АФГАНИСТАН</Cell>
+  </Row>
+  <Row>
+    <Cell>BA</Cell>
+    <Cell>BOSNIA AND HERZEGOVINA</Cell>
+  </Row>
+  <Row>
+    <Cell>BS</Cell>
+    <Cell>BS БАГАМСКИЕ ОСТРОВА</Cell>
+  </Row>
+  <Row>
+    <Cell>BD</Cell>
+    <Cell>BD БАНГЛАДЕШ</Cell>
+  </Row>
+  <Row>
+    <Cell>BB</Cell>
+    <Cell>BDS БАРБАДОС</Cell>
+  </Row>
+  <Row>
+    <Cell>BH</Cell>
+    <Cell>BRN БАХРЕИН</Cell>
+  </Row>
+  <Row>
+    <Cell>BI</Cell>
+    <Cell>BURUNDI</Cell>
+  </Row>
+  <Row>
+    <Cell>BZ</Cell>
+    <Cell>BH БЕЛИЗ</Cell>
+  </Row>
+  <Row>
+    <Cell>BY</Cell>
+    <Cell>BY БЕЛОРУССИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>BE</Cell>
+    <Cell>B БЕЛЬГИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>BJ</Cell>
+    <Cell>DY БЕНИН</Cell>
+  </Row>
+   <Row>
+    <Cell>BL</Cell>
+    <Cell>BARTHÈLEMY</Cell>
+  </Row>
+   <Row>
+    <Cell>BM</Cell>
+    <Cell>BERMUDA</Cell>
+  </Row>
+   <Row>
+    <Cell>BL</Cell>
+    <Cell>BARTHÈLEMY</Cell>
+  </Row>
+  <Row>
+    <Cell>CI</Cell>
+    <Cell>272 БЕРЕГ СЛОНОВОЙ КОСТИ</Cell>
+  </Row>
+  <Row>
+    <Cell>CK</Cell>
+    <Cell>COOK ISLANDS</Cell>
+  </Row>
+  <Row>
+    <Cell>BG</Cell>
+    <Cell>BG БОЛГАРИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>BO</Cell>
+    <Cell>BOL БОЛИВИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>BW</Cell>
+    <Cell>RB БОТСВАНА</Cell>
+  </Row>
+  <Row>
+    <Cell>BR</Cell>
+    <Cell>BR БРАЗИЛИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>VG</Cell>
+    <Cell>461 БРИТ. ВИРГИНСКИЕ ОСТРОВА</Cell>
+  </Row>
+  <Row>
+    <Cell>VI</Cell>
+    <Cell>VIRGIN ISLANDS, U.S.</Cell>
+  </Row>
+  <Row>
+    <Cell>BN</Cell>
+    <Cell>BRU БРУНЕИ</Cell>
+  </Row>
+  <Row>
+    <Cell>BF</Cell>
+    <Cell>BF БУРКИНА-ФАСО</Cell>
+  </Row>
+  <Row>
+    <Cell>BT</Cell>
+    <Cell>675 БУТАН</Cell>
+  </Row>
+  <Row>
+    <Cell>BV</Cell>
+    <Cell>BOUVET ISLAND</Cell>
+  </Row>
+  <Row>
+    <Cell>VU</Cell>
+    <Cell>816 ВАНУАТУ</Cell>
+  </Row>
+  <Row>
+    <Cell>VA</Cell>
+    <Cell>V ВАТИКАН</Cell>
+  </Row>
+  <Row>
+    <Cell>HU</Cell>
+    <Cell>H ВЕНГРИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>VE</Cell>
+    <Cell>YV ВЕНЕСУЭЛА</Cell>
+  </Row>
+  <Row>
+    <Cell>VN</Cell>
+    <Cell>VN ВЬЕТНАМ</Cell>
+  </Row>
+  <Row>
+    <Cell>GA</Cell>
+    <Cell>314 ГАБОН</Cell>
+  </Row>
+  <Row>
+    <Cell>HT</Cell>
+    <Cell>RH ГАИТИ</Cell>
+  </Row>
+  <Row>
+    <Cell>GY</Cell>
+    <Cell>GUY ГАЙАНА</Cell>
+  </Row>
+  <Row>
+    <Cell>GM</Cell>
+    <Cell>WAG ГАМБИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>GH</Cell>
+    <Cell>GH ГАНА</Cell>
+  </Row>
+  <Row>
+    <Cell>GP</Cell>
+    <Cell>458 ГВАДЕЛУПА</Cell>
+  </Row>
+  <Row>
+    <Cell>GT</Cell>
+    <Cell>GCA ГВАТЕМАЛА</Cell>
+  </Row>
+  <Row>
+    <Cell>GN</Cell>
+    <Cell>260 ГВИНЕЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>GW</Cell>
+    <Cell>257 ГВИНЕЯ БИСАУ</Cell>
+  </Row>
+  <Row>
+    <Cell>GI</Cell>
+    <Cell>44 ГИБРАЛТАР</Cell>
+  </Row>
+  <Row>
+    <Cell>HN</Cell>
+    <Cell>HN ГОНДУРАС</Cell>
+  </Row>
+  <Row>
+    <Cell>HK</Cell>
+    <Cell>740 ГОНКОНГ</Cell>
+  </Row>
+  <Row>
+    <Cell>HK</Cell>
+    <Cell>HK ГОНКОНГ</Cell>
+  </Row>
+  <Row>
+    <Cell>HM</Cell>
+    <Cell>HEARD ISLAND AND MCDONALD ISLANDS</Cell>
+  </Row>
+  <Row>
+    <Cell>GD</Cell>
+    <Cell>WG ГРЕНАДА</Cell>
+  </Row>
+  <Row>
+    <Cell>GL</Cell>
+    <Cell>406 ГРЕНЛАНДИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>GR</Cell>
+    <Cell>GR ГРЕЦИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>GE</Cell>
+    <Cell>GE ГРУЗИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>DK</Cell>
+    <Cell>DK ДАНИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>DM</Cell>
+    <Cell>DOMINICA</Cell>
+  </Row>
+  <Row>
+    <Cell>DO</Cell>
+    <Cell>DOMINICAN REPUBLIC</Cell>
+  </Row>
+  <Row>
+    <Cell>DJ</Cell>
+    <Cell>338 ДЖИБУТИ</Cell>
+  </Row>
+  <Row>
+    <Cell>DO</Cell>
+    <Cell>DOM ДОМИНИКАНСКАЯ РЕСПУБЛИКА</Cell>
+  </Row>
+  <Row>
+    <Cell>DO</Cell>
+    <Cell>WD ДОМИНИКАНСКАЯ РЕСПУБЛИКА</Cell>
+  </Row>
+  <Row>
+    <Cell>EG</Cell>
+    <Cell>ET ЕГИПЕТ</Cell>
+  </Row>
+   <Row>
+    <Cell>EH</Cell>
+    <Cell>WESTERN SAHARA</Cell>
+  </Row>
+  <Row>
+    <Cell>ER</Cell>
+    <Cell>ERITREA</Cell>
+  </Row>
+  <Row>
+    <Cell>ZM</Cell>
+    <Cell>Z ЗАМБИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>WS</Cell>
+    <Cell>819 ЗАПАДНОЕ САМОЕ</Cell>
+  </Row>
+  <Row>
+    <Cell>XK</Cell>
+    <Cell>KOSOVO</Cell>
+  </Row>
+  <Row>
+    <Cell>ZW</Cell>
+    <Cell>ZW ЗИМБАБВЕ</Cell>
+  </Row>
+  <Row>
+    <Cell>YE</Cell>
+    <Cell>653 ИЕМЕН</Cell>
+  </Row>
+  <Row>
+    <Cell>YT</Cell>
+    <Cell>MAYOTTE</Cell>
+  </Row>
+  <Row>
+    <Cell>IL</Cell>
+    <Cell>IL ИЗРАИЛЬ</Cell>
+  </Row>
+  <Row>
+    <Cell>IM</Cell>
+    <Cell>ISLE OF MAN</Cell>
+  </Row>
+  <Row>
+    <Cell>IN</Cell>
+    <Cell>IND ИНДИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>ID</Cell>
+    <Cell>RI ИНДОНЕЗИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>JO</Cell>
+    <Cell>JOR ИОРДАНИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>IQ</Cell>
+    <Cell>IRQ ИРАК</Cell>
+  </Row>
+  <Row>
+    <Cell>IR</Cell>
+    <Cell>IR ИРАН</Cell>
+  </Row>
+  <Row>
+    <Cell>IE</Cell>
+    <Cell>IRL ИРЛАНДИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>IS</Cell>
+    <Cell>IS ИСЛАНДИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>ES</Cell>
+    <Cell>E ИСПАНИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>IT</Cell>
+    <Cell>I ИТАЛИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>KY</Cell>
+    <Cell>463 КАЙМАНСКИЕ ОСТРОВА</Cell>
+  </Row>
+  <Row>
+    <Cell>KZ</Cell>
+    <Cell>KAZAKHSTAN</Cell>
+  </Row>
+  <Row>
+    <Cell>KH</Cell>
+    <Cell>K КАМБОДЖА</Cell>
+  </Row>
+  <Row>
+    <Cell>CM</Cell>
+    <Cell>302 КАМЕРУН</Cell>
+  </Row>
+  <Row>
+    <Cell>CA</Cell>
+    <Cell>CDN КАНАДА</Cell>
+  </Row>
+  <Row>
+    <Cell>CC</Cell>
+    <Cell>COCOS (KEELING) ISLANDS</Cell>
+  </Row>
+  <Row>
+    <Cell>CD</Cell>
+    <Cell>CONGO, THE DEMOCRATIC REPUBLIC OF THE</Cell>
+  </Row>
+  <Row>
+    <Cell>QA</Cell>
+    <Cell>Q КАТАР</Cell>
+  </Row>
+  <Row>
+    <Cell>QU</Cell>
+    <Cell>COUNTRIES OR REGIONS NOT DETERMINED (DE-Code)</Cell>
+  </Row>
+  <Row>
+    <Cell>KE</Cell>
+    <Cell>EAK КЕНИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>CY</Cell>
+    <Cell>CY КИПР</Cell>
+  </Row>
+  <Row>
+    <Cell>KG</Cell>
+    <Cell>83 КИРГИЗСТАН</Cell>
+  </Row>
+  <Row>
+    <Cell>KI</Cell>
+    <Cell>812 КИРИБАТИ</Cell>
+  </Row>
+  <Row>
+    <Cell>CN</Cell>
+    <Cell>CHI КИТАЙ</Cell>
+  </Row>
+  <Row>
+    <Cell>CO</Cell>
+    <Cell>CO КОЛУМБИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>KM</Cell>
+    <Cell>375 КОМОРСКИЕ ОСТРОВА</Cell>
+  </Row>
+  <Row>
+    <Cell>CG</Cell>
+    <Cell>RCB КОНГО</Cell>
+  </Row>
+  <Row>
+    <Cell>CR</Cell>
+    <Cell>CR КОСТА РИКА</Cell>
+  </Row>
+  <Row>
+    <Cell>CU</Cell>
+    <Cell>C КУБА</Cell>
+  </Row>
+  <Row>
+    <Cell>KW</Cell>
+    <Cell>KWT КУВЕЙТ</Cell>
+  </Row>
+  <Row>
+    <Cell>LA</Cell>
+    <Cell>LAO ЛАОС</Cell>
+  </Row>
+  <Row>
+    <Cell>LV</Cell>
+    <Cell>LAT ЛАТВИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>LS</Cell>
+    <Cell>LS ЛЕСОТО</Cell>
+  </Row>
+  <Row>
+    <Cell>LB</Cell>
+    <Cell>RL ЛИВАН</Cell>
+  </Row>
+  <Row>
+    <Cell>LY</Cell>
+    <Cell>216 ЛИВИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>LY</Cell>
+    <Cell>268 ЛИВИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>LT</Cell>
+    <Cell>LT ЛИТВА</Cell>
+  </Row>
+  <Row>
+    <Cell>LU</Cell>
+    <Cell>L ЛЮКСЕММУРГ</Cell>
+  </Row>
+  <Row>
+    <Cell>MR</Cell>
+    <Cell>RIM МАВРИТАНИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>MG</Cell>
+    <Cell>RM МАГАДАСКАР</Cell>
+  </Row>
+  <Row>
+    <Cell>MO</Cell>
+    <Cell>743 МАКАО</Cell>
+  </Row>
+  <Row>
+    <Cell>MP</Cell>
+    <Cell>NORTHERN MARIANA ISLANDS</Cell>
+  </Row>
+  <Row>
+    <Cell>MW</Cell>
+    <Cell>MW МАЛАВИ</Cell>
+  </Row>
+  <Row>
+    <Cell>MY</Cell>
+    <Cell>MAL МАЛАЙЗИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>ML</Cell>
+    <Cell>RMM МАЛИ</Cell>
+  </Row>
+  <Row>
+    <Cell>MV</Cell>
+    <Cell>667 МАЛЬДИВСКИЕ</Cell>
+  </Row>
+  <Row>
+    <Cell>MT</Cell>
+    <Cell>M МАЛЬТА</Cell>
+  </Row>
+  <Row>
+    <Cell>MA</Cell>
+    <Cell>MA МАРОККО</Cell>
+  </Row>
+  <Row>
+    <Cell>MC</Cell>
+    <Cell>MONACO</Cell>
+  </Row>
+  <Row>
+    <Cell>MQ</Cell>
+    <Cell>462 МАРТИНИКА</Cell>
+  </Row>
+  <Row>
+    <Cell>MH</Cell>
+    <Cell>824 МАРШАЛЛОВЫ ОСТРОВА</Cell>
+  </Row>
+  <Row>
+    <Cell>MK</Cell>
+    <Cell>MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</Cell>
+  </Row>
+  <Row>
+    <Cell>MX</Cell>
+    <Cell>MEX МЕКСИКА</Cell>
+  </Row>
+  <Row>
+    <Cell>MZ</Cell>
+    <Cell>MOC МОЗАМБИК</Cell>
+  </Row>
+  <Row>
+    <Cell>MD</Cell>
+    <Cell>74 МОЛДАВИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>MN</Cell>
+    <Cell>716 МОНГОЛИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>MM</Cell>
+    <Cell>MYA МЬЯНМА</Cell>
+  </Row>
+  <Row>
+    <Cell>NA</Cell>
+    <Cell>NAM НАМИБИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>NR</Cell>
+    <Cell>803 НАУРУ</Cell>
+  </Row>
+  <Row>
+    <Cell>NP</Cell>
+    <Cell>672 НЕПАЛ</Cell>
+  </Row>
+  <Row>
+    <Cell>NG</Cell>
+    <Cell>RN НИГЕРИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>NG</Cell>
+    <Cell>WAN НИГЕРИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>NU</Cell>
+    <Cell>NIUE</Cell>
+  </Row>
+  <Row>
+    <Cell>NZ</Cell>
+    <Cell>NEW ZEALAND</Cell>
+  </Row>
+  <Row>
+    <Cell>AN</Cell>
+    <Cell>478 НИД. АНТИЛЬСКИЕ ОСТРОВА</Cell>
+  </Row>
+  <Row>
+    <Cell>NL</Cell>
+    <Cell>NL НИДЕРЛАНДЫ</Cell>
+  </Row>
+  <Row>
+    <Cell>NI</Cell>
+    <Cell>NIC НИКАРАГУА</Cell>
+  </Row>
+  <Row>
+    <Cell>NZ</Cell>
+    <Cell>NZ НОВАЯ ЗЕЛАНДИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>NC</Cell>
+    <Cell>809 НОВАЯ КАЛЕДОНИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>NE</Cell>
+    <Cell>NIGER</Cell>
+  </Row>
+  <Row>
+    <Cell>NF</Cell>
+    <Cell>NORFOLK ISLAND</Cell>
+  </Row>
+  <Row>
+    <Cell>NO</Cell>
+    <Cell>N НОРВЕРИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>AE</Cell>
+    <Cell>UAE ОБЪЕД. АРАБСКИЕ ЭМИРАТЫ</Cell>
+  </Row>
+  <Row>
+    <Cell>OM</Cell>
+    <Cell>OM ОМАН</Cell>
+  </Row>
+  <Row>
+    <Cell>SH</Cell>
+    <Cell>329 ОСТРОВ СВЯТОЙ ЕЛЕНЫ</Cell>
+  </Row>
+  <Row>
+    <Cell>PK</Cell>
+    <Cell>PAK ПАКИСТАН</Cell>
+  </Row>
+  <Row>
+    <Cell>PA</Cell>
+    <Cell>PA ПАНАМА</Cell>
+  </Row>
+  <Row>
+    <Cell>PG</Cell>
+    <Cell>801 ПАПУА-НОВАЯ ГВИНЕЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>PY</Cell>
+    <Cell>PY ПАРАГВАЙ</Cell>
+  </Row>
+  <Row>
+    <Cell>PE</Cell>
+    <Cell>PE ПЕРУ</Cell>
+  </Row>
+  <Row>
+    <Cell>PN</Cell>
+    <Cell>813 ПИТКЕРН</Cell>
+  </Row>
+  <Row>
+    <Cell>PL</Cell>
+    <Cell>PL ПОЛЬША</Cell>
+  </Row>
+  <Row>
+    <Cell>PR</Cell>
+    <Cell>PUERTO RICO</Cell>
+  </Row>
+  <Row>
+    <Cell>PS</Cell>
+    <Cell>PALESTINIAN TERRITORY, OCCUPIED</Cell>
+  </Row>
+  <Row>
+    <Cell>PT</Cell>
+    <Cell>P ПОРТУГАЛИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>PW</Cell>
+    <Cell>PALAU</Cell>
+  </Row>
+  <Row>
+    <Cell>CV</Cell>
+    <Cell>247 РЕСПУБЛИКА КАРБО-ВЕРДЕ</Cell>
+  </Row>
+  <Row>
+    <Cell>CX</Cell>
+    <Cell>CHRISTMAS ISLAND</Cell>
+  </Row>
+  <Row>
+    <Cell>MU</Cell>
+    <Cell>MS РЕСПУБЛИКА МАВРИКИЙ</Cell>
+  </Row>
+  <Row>
+    <Cell>MS</Cell>
+    <Cell>MONTSERRAT</Cell>
+  </Row>
+  <Row>
+    <Cell>RE</Cell>
+    <Cell>372 РЕЮНЬОН</Cell>
+  </Row>
+  <Row>
+    <Cell>RU</Cell>
+    <Cell>RUS РОССИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>RW</Cell>
+    <Cell>RWA РУАНДА</Cell>
+  </Row>
+  <Row>
+    <Cell>RO</Cell>
+    <Cell>RO РУМЫНИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>RS</Cell>
+    <Cell>SERBIA</Cell>
+  </Row>
+  <Row>
+    <Cell>SB</Cell>
+    <Cell>806 САЛОМОНОВЫ ОСТРОВА</Cell>
+  </Row>
+  <Row>
+    <Cell>SV</Cell>
+    <Cell>ES САЛЬВАДОР</Cell>
+  </Row>
+  <Row>
+    <Cell>ST</Cell>
+    <Cell>311 САН-ТОМЕ И ПРИНСИПИ</Cell>
+  </Row>
+  <Row>
+    <Cell>SA</Cell>
+    <Cell>632 САУДОВСКАЯ АРАВИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>SZ</Cell>
+    <Cell>SD СВАЗИЛЕНД</Cell>
+  </Row>
+  <Row>
+    <Cell>KR</Cell>
+    <Cell>724 СЕВЕРНАЯ КОРЕЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>SC</Cell>
+    <Cell>SY СЕЙШЕЛЬСКИЕ ОСТРОВА</Cell>
+  </Row>
+  <Row>
+    <Cell>SN</Cell>
+    <Cell>SN СЕНЕГАЛ</Cell>
+  </Row>
+  <Row>
+    <Cell>PM</Cell>
+    <Cell>408 СЕН-ПЬЕР И МИКЕЛОН</Cell>
+  </Row>
+  <Row>
+    <Cell>VC</Cell>
+    <Cell>WV СЕНТ-ВИНСЕНТ</Cell>
+  </Row>
+  <Row>
+    <Cell>KN</Cell>
+    <Cell>449 СЕНТ-КРИСТОФ (СЕНТ-КИТС)</Cell>
+  </Row>
+  <Row>
+    <Cell>LC</Cell>
+    <Cell>WL СЕНТ-ЛЮСИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>LI</Cell>
+    <Cell>LIECHTENSTEIN</Cell>
+  </Row>
+  <Row>
+    <Cell>SG</Cell>
+    <Cell>SGP СИНГАПУР</Cell>
+  </Row>
+  <Row>
+    <Cell>SY</Cell>
+    <Cell>SYR СИРИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>SI</Cell>
+    <Cell>SLO СЛОВЕНИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>SJ</Cell>
+    <Cell>SVALBARD AND JAN MAYEN</Cell>
+  </Row>
+  <Row>
+    <Cell>SK</Cell>
+    <Cell>SLOVAKIA</Cell>
+  </Row>
+  <Row>
+    <Cell>SM</Cell>
+    <Cell>SAN MARINO</Cell>
+  </Row>
+  <Row>
+    <Cell>SO</Cell>
+    <Cell>SP СОМАЛИ</Cell>
+  </Row>
+  <Row>
+    <Cell>SD</Cell>
+    <Cell>224 СУДАН</Cell>
+  </Row>
+  <Row>
+    <Cell>SR</Cell>
+    <Cell>SME СУРИНАМ</Cell>
+  </Row>
+  <Row>
+    <Cell>US</Cell>
+    <Cell>USA США</Cell>
+  </Row>
+  <Row>
+    <Cell>SL</Cell>
+    <Cell>WAL СЬЕРРА-ЛЕОНЕ</Cell>
+  </Row>
+  <Row>
+    <Cell>TJ</Cell>
+    <Cell>TD ТАДЖИКИСТАН</Cell>
+  </Row>
+  <Row>
+    <Cell>TK</Cell>
+    <Cell>TOKELAU</Cell>
+  </Row>
+  <Row>
+    <Cell>TH</Cell>
+    <Cell>T ТАИЛАНД</Cell>
+  </Row>
+  <Row>
+    <Cell>TW</Cell>
+    <Cell>RC ТАЙВАНЬ</Cell>
+  </Row>
+  <Row>
+    <Cell>TZ</Cell>
+    <Cell>EAT ТАНЗАНИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>TC</Cell>
+    <Cell>454 ТЕРКС И КАЙКОС</Cell>
+  </Row>
+  <Row>
+    <Cell>TG</Cell>
+    <Cell>RT ТОГО</Cell>
+  </Row>
+  <Row>
+    <Cell>TO</Cell>
+    <Cell>817 ТОНГА</Cell>
+  </Row>
+  <Row>
+    <Cell>TP</Cell>
+    <Cell>EAST TIMOR</Cell>
+  </Row>
+  <Row>
+    <Cell>TT</Cell>
+    <Cell>TT ТРИНИДАД И ТАБАГО</Cell>
+  </Row>
+  <Row>
+    <Cell>TV</Cell>
+    <Cell>807 ТУВАЛУ</Cell>
+  </Row>
+  <Row>
+    <Cell>TN</Cell>
+    <Cell>TN ТУНИС</Cell>
+  </Row>
+  <Row>
+    <Cell>TM</Cell>
+    <Cell>TMN ТУРКМЕНИСТАН</Cell>
+  </Row>
+  <Row>
+    <Cell>TR</Cell>
+    <Cell>TR ТУРЦИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>UG</Cell>
+    <Cell>EAU УГАНДА</Cell>
+  </Row>
+  <Row>
+    <Cell>UM</Cell>
+    <Cell>UNITED STATES MINOR OUTLYING ISLANDS</Cell>
+  </Row>
+  <Row>
+    <Cell>UZ</Cell>
+    <Cell>81 УЗБЕКИСТАН</Cell>
+  </Row>
+  <Row>
+    <Cell>UA</Cell>
+    <Cell>UA УКРАИНА</Cell>
+  </Row>
+  <Row>
+    <Cell>WF</Cell>
+    <Cell>811 УОЛЛИС И ФОТУНА</Cell>
+  </Row>
+  <Row>
+    <Cell>UY</Cell>
+    <Cell>ROU УРУГВАЙ</Cell>
+  </Row>
+  <Row>
+    <Cell>FO</Cell>
+    <Cell>25 ФАРЕРСКИЕ ОСТРОВА</Cell>
+  </Row>
+  <Row>
+    <Cell>FM</Cell>
+    <Cell>823 ФЕДЕРАТ. ШТАТЫ МИКРОНЕЗИИ</Cell>
+  </Row>
+  <Row>
+    <Cell>FJ</Cell>
+    <Cell>FJI ФИДЖИ</Cell>
+  </Row>
+  <Row>
+    <Cell>PH</Cell>
+    <Cell>RP ФИЛИППИНЫ</Cell>
+  </Row>
+  <Row>
+    <Cell>FI</Cell>
+    <Cell>FIN ФИНЛЯНДИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>FK</Cell>
+    <Cell>529 ФОЛКЛЕНДСКИЕ ОСТРОВА</Cell>
+  </Row>
+  <Row>
+    <Cell>FR</Cell>
+    <Cell>F ФРАНЦИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>GF</Cell>
+    <Cell>496 ФРАНЦУЗСКАЯ ГВИАНА</Cell>
+  </Row>
+  <Row>
+    <Cell>GG</Cell>
+    <Cell>GUENRSEY</Cell>
+  </Row>
+  <Row>
+    <Cell>GU</Cell>
+    <Cell>GUAM</Cell>
+  </Row>
+  <Row>
+    <Cell>PF</Cell>
+    <Cell>822 ФРАНЦУЗСКАЯ ПОЛИНЕЗИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>DE</Cell>
+    <Cell>D ФРГ</Cell>
+  </Row>
+  <Row>
+    <Cell>HR</Cell>
+    <Cell>HR ХОРВАТИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>CF</Cell>
+    <Cell>RCA ЦЕНТРАЛЬНО-АФРИК. РЕСП.</Cell>
+  </Row>
+  <Row>
+    <Cell>TD</Cell>
+    <Cell>244 ЧАД</Cell>
+  </Row>
+  <Row>
+    <Cell>TL</Cell>
+    <Cell>TIMOR LESTE</Cell>
+  </Row>
+  <Row>
+    <Cell>TF</Cell>
+    <Cell>FRENCH SOUTHERN TERRITORIES</Cell>
+  </Row>
+  <Row>
+    <Cell>ME</Cell>
+    <Cell>825 ЧЕРНОГОРИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>MF</Cell>
+    <Cell>SAINT MARTIN</Cell>
+  </Row>
+  <Row>
+    <Cell>CZ</Cell>
+    <Cell>CZ ЧЕШСКАЯ РЕСПУБЛИКА</Cell>
+  </Row>
+  <Row>
+    <Cell>CL</Cell>
+    <Cell>RCH ЧИЛИ</Cell>
+  </Row>
+  <Row>
+    <Cell>CH</Cell>
+    <Cell>CH ШВЕЙЦАРИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>SE</Cell>
+    <Cell>S ШВЕЦИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>LK</Cell>
+    <Cell>CL ШРИ ЛАНКА</Cell>
+  </Row>
+  <Row>
+    <Cell>LR</Cell>
+    <Cell>LIBERIA</Cell>
+  </Row>
+  <Row>
+    <Cell>EC</Cell>
+    <Cell>EC ЭКВАДОР</Cell>
+  </Row>
+  <Row>
+    <Cell>GQ</Cell>
+    <Cell>310 ЭКВАТОРИАЛЬНАЯ ГВИНЕЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>GS</Cell>
+    <Cell>SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</Cell>
+  </Row>
+  <Row>
+    <Cell>EE</Cell>
+    <Cell>EW ЭСТОНИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>ET</Cell>
+    <Cell>ETH ЭФИОПИЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>EU</Cell>
+    <Cell>EUROPEAN UNION (GS1 Code)</Cell>
+  </Row>
+  <Row>
+    <Cell>IO</Cell>
+    <Cell>BRITISH INDIAN OCEAN TERRITORY</Cell>
+  </Row>
+  <Row>
+    <Cell>IS</Cell>
+    <Cell>ICELAND</Cell>
+  </Row>
+  <Row>
+    <Cell>ZA</Cell>
+    <Cell>ZA ЮЖНАЯ АФРИКА</Cell>
+  </Row>
+  <Row>
+    <Cell>KP</Cell>
+    <Cell>ROK ЮЖНАЯ КОРЕЯ</Cell>
+  </Row>
+  <Row>
+    <Cell>JM</Cell>
+    <Cell>JA ЯМАЙКА</Cell>
+  </Row>
+  <Row>
+    <Cell>JP</Cell>
+    <Cell>J ЯПОНИЯ</Cell>
+  </Row>
+ <Row>
+    <Cell>JE</Cell>
+    <Cell>JERSEY</Cell>
+  </Row>
+  <Row>
+    <Cell>GB</Cell>
+    <Cell>GB ВЕЛИКОБРИТАНИЯ</Cell>
+  </Row>
+</Table>
