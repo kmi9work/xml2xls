@@ -12,6 +12,9 @@ class String
     end
     self
   end
+  def to_bool
+    !!(self =~ /^(t|1|(true))$/i)
+  end
 end
 
 module Nokogiri

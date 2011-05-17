@@ -8,12 +8,12 @@ require './lib/our_parser/core_ext.rb'
 
 class OurParser  
   attr_reader :out_xml
-  
+
   FILEMANAGER = {
     "xslt" => "xslt",
     "xls" => "xls"
   }
-  
+
   CONFIG = {
     "cache_enabled" => true
   }
@@ -34,44 +34,44 @@ class OurParser
     :Deleted => "deleted",
     :Added => "added"
   }
-  
+
   def set_up_vars
     @xml_tpl_header = "
-<?xml version=\"1.0\" encoding=\"utf-8\"?>
-<?mso-application progid=\"Excel.Sheet\"?>
-<s:Workbook xmlns:s=\"urn:schemas-microsoft-com:office:spreadsheet\" 
-xmlns:x=\"urn:schemas-microsoft-com:office:excel\" 
-xmlns:o=\"urn:schemas-microsoft-com:office:office\" 
-xmlns:sinfos=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/TradeItemMessage\" 
-xmlns:fnf_fnd_at=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_AT\" 
-xmlns:fnf_fnd_be=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_BE\" 
-xmlns:fnf_fnd_ch=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_CH\" 
-xmlns:fnf_fnd_cz=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_CZ\" 
-xmlns:fnf_fnd_de=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DE\" 
-xmlns:fnf_fnd_dk=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DK\" 
-xmlns:fnf_fnd_ee=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_EE\" 
-xmlns:fnf_fnd_es=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_ES\" 
-xmlns:fnf_fnd_fi=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FI\" 
-xmlns:fnf_fnd_fr=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FR\" 
-xmlns:fnf_fnd_gb=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_GB\" 
-xmlns:fnf_fnd_hu=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_HU\" 
-xmlns:fnf_fnd_ie=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_IE\" 
-xmlns:fnf_fnd_it=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_IT\" 
-xmlns:fnf_fnd_nl=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_NL\" 
-xmlns:fnf_fnd_pl=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_PL\" 
-xmlns:fnf_fnd_pt=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_PT\" 
-xmlns:fnf_fnd_ro=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_RO\" 
-xmlns:fnf_fnd_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_RU\" 
-xmlns:fnf_fnd_se=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_SE\" 
-xmlns:fnf_fnd_ua=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_UA\" 
-xmlns:fnf_rap_at=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_AT\" 
-xmlns:fnf_rap_de=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_DE\" 
-xmlns:fnf_rap_dk=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_DK\" 
-xmlns:fnf_rap_ee=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_EE\" 
-xmlns:fnf_rap_fi=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_FI\" 
-xmlns:fnf_rap_pl=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_PL\" 
-xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_RU\" 
->{0}<s:Worksheet s:Name=\"Items\"><s:Table {1}>"
+    <?xml version=\"1.0\" encoding=\"utf-8\"?>
+    <?mso-application progid=\"Excel.Sheet\"?>
+    <s:Workbook xmlns:s=\"urn:schemas-microsoft-com:office:spreadsheet\" 
+    xmlns:x=\"urn:schemas-microsoft-com:office:excel\" 
+    xmlns:o=\"urn:schemas-microsoft-com:office:office\" 
+    xmlns:sinfos=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/TradeItemMessage\" 
+    xmlns:fnf_fnd_at=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_AT\" 
+    xmlns:fnf_fnd_be=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_BE\" 
+    xmlns:fnf_fnd_ch=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_CH\" 
+    xmlns:fnf_fnd_cz=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_CZ\" 
+    xmlns:fnf_fnd_de=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DE\" 
+    xmlns:fnf_fnd_dk=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DK\" 
+    xmlns:fnf_fnd_ee=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_EE\" 
+    xmlns:fnf_fnd_es=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_ES\" 
+    xmlns:fnf_fnd_fi=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FI\" 
+    xmlns:fnf_fnd_fr=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FR\" 
+    xmlns:fnf_fnd_gb=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_GB\" 
+    xmlns:fnf_fnd_hu=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_HU\" 
+    xmlns:fnf_fnd_ie=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_IE\" 
+    xmlns:fnf_fnd_it=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_IT\" 
+    xmlns:fnf_fnd_nl=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_NL\" 
+    xmlns:fnf_fnd_pl=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_PL\" 
+    xmlns:fnf_fnd_pt=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_PT\" 
+    xmlns:fnf_fnd_ro=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_RO\" 
+    xmlns:fnf_fnd_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_RU\" 
+    xmlns:fnf_fnd_se=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_SE\" 
+    xmlns:fnf_fnd_ua=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_UA\" 
+    xmlns:fnf_rap_at=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_AT\" 
+    xmlns:fnf_rap_de=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_DE\" 
+    xmlns:fnf_rap_dk=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_DK\" 
+    xmlns:fnf_rap_ee=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_EE\" 
+    xmlns:fnf_rap_fi=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_FI\" 
+    xmlns:fnf_rap_pl=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_PL\" 
+    xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_RU\" 
+    >{0}<s:Worksheet s:Name=\"Items\"><s:Table {1}>"
 
     @xml_table_tpl_footer = "</s:Table>"
     @xml_work_sheet_tpl_footer = "</s:Worksheet>"
@@ -82,7 +82,7 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     #@convert_regex = Regexp.new "(<mapTo list=\"(?<list>[^\"]+)\" tocode=\"(?<tocode>[^\"]+)\" firstcell=\"(?<first>[^\"]+)\" secondcell=\"(?<second>[^\"]+)\" thirdcell=\"(?<third>[^\"]+)\">(?<code>[^<]+)</mapTo>)"
     @map_substitution_string = "<mapTo list=\"{0}\" firstcell=\"{2}\" secondcell=\"{3}\">{1}</mapTo>"
     @convert_substitution_string = "<mapTo list=\"{0}\" tocode=\"{2}\" firstcell=\"{3}\" secondcell=\"{4}\" thirdcell=\"{5}\">{1}</mapTo>"
-    
+
     @group =["(\\D+)", "(\\d+)", "(\\D+)", "(\\D{1,3})"]
     #@group =["(?<code>\\D+)", "(?<code>\\d+)", "(?<code>\\D+)", "(?<code>\\D{1,3})"]
     @main_xslts = {}
@@ -100,7 +100,7 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     @tpl_text = File.read(tpl_path)
     @pi_tpl_text = File.read(pi_tpl_path)
   end
-  
+
   def get_xslt template_name
     return @main_xslts[template_name] if @main_xslts[template_name]
     xsl_folder_path = FILEMANAGER["xslt"]
@@ -109,12 +109,12 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     xslt = Nokogiri::XSLT(File.read(xsl_file_path))
     @main_xslts[template_name] = xslt
   end
-  
+
   def get_item_template template_path
     return @item_xslt_templates[template_path] if @item_xslt_templates[template_path]
     @item_xslt_templates[template_path] = File.read(template_path)
   end
-  
+
   def get_item_xslt file_path, country, suffix
     key = country + ";" + suffix + ";" + file_path
     return @item_xslts[key] if @item_xslts[key]
@@ -123,13 +123,13 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     xslt = Nokogiri::XSLT xsl
     @item_xslts[key] = xslt
   end
-  
+
   def get_template_suffix prefix
     index = prefix.index("_")
     return "" unless index
     return prefix[(index+1)..-1]
   end
-  
+
   def get_bi_template_part hierarchy_dictionary, bigtin, suffix
     lower = suffix.downcase
     hierarchy = "-PI"
@@ -137,7 +137,7 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     get_pi_text(hierarchy_dictionary, bigtin, hierarchy, lower)
     return @tpl_text.format(lower, bigtin, hierarchy_dictionary[bigtin], @str)
   end
-  
+
   def get_pi_text hierarchy_dictionary, parent_gtin, prefix, lower
     hierarchy_dictionary.each do |key, value|
       if value == parent_gtin
@@ -146,12 +146,12 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
       end
     end
   end
-  
+
   def get_reader xml
     return Nokogiri::XML::Reader(xml.to_s)
   end
-  
-  
+
+
   def process_xml_node reader, template_name  #CHECK
     #returns string
     #debugger
@@ -197,10 +197,10 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     # sleep(2)
     return out.to_s
   end
-  
+
   def initialize xml, template_name
     set_up_vars
-    
+
     time = Time.now
     xsl_folder_path = FILEMANAGER["xslt"]
     if File.file? File.join(xsl_folder_path, template_name + "_sep.xsl")
@@ -268,11 +268,11 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
       end
       @out_xml = make_stylesheet(out_xml)
     end
-#  rescue
- #   puts "ERROR"
+    #  rescue
+    #   puts "ERROR"
     #make exceptions
   end
-  
+
   def process_xml_sep_node reader, template_name, xml
     prefix = reader.prefix
     suffix = get_template_suffix(prefix)
@@ -300,13 +300,13 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     end
     return processed_xmls
   end
-  
+
   def process_text text 
     temp = text.dup
     count = 0
     @regex_tpls.each do |key, value|
       regex = Regexp.new(value.format(@group[count]))
-      
+
       temp.scan(regex).each do |match|
         s = match[2].strip
         folder_path = FILEMANAGER["xslt"]
@@ -354,8 +354,8 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     end
     return temp
   end
-  
-# //////    
+
+  # //////    
   def build_hierarchy reader, suffix
     #debugger
     dict = {}
@@ -397,7 +397,7 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     end
     return dict, added_deleted_pi
   end  
-  
+
   def get_leaf_pi (reader, suffix)
     dict, added_deleted_pi = build_hierarchy(reader, suffix)
     result = {}
@@ -410,7 +410,7 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     end
     return result, added_deleted_pi
   end
-  
+
   def check_for_leaves dict, gtin, adddel
     @leaves ||= []
     children = get_all_children(dict, gtin)
@@ -421,11 +421,11 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
       check_for_leaves(dict, child, adddel)
     end
   end
-  
+
   def is_basic_item dict, gtin
     dict[gtin] == "BI" or dict[gtin] == "BA"
   end
-  
+
   def get_all_children dict, gtin
     children = []
     dict.each do |key, value|
@@ -433,22 +433,81 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
     end
     return children
   end
-  
+
   def make_stylesheet doc
     book = Spreadsheet::Workbook.new
-    sheet = book.create_worksheet :name => 'Items'
-    
+
+
     reader = get_reader doc
-    
+
     while reader.read
       case reader.local_name
       when "Styles"
         styles = process_styles(reader)
+      when "Worksheet"
+        sheet = book.create_worksheet :name => r.attrubutes["Name"]
+        while reader.read.local_name != "Worksheet"
+          case reader.local_name
+          when "Table"
+            while reader.read.local_name != "Table"
+              case reader.local_name
+              when "Column"
+                col_index ||= 0
+                if reader.attrubutes["Index"]
+                  col_index = value.to_i
+                else
+                  col_index += 1
+                end
+                column = Spreadsheet::Column.new(col_index, nil)
+                reader.attrubutes.each do |key, value|
+                  case key
+                  when "Hidden"
+                    column.hidden = value.to_bool
+                  when "Width"
+                    column.width = value.to_f
+                  end
+                  sheet.columns << column
+                  index += 1
+                end
+              when "Row"
+                row_index ||= 0
+                if reader.attrubutes["Index"]
+                  row_index = value.to_i
+                else
+                  row_index += 1
+                end
+                row = Spreadsheet::Row.new(row_index, nil)
+                reader.attrubutes.each do |key, value|
+                  case key
+                  when "Height"
+                    row.height = value.to_f
+                  when "Hidden"
+                    row.hidden = value.to_bool
+                  end
+                end
+                unless reader.self_closing?
+                  while reader.read.local_name != "Row"
+                    if reader.local_name == "Cell"
+                      row.formats << styles[reader.attrubutes["StyleID"]][:format]
+                      while reader.read.local_name != "Cell"
+                      end
+                    else 
+                      next
+                    end
+                  end
+                end
+              end  
+            end
+          when "WorksheetOptions"
+            while reader.read.local_name != "WorksheetOptions"
+            end
+          end
+        end
       end
     end
   end
-  
-  def make_color str
+
+  def make_color str 
     case str.downcase
     when ['#ffff00', '#ffff99']
       return "yellow"
@@ -462,21 +521,21 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
       throw "unknown color #{str}"
     end
   end
-  
+
   def process_styles(r)
     styles = {}
     while r.read.local_name != "Styles"
       if r.local_name == "Style"
-        styles[id = r.attrubutes["ID"]] = Spreadsheet::Format.new if r.attrubutes["ID"]
+        styles[id = r.attrubutes["ID"]] = {:format => Spreadsheet::Format.new, :parent => r.attrubutes["Parent"]} if r.attrubutes["ID"]
         while r.read.local_name != "Style"
           case r.local_name
           when "Alignment"
             r.attrubutes.each do |key, value|
               case key
               when "Vertical"
-                styles[id].vertical_align = value
+                styles[id][:format].vertical_align = value
               when "Horizontal"
-                styles[id].horizontal_align = value
+                styles[id][:format].horizontal_align = value
               end
             end
           when "Borders"
@@ -486,13 +545,13 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
                   r.attributes.each do |key, value|
                     case key
                     when "Bottom"
-                      styles[id].bottom = true
+                      styles[id][:format].bottom = true
                     when "Left"
-                      styles[id].left = true
+                      styles[id][:format].left = true
                     when "Right"
-                      styles[id].right = true
+                      styles[id][:format].right = true
                     when "Top"
-                      styles[id].top = true
+                      styles[id][:format].top = true
                     end
                   end
                 else
@@ -514,30 +573,40 @@ xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeIte
                 font.bold = true
               when "CharSet"
               else
-                $stderr.puts "strange key: #{key}"
+                throw "Wrong Font attribute: #{key}"
               end
             end
-            styles[id].font = font
+            styles[id][:format].font = font
           when "Interior"
             r.attributes.each do |key, value|
               case key
               when "Color"
-                styles[id].pattern_bg_color = make_color(value)
+                styles[id][:format].pattern_bg_color = make_color(value)
               when "Pattern"
-                styles[id].pattern = value
+                styles[id][:format].pattern = value
+              else
+                throw "Wrong Interior attribute"
               end
             end
           when "NumberFormat"
             r.attributes.each do |key, value|
+              case key
+              when "Format"
+                styles[id][:format].number_format = value
+              else
+                throw "Wrong NumberFormat attribute"
+              end
+            end
           when "Protection"
-          when 
+          else
+            throw "unknown local_name"  
           end
-          
         end
       end
     end
+    return styles
   end
-  
+
 end
 
 
