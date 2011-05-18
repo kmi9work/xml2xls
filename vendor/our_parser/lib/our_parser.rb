@@ -266,7 +266,7 @@ class OurParser
         out_xml += @xml_workbook_tpl_footer
         #out_xml = Nokogiri::XML out_xml
       end
-      @out_xml = make_stylesheet(out_xml)
+      @out_xml = out_xml #make_stylesheet(out_xml)
     end
     #  rescue
     #   puts "ERROR"

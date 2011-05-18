@@ -1,0 +1,1080 @@
+
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:s="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:sinfos="http://schemas.sinfos.de/TradeItemMessages/1.2.0/TradeItemMessage" xmlns:fnf_fnd_at="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_AT" xmlns:fnf_fnd_be="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_BE" xmlns:fnf_fnd_ch="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_CH" xmlns:fnf_fnd_cz="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_CZ" xmlns:fnf_fnd_de="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DE" xmlns:fnf_fnd_dk="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DK" xmlns:fnf_fnd_ee="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_EE" xmlns:fnf_fnd_es="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_ES" xmlns:fnf_fnd_fi="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FI" xmlns:fnf_fnd_fr="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FR" xmlns:fnf_fnd_gb="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_GB" xmlns:fnf_fnd_hu="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_HU" xmlns:fnf_fnd_ie="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_IE" xmlns:fnf_fnd_it="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_IT" xmlns:fnf_fnd_nl="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_NL" xmlns:fnf_fnd_pl="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_PL" xmlns:fnf_fnd_pt="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_PT" xmlns:fnf_fnd_ro="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_RO" xmlns:fnf_fnd_ru="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_RU" xmlns:fnf_fnd_se="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_SE" xmlns:fnf_fnd_ua="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_UA" xmlns:fnf_rap_at="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_AT" xmlns:fnf_rap_de="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_DE" xmlns:fnf_rap_dk="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_DK" xmlns:fnf_rap_ee="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_EE" xmlns:fnf_rap_fi="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_FI" xmlns:fnf_rap_pl="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_PL" xmlns:fnf_rap_ru="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_RU" xmlns:html="http://www.w3.org/TR/REC-html40">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <LastAuthor>Rogozhin Anton Yurevich</LastAuthor>
+    <Created>2009-11-22T10:48:42Z</Created>
+    <Version>11.9999</Version>
+  </DocumentProperties>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <WindowHeight>10005</WindowHeight>
+    <WindowWidth>10005</WindowWidth>
+    <WindowTopX>120</WindowTopX>
+    <WindowTopY>135</WindowTopY>
+    <ProtectStructure>False</ProtectStructure>
+    <ProtectWindows>False</ProtectWindows>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="Default" ss:Name="Normal">
+      <Alignment ss:Vertical="Bottom"/>
+      <Borders/>
+      <Font ss:FontName="Arial Cyr" x:CharSet="204"/>
+      <Interior/>
+      <NumberFormat/>
+      <Protection/>
+    </Style>
+    <Style ss:ID="s22">
+      <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+    </Style>
+    <Style ss:ID="s23">
+      <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+    </Style>
+    <Style ss:ID="s24">
+      <Interior ss:Color="#00FF00" ss:Pattern="Solid"/>
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Items">
+    <Table ss:ExpandedColumnCount="71" x:FullColumns="1" x:FullRows="1">
+      <Column ss:Width="99.75" ss:Span="70"/>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Hierarchy</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GTIN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">StartValidityDate</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GLNofDataSupplier</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NameOfDataSupplier</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TargetMarketCountryCode</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SectorCode</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BaseUnit</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ActionRequest</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NonPublicTradeItem</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberOfBaseUnitContained</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ItemNameLongML(Profile country)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ItemNameLongML(EN)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ItemName(Profile country)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ItemName(EN)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DespatchUnit</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">InvoiceUnit</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">OrderingUnit</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">AdditionalInformation</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BulkProduct</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ConsumerUnit</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GLNofManufacturer</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ManufacturersName</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Content</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ContentUnitOfMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GrossWeightFNFTSS (GRM)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NetWeight (KGM) </Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BasePriceDeclarationRelevant</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">VAT</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BrandNameML(Profile country)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BrandNameML(EN)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">SubBrand</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLUDescriptionML(Profile country)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PLUDescriptionML(EN)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GPC</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PricingOnTheProduct</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">freshnessDateOnProduct</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">RightOfReturnForNonSoldTradeItems</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DangerousGoodsIndication</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">DangerousSubstancesDeclaration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MaterialSafetyDataSheet</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Biocide</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CountryOfOrigin</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">BatchNumbered</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">PackagingTypeFNF</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MeasurementTradeItemHeight (MMT)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MeasurementTradeItemLengthDepth (MMT)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">MeasurementTradeItemWidth (MMT)</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Barcoded</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TemperatureMinStorage</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TemperatureMaxStorage</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TemperatureUnitOfMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">TradeItemIsReleased</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ReleasedAtDateTime</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">LastChangedDateTime</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">CreatedAtDateTime</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ChangedBy</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GlobalTradeItemIndicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ReleaseStatusOfTradeItem</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">GLOBAL_ActionRequest</Data>
+        </Cell>
+      </Row>
+      
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet">
+  <s:Cell>
+    <s:Data s:Type="String">BI</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">04600375040982</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-10-12</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">4601738999992</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">&#x41A;&#x420;&#x410;&#x424;&#x422; &#x424;&#x423;&#x414;&#x421; &#x420;&#x423;&#x421; &#x41E;&#x41E;&#x41E;</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">RU</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">FNF</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">BI</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">CHN</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">1</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">&#x41F;&#x420;&#x418;&#x427;&#x423;&#x414;&#x410; &#x444;&#x443;&#x43D;&#x434;&#x443;&#x43A; 22&#x445;290&#x433;</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Prichuda Wafer Cakes</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">PRICHUDA &#x412;&#x410;&#x424;&#x415;&#x41B;&#x42C;&#x41D;&#x42B;&#x419; &#x422;&#x41E;&#x420;&#x422; &#x421; &#x424;&#x423;&#x41D;&#x414;&#x423;&#x41A;&#x41E;&#x41C;</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">PRICHUDA WAFER CAKE HAZELNUT</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">4601738999992</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Kraft Foods Rus LLC</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">290</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">GRM</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">317</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">0.29</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">60</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">PRICHUDA</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">PRICHUDA</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">&#x41F;&#x420;&#x418;&#x427;&#x423;&#x414;&#x410; &#x444;&#x443;&#x43D;&#x434;</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Prichuda Waf</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">10000160</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">RU</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">BX</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">240</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">35</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">100</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-11-17T10:35:00</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-11-17T10:35:00</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-03-31T02:22:00</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">gdsn</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">5100</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">CHANGE_BY_REFRESH</s:Data>
+  </s:Cell>
+</s:Row>
+&#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet">
+  <s:Cell>
+    <s:Data s:Type="String">-PI</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">14600375040989</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-08-10</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">4601738999992</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">&#x41A;&#x420;&#x410;&#x424;&#x422; &#x424;&#x423;&#x414;&#x421; &#x420;&#x423;&#x421; &#x41E;&#x41E;&#x41E;</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">RU</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">FNF</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">PI</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">CHN</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">22</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">&#x41F;&#x420;&#x418;&#x427;&#x423;&#x414;&#x410; &#x444;&#x443;&#x43D;&#x434;&#x443;&#x43A; 22&#x445;290&#x433;</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Prichuda Wafer Cakes</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">7310</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">6.38</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">BX</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">210</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">400</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">255</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-08-10T12:21:00</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-08-10T12:20:00</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-03-31T02:22:00</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">gdsn</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">5000</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">CORRECT</s:Data>
+  </s:Cell>
+</s:Row>
+&#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet">
+  <s:Cell>
+    <s:Data s:Type="String">-PI</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">04600375912432</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-08-10</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">4601738999992</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">&#x41A;&#x420;&#x410;&#x424;&#x422; &#x424;&#x423;&#x414;&#x421; &#x420;&#x423;&#x421; &#x41E;&#x41E;&#x41E;</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">RU</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">FNF</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">PI</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">CHN</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">3</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">&#x41F;&#x420;&#x418;&#x427;&#x423;&#x414;&#x410;&#x444;&#x443;&#x43D;&#x434;&#x443;&#x43A;6x3&#x445;290&#x433; &#x41C;&#x42E;</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Prichuda Wafer Cakes</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">952</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">0.87</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">BE</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">110</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">105</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">245</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-08-10T11:18:00</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-08-10T11:18:00</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-03-31T02:23:00</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">gdsn</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">5000</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">CORRECT</s:Data>
+  </s:Cell>
+</s:Row>
+&#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet">
+  <s:Cell>
+    <s:Data s:Type="String">--PI</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">14600375912439</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-03-30</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">4601738999992</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">&#x41A;&#x420;&#x410;&#x424;&#x422; &#x424;&#x423;&#x414;&#x421; &#x420;&#x423;&#x421; &#x41E;&#x41E;&#x41E;</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">RU</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">FNF</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">PI</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">COR</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">18</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">&#x41A;&#x420; &#x41F;&#x420;&#x418;&#x427;&#x423;&#x414;&#x410;&#x444;&#x443;&#x43D;&#x434;&#x443;&#x43A;6x3&#x445;290&#x433; &#x41C;&#x42E;</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">6086</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">BX</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">210</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">322</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">262</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String"/>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">Y</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-08-10T11:18:00</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-08-10T11:18:00</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">2009-03-31T02:23:00</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">gdsn</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">N</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">5000</s:Data>
+  </s:Cell>
+  <s:Cell>
+    <s:Data s:Type="String">CORRECT</s:Data>
+  </s:Cell>
+</s:Row>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+
+          &#xFEFF;
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+<s:Row xmlns:s="urn:schemas-microsoft-com:office:spreadsheet"/>
+    </Table>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+      <PageSetup>
+        <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996" x:Right="0.78740157499999996" x:Top="0.984251969"/>
+      </PageSetup>
+      <Selected/>
+      <Panes>
+        <Pane>
+          <Number>3</Number>
+          <ActiveRow>14</ActiveRow>
+          <ActiveCol>1</ActiveCol>
+        </Pane>
+      </Panes>
+      <ProtectObjects>False</ProtectObjects>
+      <ProtectScenarios>False</ProtectScenarios>
+    </WorksheetOptions>
+  </Worksheet>
+</Workbook>
