@@ -240,7 +240,7 @@ class OurParser
         while reader.read
           break if reader.local_name == "root"
         end
-        columns_text = reader.read_inner_xml
+        columns_text = reader.inner_xml
         xml_reader = get_reader(xml)
         style_file_path = File.join(xsl_folder_path, template_name + "_style.txt")
         style = ""
@@ -266,7 +266,7 @@ class OurParser
         out_xml += @xml_workbook_tpl_footer
         #out_xml = Nokogiri::XML out_xml
       end
-      @out_xml = out_xml #make_stylesheet(out_xml)
+      @out_xml = make_stylesheet(out_xml)
     end
     #  rescue
     #   puts "ERROR"
@@ -287,6 +287,11 @@ class OurParser
     xsl = get_item_template(template_path)
     processed_xmls = []
     leaves, pi_statuses = get_leaf_pi(get_reader(node_xml), suffix)###
+    puts "&&&&&&&&&&&"
+    p leaves
+    puts
+    p pi_statuses
+    puts "&&&&&&&&"
     leaves.each do |key, value|
       value.each do |pi|
         processed_xml = Nokogiri::XML::Document.new
@@ -400,7 +405,12 @@ class OurParser
   end  
 
   def get_leaf_pi (reader, suffix)
+    puts "********"
+    puts reader.outer_xml
+    puts "********"
     dict, added_deleted_pi = build_hierarchy(reader, suffix)
+    p added_deleted_pi
+    puts "-----"
     result = {}
     dict.each do |key, value|
       if is_basic_item(dict, key)
@@ -409,6 +419,8 @@ class OurParser
         result[key] = @leaves
       end
     end
+    p added_deleted_pi
+    puts "========"
     return result, added_deleted_pi
   end
 
@@ -437,16 +449,13 @@ class OurParser
 
   def make_stylesheet doc
     book = Spreadsheet::Workbook.new
-
-
     reader = get_reader doc
-
     while reader.read
       case reader.local_name
       when "Styles"
         styles = process_styles(reader)
       when "Worksheet"
-        sheet = book.create_worksheet :name => r.attrubutes["Name"]
+        sheet = book.create_worksheet(:name => reader.attributes["Name"])
         while reader.read.local_name != "Worksheet"
           case reader.local_name
           when "Table"
@@ -454,34 +463,33 @@ class OurParser
               case reader.local_name
               when "Column"
                 col_index ||= 0
-                if reader.attrubutes["Index"]
-                  col_index = value.to_i
+                if reader.attributes["Index"]
+                  col_index = reader.attributes["Index"].to_i
                 else
                   col_index += 1
                 end
                 column = Spreadsheet::Column.new(col_index, nil)
-                reader.attrubutes.each do |key, value|
+                reader.attributes.each do |key, value|
                   case key
                   when "Hidden"
                     column.hidden = value.to_bool
                   when "Width"
                     column.width = value.to_f
                   end
-                  sheet.columns << column
-                  index += 1
                 end
+                sheet.columns << column
               when "Row"
                 row_index ||= 0
-                if reader.attrubutes["Index"]
+                if reader.attributes["Index"]
                   row_index = value.to_i
                 else
                   row_index += 1
                 end
-                row = Spreadsheet::Row.new(row_index, nil)
-                reader.attrubutes.each do |key, value|
+                row = Spreadsheet::Row.new(sheet, row_index)
+                reader.attributes.each do |key, value|
                   case key
                   when "Height"
-                    row.height = value.to_f
+                    row.height = value.to_i
                   when "Hidden"
                     row.hidden = value.to_bool
                   end
@@ -489,8 +497,11 @@ class OurParser
                 unless reader.self_closing?
                   while reader.read.local_name != "Row"
                     if reader.local_name == "Cell"
-                      row.formats << styles[reader.attrubutes["StyleID"]][:format]
+                      row.formats << styles[reader.attributes["StyleID"]][:format] if reader.attributes["StyleID"]
                       while reader.read.local_name != "Cell"
+                        if reader.local_name == "Data" and !reader.self_closing?
+                          row << reader.inner_xml
+                        end
                       end
                     else 
                       next
@@ -506,20 +517,25 @@ class OurParser
         end
       end
     end
+    return book
   end
 
   def make_color str 
-    case str.downcase
-    when ['#ffff00', '#ffff99']
+    case str
+    when '#FFFF00' 
       return "yellow"
-    when '#ff0000'
+    when '#FFFF99'
+      return "yellow"
+    when '#FF0000'
       return 'red'
-    when '#ccffff'
+    when '#CCFFFF'
       return 'aqua'
     when '#000000'
       return 'black'
+    when '#00FF00'
+      return "green"
     else
-      throw "unknown color #{str}"
+      throw "unknown color #{str.inspect}"
     end
   end
 
@@ -527,11 +543,11 @@ class OurParser
     styles = {}
     while r.read.local_name != "Styles"
       if r.local_name == "Style"
-        styles[id = r.attrubutes["ID"]] = {:format => Spreadsheet::Format.new, :parent => r.attrubutes["Parent"]} if r.attrubutes["ID"]
+        styles[id = r.attributes["ID"]] = {:format => Spreadsheet::Format.new, :parent => r.attributes["Parent"]} if r.attributes["ID"]
         while r.read.local_name != "Style"
           case r.local_name
           when "Alignment"
-            r.attrubutes.each do |key, value|
+            r.attributes.each do |key, value|
               case key
               when "Vertical"
                 styles[id][:format].vertical_align = value
@@ -561,11 +577,10 @@ class OurParser
               end
             end
           when "Font"
-            font = Spreadsheet::Font.new
+            name = r.attributes["FontName"] ? r.attributes["FontName"] : "unknown"
+            font = Spreadsheet::Font.new name
             r.attributes.each do |key, value|
               case key
-              when "FontName"
-                font.name = value
               when "Family"
                 font.family = value 
               when "Color"
@@ -573,6 +588,7 @@ class OurParser
               when "Bold"
                 font.bold = true
               when "CharSet"
+              when "FontName"
               else
                 throw "Wrong Font attribute: #{key}"
               end
@@ -599,8 +615,8 @@ class OurParser
               end
             end
           when "Protection"
-          else
-            throw "unknown local_name"  
+#          else
+#            throw "unknown local_name#{r.local_name}"  
           end
         end
       end
