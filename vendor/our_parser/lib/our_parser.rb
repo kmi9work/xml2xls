@@ -293,6 +293,7 @@ class OurParser
         processing_instruction = Nokogiri::XML::ProcessingInstruction.new(processed_xml, "mso-application", 'progid="Excel.Sheet"')
         processed_xml << processing_instruction
         doc = Nokogiri::XML(node_xml)
+        puts xsl.format(country.upcase, suffix.downcase, suffix.upcase, key, pi)
         xslt = Nokogiri::XSLT(xsl.format(country.upcase, suffix.downcase, suffix.upcase, key, pi))
         processed_xml << xslt.transform(doc)
         processed_xmls << processed_xml
