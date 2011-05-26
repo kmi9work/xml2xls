@@ -4,5 +4,7 @@ require 'rubygems'
 require './lib/our_parser.rb'
 #Debugger.start
 xls = OurParser.new(File.read(ARGV[0]), ARGV[1])
-p xls.out_xml
-puts xls.out_xml.write("spreadsheet.xls")
+# puts '<?xml version="1.0" encoding="UTF-8"?>'
+# puts '<?mso-application progid="Excel.Sheet"?>'
+# puts xls.out_xml
+xls.out_xml.write("ss.xls")

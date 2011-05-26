@@ -34,170 +34,10 @@ class OurParser
     :Deleted => "deleted",
     :Added => "added"
   }
-
-  def set_up_vars
-    @xml_tpl_header = "
-    <?xml version=\"1.0\" encoding=\"utf-8\"?>
-    <?mso-application progid=\"Excel.Sheet\"?>
-    <s:Workbook xmlns:s=\"urn:schemas-microsoft-com:office:spreadsheet\" 
-    xmlns:x=\"urn:schemas-microsoft-com:office:excel\" 
-    xmlns:o=\"urn:schemas-microsoft-com:office:office\" 
-    xmlns:sinfos=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/TradeItemMessage\" 
-    xmlns:fnf_fnd_at=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_AT\" 
-    xmlns:fnf_fnd_be=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_BE\" 
-    xmlns:fnf_fnd_ch=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_CH\" 
-    xmlns:fnf_fnd_cz=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_CZ\" 
-    xmlns:fnf_fnd_de=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DE\" 
-    xmlns:fnf_fnd_dk=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DK\" 
-    xmlns:fnf_fnd_ee=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_EE\" 
-    xmlns:fnf_fnd_es=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_ES\" 
-    xmlns:fnf_fnd_fi=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FI\" 
-    xmlns:fnf_fnd_fr=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FR\" 
-    xmlns:fnf_fnd_gb=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_GB\" 
-    xmlns:fnf_fnd_hu=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_HU\" 
-    xmlns:fnf_fnd_ie=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_IE\" 
-    xmlns:fnf_fnd_it=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_IT\" 
-    xmlns:fnf_fnd_nl=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_NL\" 
-    xmlns:fnf_fnd_pl=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_PL\" 
-    xmlns:fnf_fnd_pt=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_PT\" 
-    xmlns:fnf_fnd_ro=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_RO\" 
-    xmlns:fnf_fnd_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_RU\" 
-    xmlns:fnf_fnd_se=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_SE\" 
-    xmlns:fnf_fnd_ua=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_UA\" 
-    xmlns:fnf_rap_at=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_AT\" 
-    xmlns:fnf_rap_de=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_DE\" 
-    xmlns:fnf_rap_dk=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_DK\" 
-    xmlns:fnf_rap_ee=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_EE\" 
-    xmlns:fnf_rap_fi=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_FI\" 
-    xmlns:fnf_rap_pl=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_PL\" 
-    xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_RU\" 
-    >{0}<s:Worksheet s:Name=\"Items\"><s:Table {1}>"
-
-    @xml_table_tpl_footer = "</s:Table>"
-    @xml_work_sheet_tpl_footer = "</s:Worksheet>"
-    @xml_workbook_tpl_footer = "</s:Workbook>"
-    @map_to_regex = Regexp.new "(<mapTo list=\"([^\"]+)\" firstcell=\"([^\"]+)\" secondcell=\"([^\"]+)\">([^<]+)</mapTo>)" #take in brackets whole regexp's 'cause "aaaa".scan(/((a)a(a))/) => [[_"aaa"_, "a", "a"]]
-    @convert_regex = Regexp.new "(<mapTo list=\"([^\"]+)\" tocode=\"([^\"]+)\" firstcell=\"([^\"]+)\" secondcell=\"([^\"]+)\" thirdcell=\"([^\"]+)\">([^<]+)</mapTo>)"
-    #@map_to_regex = Regexp.new "(<mapTo list=\"(?<list>[^\"]+)\" firstcell=\"(?<first>[^\"]+)\" secondcell=\"(?<second>[^\"]+)\">(?<code>[^<]+)</mapTo>)" #take in brackets whole regexp's 'cause "aaaa".scan(/((a)a(a))/) => [[_"aaa"_, "a", "a"]]
-    #@convert_regex = Regexp.new "(<mapTo list=\"(?<list>[^\"]+)\" tocode=\"(?<tocode>[^\"]+)\" firstcell=\"(?<first>[^\"]+)\" secondcell=\"(?<second>[^\"]+)\" thirdcell=\"(?<third>[^\"]+)\">(?<code>[^<]+)</mapTo>)"
-    @map_substitution_string = "<mapTo list=\"{0}\" firstcell=\"{2}\" secondcell=\"{3}\">{1}</mapTo>"
-    @convert_substitution_string = "<mapTo list=\"{0}\" tocode=\"{2}\" firstcell=\"{3}\" secondcell=\"{4}\" thirdcell=\"{5}\">{1}</mapTo>"
-
-    @group =["(\\D+)", "(\\d+)", "(\\D+)", "(\\D{1,3})"]
-    #@group =["(?<code>\\D+)", "(?<code>\\d+)", "(?<code>\\D+)", "(?<code>\\D{1,3})"]
-    @main_xslts = {}
-    @item_xslts = {}
-    @item_xslt_templates = {}
-    @regex_tpls = {
-      "contries.xml"    => "<s:Cell mapTo=\"countries\" (s:StyleID=\"[^>]+\")?><s:Data s:Type=\"String\">{0}</s:Data></s:Cell>",
-      "nds.xml"         => "<s:Cell mapTo=\"nds\" (s:StyleID=\"[^>]+\")?><s:Data s:Type=\"String\">{0}</s:Data></s:Cell>",
-      "measurement.xml" => "<s:Cell mapTo=\"measurement\" (s:StyleID=\"[^>]+\")?><s:Data s:Type=\"String\">{0}</s:Data></s:Cell>",
-      "packaging.xml"   => "<s:Cell mapTo=\"packaging\" (s:StyleID=\"[^>]+\")?><s:Data s:Type=\"String\">{0}</s:Data></s:Cell>"
-    }
-    xsl_folder_path = FILEMANAGER["xslt"]
-    tpl_path = File.join(xsl_folder_path, "Tpl.txt")
-    pi_tpl_path = File.join(xsl_folder_path, "PIVersionTpl.txt")
-    @tpl_text = File.read(tpl_path)
-    @pi_tpl_text = File.read(pi_tpl_path)
+  def is_sep?
+    @out_xml.class == "Array"
   end
-
-  def get_xslt template_name
-    return @main_xslts[template_name] if @main_xslts[template_name]
-    xsl_folder_path = FILEMANAGER["xslt"]
-    xsl_file_path = File.join(xsl_folder_path, template_name + ".xsl")
-    throw "Couldn`t find file with xslt #{xsl_file_path}" unless File.file? xsl_file_path #make exceptions
-    xslt = Nokogiri::XSLT(File.read(xsl_file_path))
-    @main_xslts[template_name] = xslt
-  end
-
-  def get_item_template template_path
-    return @item_xslt_templates[template_path] if @item_xslt_templates[template_path]
-    @item_xslt_templates[template_path] = File.read(template_path)
-  end
-
-  def get_item_xslt file_path, country, suffix
-    key = country + ";" + suffix + ";" + file_path
-    return @item_xslts[key] if @item_xslts[key]
-    xsl = get_item_template(file_path)
-    xsl.format!(country.upcase, suffix.downcase, suffix.upcase)
-    xslt = Nokogiri::XSLT xsl
-    @item_xslts[key] = xslt
-  end
-
-  def get_template_suffix prefix
-    index = prefix.index("_")
-    return "" unless index
-    return prefix[(index+1)..-1]
-  end
-
-  def get_bi_template_part hierarchy_dictionary, bigtin, suffix
-    lower = suffix.downcase
-    hierarchy = "-PI"
-    @str = "" #only for get_pi_text
-    get_pi_text(hierarchy_dictionary, bigtin, hierarchy, lower)
-    return @tpl_text.format(lower, bigtin, hierarchy_dictionary[bigtin], @str)
-  end
-
-  def get_pi_text hierarchy_dictionary, parent_gtin, prefix, lower
-    hierarchy_dictionary.each do |key, value|
-      if value == parent_gtin
-        @str += @pi_tpl_text.format(lower, key, prefix, "")
-        get_pi_text(hierarchy_dictionary, key, '-' + prefix, lower)
-      end
-    end
-  end
-
-  def get_reader xml
-    return Nokogiri::XML::Reader(xml.to_s)
-  end
-
-
-  def process_xml_node reader, template_name  #CHECK
-    #returns string
-    #debugger
-    prefix = reader.prefix
-    suffix = get_template_suffix(prefix)
-    index = suffix.index("_")
-    throw "suffix" unless index #make exceptions
-    country = suffix[(index + 1)..-1].downcase
-    return "" if !suffix or suffix.empty?
-    #xslt = XML::XSLT.new
-    xsl_file_path = FILEMANAGER["xslt"]
-    file_path = File.join(xsl_file_path, template_name + "_.xsl")
-    h_xsl_file_path = File.join(xsl_file_path, template_name + "_h.xsl")
-    xsl_file_path = File.join(xsl_file_path, template_name + "_gen.xsl")
-    node_xml = reader.outer_xml
-    return "" if node_xml.strip.empty?
-    if File.file? file_path
-      xslt = get_item_xslt(file_path, country, suffix) 
-    elsif File.file? h_xsl_file_path
-      bi_str = ""
-      ba_str = ""
-      hierarchy_dictionary, dict = build_hierarchy(get_reader(node_xml), suffix) 
-      hierarchy_dictionary.each do |key, value|
-        bi_str += get_bi_template_part(hierarchy_dictionary, key, suffix) if value == "BI" 
-        ba_str += get_bi_template_part(hierarchy_dictionary, key, suffix) if value == "BA"
-      end
-      xsl = get_item_template(h_xsl_file_path)
-      xsl.format!(country.upcase, suffix.downcase, suffix.upcase, bi_str, ba_str)
-      # puts"_____________"
-      #       p hierarchy_dictionary
-      #       puts "#####"
-      #       puts xsl
-      #       puts "---------"
-      xslt = Nokogiri::XSLT xsl
-    else
-      return "" unless File.file? xsl_file_path
-      xslt = get_item_xslt(xsl_file_path, country, suffix)
-    end
-    doc = Nokogiri::XML node_xml
-    # puts doc.to_s, "---------"
-    out = xslt.transform(doc)
-    # puts "\n\n\n\n-----", out.to_s, "====\n\n\n\n"
-    # sleep(2)
-    return out.to_s
-  end
-
+  
   def initialize xml, template_name
     set_up_vars
 
@@ -211,7 +51,7 @@ class OurParser
         processed_nodes << process_xml_sep_node(reader, template_name, xml)
       end
       #processed_nodes -- array[processed Item arrays[leaves from get_leaf_pi]] 
-      out_xml = processed_nodes#.to_one_xml ?
+      @out_xml = make_stylesheet processed_nodes[0][0].to_s
     else
       xslt = get_xslt(template_name)
       empty_xml = Nokogiri::XML::Document.new #transform empty xml with "#{template_name}.xsl" xslt
@@ -264,7 +104,7 @@ class OurParser
         out_xml += @xml_table_tpl_footer
         out_xml += @xml_work_sheet_tpl_footer
         out_xml += @xml_workbook_tpl_footer
-        #out_xml = Nokogiri::XML out_xml
+        # out_xml = Nokogiri::XML out_xml
       end
       @out_xml = make_stylesheet(out_xml)
     end
@@ -273,11 +113,165 @@ class OurParser
     #make exceptions
   end
 
+  protected
+  
+  def set_up_vars
+    @xml_tpl_header = "
+    <?xml version=\"1.0\" encoding=\"utf-8\"?>
+    <?mso-application progid=\"Excel.Sheet\"?>
+    <s:Workbook xmlns:s=\"urn:schemas-microsoft-com:office:spreadsheet\" 
+    xmlns:x=\"urn:schemas-microsoft-com:office:excel\" 
+    xmlns:o=\"urn:schemas-microsoft-com:office:office\" 
+    xmlns:sinfos=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/TradeItemMessage\" 
+    xmlns:fnf_fnd_at=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_AT\" 
+    xmlns:fnf_fnd_be=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_BE\" 
+    xmlns:fnf_fnd_ch=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_CH\" 
+    xmlns:fnf_fnd_cz=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_CZ\" 
+    xmlns:fnf_fnd_de=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DE\" 
+    xmlns:fnf_fnd_dk=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DK\" 
+    xmlns:fnf_fnd_ee=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_EE\" 
+    xmlns:fnf_fnd_es=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_ES\" 
+    xmlns:fnf_fnd_fi=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FI\" 
+    xmlns:fnf_fnd_fr=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FR\" 
+    xmlns:fnf_fnd_gb=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_GB\" 
+    xmlns:fnf_fnd_hu=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_HU\" 
+    xmlns:fnf_fnd_ie=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_IE\" 
+    xmlns:fnf_fnd_it=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_IT\" 
+    xmlns:fnf_fnd_nl=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_NL\" 
+    xmlns:fnf_fnd_pl=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_PL\" 
+    xmlns:fnf_fnd_pt=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_PT\" 
+    xmlns:fnf_fnd_ro=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_RO\" 
+    xmlns:fnf_fnd_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_RU\" 
+    xmlns:fnf_fnd_se=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_SE\" 
+    xmlns:fnf_fnd_ua=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_UA\" 
+    xmlns:fnf_rap_at=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_AT\" 
+    xmlns:fnf_rap_de=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_DE\" 
+    xmlns:fnf_rap_dk=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_DK\" 
+    xmlns:fnf_rap_ee=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_EE\" 
+    xmlns:fnf_rap_fi=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_FI\" 
+    xmlns:fnf_rap_pl=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_PL\" 
+    xmlns:fnf_rap_ru=\"http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_RU\" 
+    >{0}<s:Worksheet s:Name=\"Items\"><s:Table {1}>"
+
+    @xml_table_tpl_footer = "</s:Table>"
+    @xml_work_sheet_tpl_footer = "</s:Worksheet>"
+    @xml_workbook_tpl_footer = "</s:Workbook>"
+    @map_to_regex = Regexp.new "(<mapTo list=\"([^\"]+)\" firstcell=\"([^\"]+)\" secondcell=\"([^\"]+)\">([^<]+)</mapTo>)" #take in brackets whole regexp's 'cause "aaaa".scan(/((a)a(a))/) => [[_"aaa"_, "a", "a"]]
+    @convert_regex = Regexp.new "(<mapTo list=\"([^\"]+)\" tocode=\"([^\"]+)\" firstcell=\"([^\"]+)\" secondcell=\"([^\"]+)\" thirdcell=\"([^\"]+)\">([^<]+)</mapTo>)"
+    @map_substitution_string = "<mapTo list=\"{0}\" firstcell=\"{2}\" secondcell=\"{3}\">{1}</mapTo>"
+    @convert_substitution_string = "<mapTo list=\"{0}\" tocode=\"{2}\" firstcell=\"{3}\" secondcell=\"{4}\" thirdcell=\"{5}\">{1}</mapTo>"
+
+    @group =["(\\D+)", "(\\d+)", "(\\D+)", "(\\D{1,3})"]
+    @main_xslts = {}
+    @item_xslts = {}
+    @item_xslt_templates = {}
+    @regex_tpls = {
+      "contries.xml"    => "<s:Cell mapTo=\"countries\" (s:StyleID=\"[^>]+\")?><s:Data s:Type=\"String\">{0}</s:Data></s:Cell>",
+      "nds.xml"         => "<s:Cell mapTo=\"nds\" (s:StyleID=\"[^>]+\")?><s:Data s:Type=\"String\">{0}</s:Data></s:Cell>",
+      "measurement.xml" => "<s:Cell mapTo=\"measurement\" (s:StyleID=\"[^>]+\")?><s:Data s:Type=\"String\">{0}</s:Data></s:Cell>",
+      "packaging.xml"   => "<s:Cell mapTo=\"packaging\" (s:StyleID=\"[^>]+\")?><s:Data s:Type=\"String\">{0}</s:Data></s:Cell>"
+    }
+    xsl_folder_path = FILEMANAGER["xslt"]
+    tpl_path = File.join(xsl_folder_path, "Tpl.txt")
+    pi_tpl_path = File.join(xsl_folder_path, "PIVersionTpl.txt")
+    @tpl_text = File.read(tpl_path)
+    @pi_tpl_text = File.read(pi_tpl_path)
+  end
+
+  def get_xslt template_name
+    return @main_xslts[template_name] if @main_xslts[template_name]
+    xsl_folder_path = FILEMANAGER["xslt"]
+    xsl_file_path = File.join(xsl_folder_path, template_name + ".xsl")
+    raise Exception.new("Couldn`t find file with xslt #{xsl_file_path}") unless File.file? xsl_file_path #make exceptions
+    xslt = Nokogiri::XSLT(File.read(xsl_file_path))
+    @main_xslts[template_name] = xslt
+  end
+
+  def get_item_template template_path
+    return @item_xslt_templates[template_path] if @item_xslt_templates[template_path]
+    @item_xslt_templates[template_path] = File.read(template_path)
+  end
+
+  def get_item_xslt file_path, country, suffix
+    key = country + ";" + suffix + ";" + file_path
+    return @item_xslts[key] if @item_xslts[key]
+    xsl = get_item_template(file_path).format(country.upcase, suffix.downcase, suffix.upcase)
+    xslt = Nokogiri::XSLT xsl
+    @item_xslts[key] = xslt
+  end
+
+  def get_template_suffix prefix
+    index = prefix.index("_")
+    return "" unless index
+    return prefix[(index+1)..-1]
+  end
+
+  def get_bi_template_part hierarchy_dictionary, bigtin, suffix #!!!!!!
+    lower = suffix.downcase
+    hierarchy = "-PI"
+    @str = "" #only for get_pi_text
+    get_pi_text(hierarchy_dictionary, bigtin, hierarchy, lower)
+    return @tpl_text.format(lower, bigtin, hierarchy_dictionary[bigtin], @str)
+  end
+
+  def get_pi_text hierarchy_dictionary, parent_gtin, prefix, lower
+    hierarchy_dictionary.each do |key, value|
+      if value == parent_gtin
+        @str += @pi_tpl_text.format(lower, key, prefix, "")
+        get_pi_text(hierarchy_dictionary, key, '-' + prefix, lower)
+      end
+    end
+  end
+
+  def get_reader xml
+    return Nokogiri::XML::Reader(xml.to_s)
+  end
+
+
+  def process_xml_node reader, template_name  #CHECK
+    #returns string
+    #debugger
+    prefix = reader.prefix
+    suffix = get_template_suffix(prefix)
+    index = suffix.index("_")
+    raise Exception.new("Wrong suffix: #{suffix}") unless index #make exceptions
+    country = suffix[(index + 1)..-1].downcase
+    return "" if !suffix or suffix.empty?
+    #xslt = XML::XSLT.new
+    xsl_file_path = FILEMANAGER["xslt"]
+    file_path = File.join(xsl_file_path, template_name + "_.xsl")
+    h_xsl_file_path = File.join(xsl_file_path, template_name + "_h.xsl")
+    xsl_file_path = File.join(xsl_file_path, template_name + "_gen.xsl")
+    node_xml = reader.outer_xml
+    return "" if node_xml.strip.empty?
+    if File.file? file_path
+      xslt = get_item_xslt(file_path, country, suffix) 
+    elsif File.file? h_xsl_file_path
+      bi_str = ""
+      ba_str = ""
+      hierarchy_dictionary, dict = build_hierarchy(get_reader(node_xml), suffix) 
+      hierarchy_dictionary.each do |key, value|
+        bi_str += get_bi_template_part(hierarchy_dictionary, key, suffix) if value == "BI" 
+        ba_str += get_bi_template_part(hierarchy_dictionary, key, suffix) if value == "BA"
+      end
+      xsl = get_item_template(h_xsl_file_path).format(country.upcase, suffix.downcase, suffix.upcase, bi_str, ba_str)
+      xslt = Nokogiri::XSLT xsl
+    else
+      return "" unless File.file? xsl_file_path
+      xslt = get_item_xslt(xsl_file_path, country, suffix)
+    end
+    doc = Nokogiri::XML node_xml
+    out = xslt.transform(doc)
+    return out.to_s
+  end
+
+  
+
   def process_xml_sep_node reader, template_name, xml
     prefix = reader.prefix
     suffix = get_template_suffix(prefix)
     index = suffix.index("_")
-    throw "suffix" unless index  #make exceptions
+    raise Exception.new("Wrong suffix: #{suffix}") unless index  #make exceptions
     country = suffix[(index + 1)..-1].downcase
     xsl_path = FILEMANAGER["xslt"]
     template_path = File.join(xsl_path, template_name + "_sep.xsl")
@@ -286,21 +280,12 @@ class OurParser
     return nil if node_xml.strip.empty?
     xsl = get_item_template(template_path)
     processed_xmls = []
-    leaves, pi_statuses = get_leaf_pi(get_reader(node_xml), suffix)###
-    puts "&&&&&&&&&&&"
-    p leaves
-    puts
-    p pi_statuses
-    puts "&&&&&&&&"
+    leaves, pi_statuses = get_leaf_pi(get_reader(node_xml), suffix)#@
     leaves.each do |key, value|
       value.each do |pi|
-        processed_xml = Nokogiri::XML::Document.new
-        processing_instruction = Nokogiri::XML::ProcessingInstruction.new(processed_xml, "mso-application", 'progid="Excel.Sheet"')
-        processed_xml << processing_instruction
         doc = Nokogiri::XML(node_xml)
-        puts xsl.format(country.upcase, suffix.downcase, suffix.upcase, key, pi)
         xslt = Nokogiri::XSLT(xsl.format(country.upcase, suffix.downcase, suffix.upcase, key, pi))
-        processed_xml << xslt.transform(doc)
+        processed_xml = xslt.transform(doc).to_s.gsub('<?xml version="1.0"?>','')
         processed_xmls << processed_xml
       end
     end
@@ -405,12 +390,7 @@ class OurParser
   end  
 
   def get_leaf_pi (reader, suffix)
-    puts "********"
-    puts reader.outer_xml
-    puts "********"
-    dict, added_deleted_pi = build_hierarchy(reader, suffix)
-    p added_deleted_pi
-    puts "-----"
+    dict, added_deleted_pi = build_hierarchy(reader, suffix)#@
     result = {}
     dict.each do |key, value|
       if is_basic_item(dict, key)
@@ -419,8 +399,6 @@ class OurParser
         result[key] = @leaves
       end
     end
-    p added_deleted_pi
-    puts "========"
     return result, added_deleted_pi
   end
 
@@ -449,70 +427,80 @@ class OurParser
 
   def make_stylesheet doc
     book = Spreadsheet::Workbook.new
-    reader = get_reader doc
-    while reader.read
-      case reader.local_name
-      when "Styles"
-        styles = process_styles(reader)
-      when "Worksheet"
-        sheet = book.create_worksheet(:name => reader.attributes["Name"])
-        while reader.read.local_name != "Worksheet"
-          case reader.local_name
-          when "Table"
-            while reader.read.local_name != "Table"
-              case reader.local_name
-              when "Column"
-                col_index ||= 0
-                if reader.attributes["Index"]
-                  col_index = reader.attributes["Index"].to_i
+    xml = (Nokogiri::XML doc).child
+    styles = {}
+    xml.children.each do |main|
+      if main.name == "Styles"
+        styles = process_styles(styles, main.children)
+      elsif main.name == "Worksheet"
+        sheet = book.create_worksheet(:name => main["Name"])
+        main.children.each do |worksheet|
+          if worksheet.name == "Table"
+            col_index = -1
+            row_index = -1
+            
+            worksheet.children.each do |col_row|
+              if col_row.name == "Column"
+                if col_row["Index"]
+                  col_index = col_row["Index"].strip.to_i 
                 else
                   col_index += 1
                 end
-                column = Spreadsheet::Column.new(col_index, nil)
-                reader.attributes.each do |key, value|
-                  case key
-                  when "Hidden"
-                    column.hidden = value.to_bool
-                  when "Width"
-                    column.width = value.to_f
+                hidden = col_row["Hidden"].strip.to_bool if col_row["Hidden"]
+                width = col_row["Width"].strip.to_f if col_row["Width"]
+                if col_row["Span"]
+                  (col_row["Span"].strip.to_i).times do |i|
+                    col = Spreadsheet::Column.new(col_index + i, nil)
+                    col.hidden = hidden
+                    col.width = width
+                    sheet.columns << col
                   end
+                else
+                  column = Spreadsheet::Column.new(col_index, nil)
+                  column.hidden = hidden
+                  column.width = width
+                  sheet.columns << column
                 end
-                sheet.columns << column
-              when "Row"
-                row_index ||= 0
-                if reader.attributes["Index"]
-                  row_index = value.to_i
+              elsif col_row.name == "Row"
+                if col_row["Index"]
+                  row_index = col_row["Index"].strip.to_i 
                 else
                   row_index += 1
                 end
-                row = Spreadsheet::Row.new(sheet, row_index)
-                reader.attributes.each do |key, value|
-                  case key
-                  when "Height"
-                    row.height = value.to_i
-                  when "Hidden"
-                    row.hidden = value.to_bool
+                sheet.row(row_index).height = col_row["Height"].strip.to_i if col_row["Height"]
+                cell_index = -1
+                sheet.row(row_index).set_format(0, styles["Default"])
+                col_row.children.each do |cell|
+                  next unless cell.name == "Cell"
+                  prev_cell_index = cell_index
+                  if cell["Index"]
+                    cell_index = cell["Index"].strip.to_i 
+                  else
+                    cell_index += 1
                   end
-                end
-                unless reader.self_closing?
-                  while reader.read.local_name != "Row"
-                    if reader.local_name == "Cell"
-                      row.formats << styles[reader.attributes["StyleID"]][:format] if reader.attributes["StyleID"]
-                      while reader.read.local_name != "Cell"
-                        if reader.local_name == "Data" and !reader.self_closing?
-                          row << reader.inner_xml
-                        end
-                      end
-                    else 
-                      next
+                  if cell_index > prev_cell_index + 1
+                    i = prev_cell_index + 1
+                    while i < cell_index
+                      sheet.row(row_index).set_format(i, styles["Default"]) 
+                      i += 1
+                    end
+                  end
+                  if cell["StyleID"] and styles[cell["StyleID"]]
+                    sheet.row(row_index).set_format(cell_index, styles[cell["StyleID"]]) 
+                  else
+                    sheet.row(row_index).set_format(cell_index, styles["Default"]) 
+                  end
+                  cell.children.each do |data|
+                    if data["Type"] == "String"
+                      sheet.row(row_index).push data.text
+                    elsif data["Type"] == "Number"
+                      sheet.row(row_index).push data.text.strip.to_i
                     end
                   end
                 end
-              end  
+              end
             end
-          when "WorksheetOptions"
-            while reader.read.local_name != "WorksheetOptions"
-            end
+            
           end
         end
       end
@@ -521,6 +509,7 @@ class OurParser
   end
 
   def make_color str 
+    # return str
     case str
     when '#FFFF00' 
       return "yellow"
@@ -534,90 +523,93 @@ class OurParser
       return 'black'
     when '#00FF00'
       return "green"
+    when "#FFFFFF"
+      return 'white'
+    when "#FF99CC"
+      return 'fuchsia'
+    when "#888888"
+      return 'gray'
     else
-      throw "unknown color #{str.inspect}"
+      raise "unknown color #{str.inspect}"
     end
   end
 
-  def process_styles(r)
-    styles = {}
-    while r.read.local_name != "Styles"
-      if r.local_name == "Style"
-        styles[id = r.attributes["ID"]] = {:format => Spreadsheet::Format.new, :parent => r.attributes["Parent"]} if r.attributes["ID"]
-        while r.read.local_name != "Style"
-          case r.local_name
-          when "Alignment"
-            r.attributes.each do |key, value|
-              case key
-              when "Vertical"
-                styles[id][:format].vertical_align = value
-              when "Horizontal"
-                styles[id][:format].horizontal_align = value
-              end
+  def process_styles(styles, xml_styles)
+    xml_styles.each do |xml_style|
+      id = xml_style["ID"]
+      next unless id
+      styles[id] = styles[xml_style["Parent"]].dup if xml_style["Parent"] and styles[xml_style["Parent"]]
+      styles[id] ||= Spreadsheet::Format.new
+      xml_style.children.each do |param|
+        case param.name
+        when "Alignment"
+          param.each do |key, value|
+            case key
+            when "Vertical"
+              styles[id].vertical_align = value
+            when "Horizontal"
+              styles[id].horizontal_align = value
             end
-          when "Borders"
-            unless r.self_closing?
-              while r.read.local_name != "Borders"
-                if r.local_name == "Border"
-                  r.attributes.each do |key, value|
-                    case key
-                    when "Bottom"
-                      styles[id][:format].bottom = true
-                    when "Left"
-                      styles[id][:format].left = true
-                    when "Right"
-                      styles[id][:format].right = true
-                    when "Top"
-                      styles[id][:format].top = true
-                    end
-                  end
-                else
-                  next
-                end
-              end
-            end
-          when "Font"
-            name = r.attributes["FontName"] ? r.attributes["FontName"] : "unknown"
-            font = Spreadsheet::Font.new name
-            r.attributes.each do |key, value|
-              case key
-              when "Family"
-                font.family = value 
-              when "Color"
-                font.color = make_color(value)
-              when "Bold"
-                font.bold = true
-              when "CharSet"
-              when "FontName"
-              else
-                throw "Wrong Font attribute: #{key}"
-              end
-            end
-            styles[id][:format].font = font
-          when "Interior"
-            r.attributes.each do |key, value|
-              case key
-              when "Color"
-                styles[id][:format].pattern_bg_color = make_color(value)
-              when "Pattern"
-                styles[id][:format].pattern = value
-              else
-                throw "Wrong Interior attribute"
-              end
-            end
-          when "NumberFormat"
-            r.attributes.each do |key, value|
-              case key
-              when "Format"
-                styles[id][:format].number_format = value
-              else
-                throw "Wrong NumberFormat attribute"
-              end
-            end
-          when "Protection"
-#          else
-#            throw "unknown local_name#{r.local_name}"  
           end
+        when "Borders"
+          param.each do |border|
+            next unless border.name == "Border"
+            border.each do |key, value|
+              case key
+              when "Bottom"
+                styles[id].bottom = value.to_bool
+              when "Left"
+                styles[id].left = value.to_bool
+              when "Right"
+                styles[id].right = value.to_bool
+              when "Top"
+                styles[id].top = value.to_bool
+              end
+            end
+          end
+        when "Font"
+          name = param["FontName"] ? param["FontName"] : "unnamed"
+          font = Spreadsheet::Font.new name
+          param.each do |key, value|
+            case key
+            when "Family"
+              font.family = value 
+            when "Color"
+              font.color = make_color(value)
+            when "Bold"
+              font.bold = true
+            when "CharSet"
+            when "FontName"
+            when "Size"
+              font.size = value.to_i
+            when "Italic"
+              font.italic = value.to_bool
+            else
+              raise "Wrong Font attribute: #{key}"
+            end
+          end
+          styles[id].font = font
+        when "Interior"
+          param.each do |key, value|
+            case key
+            when "Color"
+              styles[id].pattern_fg_color = make_color(value)
+              styles[id].pattern = 1
+            when "Pattern"
+            when "PatternColor"
+            else
+              raise "Wrong Interior attribute: #{key}"
+            end
+          end
+        when "NumberFormat"
+          param.each do |key, value|
+            case key
+            when "Format"
+              styles[id].number_format = value
+            else
+              raise "Wrong NumberFormat attribute: #{key}"
+            end
+          end  
         end
       end
     end
@@ -627,12 +619,5 @@ class OurParser
 end
 
 
-
-
-
-# require 'spreadsheet'
-# book = Spreadsheet.open "_ololo.xls"
-# sheet = book.worksheet 0
-# puts sheet.row(0).format(0).inspect.gsub(", ", "\n")
 
 
