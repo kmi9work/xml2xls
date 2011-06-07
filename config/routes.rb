@@ -48,7 +48,9 @@ Xml2xls::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  match 'parser' => 'parser#index', :as => :parser
+  match 'parser/process_xml' => 'parser#process_xml', :as => :process_xml
+  root :to => "parser#index"
 
   # See how all your routes lay out with "rake routes"
 

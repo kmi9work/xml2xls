@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sinfos:TradeItemMessage xmlns:sinfos="http://schemas.sinfos.de/TradeItemMessages/1.2.0/TradeItemMessage">
+<sinfos:MessageInformation>
+    <sinfos:CreationDate>2009-08-05</sinfos:CreationDate>
+    <sinfos:MessageSender>4607154959992</sinfos:MessageSender>
+    <sinfos:MessageReceiver>4607150089563</sinfos:MessageReceiver>
+    <sinfos:ContentOwner>4607154959992</sinfos:ContentOwner>
+    <sinfos:Sector>FNF</sinfos:Sector>
+    <sinfos:SelectionName>Nestle</sinfos:SelectionName>
+    <sinfos:SelectionInitiator>4607154959992</sinfos:SelectionInitiator>
+  </sinfos:MessageInformation>
+<sinfos:Items>
+<fnf_fnd_de:Item xmlns:fnf_fnd_de="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DE"><fnf_fnd_de:BaseItem><fnf_fnd_de:BaseItemVersion><fnf_fnd_de:GTIN>9785699246113</fnf_fnd_de:GTIN><fnf_fnd_de:StartValidityDate>2008-11-10</fnf_fnd_de:StartValidityDate><fnf_fnd_de:GLNofDataSupplier>4607154959985</fnf_fnd_de:GLNofDataSupplier><fnf_fnd_de:NameOfDataSupplier>SINFOS RUSSIA data supplier</fnf_fnd_de:NameOfDataSupplier><fnf_fnd_de:TargetMarketCountryCode>RU</fnf_fnd_de:TargetMarketCountryCode><fnf_fnd_de:SectorCode>FNF</fnf_fnd_de:SectorCode><fnf_fnd_de:FnFRelevantPartOfProfile>FNF</fnf_fnd_de:FnFRelevantPartOfProfile><fnf_fnd_de:ActionRequest>ADD</fnf_fnd_de:ActionRequest><fnf_fnd_de:BaseUnit>BI</fnf_fnd_de:BaseUnit><fnf_fnd_de:NonPublicTradeItem>Y</fnf_fnd_de:NonPublicTradeItem><fnf_fnd_de:InternalItemIDofSupplier>1111111</fnf_fnd_de:InternalItemIDofSupplier><fnf_fnd_de:NumberOfBaseUnitContained>1</fnf_fnd_de:NumberOfBaseUnitContained><fnf_fnd_de:ItemNameLongML><fnf_fnd_de:ItemNameLongML language="EN">Magic book of fairy tales</fnf_fnd_de:ItemNameLongML><fnf_fnd_de:ItemNameLongML language="RU">Волшебная книга сказок</fnf_fnd_de:ItemNameLongML></fnf_fnd_de:ItemNameLongML><fnf_fnd_de:ItemName><fnf_fnd_de:ItemName language="EN">Magic book of fairy tales volume 2</fnf_fnd_de:ItemName><fnf_fnd_de:ItemName language="RU">Волшебная книга сказок том 2</fnf_fnd_de:ItemName></fnf_fnd_de:ItemName><fnf_fnd_de:DespatchUnit>N</fnf_fnd_de:DespatchUnit><fnf_fnd_de:InvoiceUnit>N</fnf_fnd_de:InvoiceUnit><fnf_fnd_de:OrderingUnit>Y</fnf_fnd_de:OrderingUnit><fnf_fnd_de:AdditionalInformation>N</fnf_fnd_de:AdditionalInformation><fnf_fnd_de:BulkProduct>N</fnf_fnd_de:BulkProduct><fnf_fnd_de:ConsumerUnit>Y</fnf_fnd_de:ConsumerUnit><fnf_fnd_de:GLNofManufacturer>4607154959985</fnf_fnd_de:GLNofManufacturer><fnf_fnd_de:ManufacturersName>SINFOS RUS</fnf_fnd_de:ManufacturersName><fnf_fnd_de:Content>1</fnf_fnd_de:Content><fnf_fnd_de:ContentUnitOfMeasure>PCE</fnf_fnd_de:ContentUnitOfMeasure><fnf_fnd_de:GrossWeightFNFTSS>240</fnf_fnd_de:GrossWeightFNFTSS><fnf_fnd_de:GrossWeightUnitOfMeasure>GRM</fnf_fnd_de:GrossWeightUnitOfMeasure><fnf_fnd_de:NetWeight>200</fnf_fnd_de:NetWeight><fnf_fnd_de:NetWeightUnitOfMeasure>GRM</fnf_fnd_de:NetWeightUnitOfMeasure><fnf_fnd_de:BasePriceDeclarationRelevant>N</fnf_fnd_de:BasePriceDeclarationRelevant><fnf_fnd_de:MinimumOrderQuantity>10</fnf_fnd_de:MinimumOrderQuantity><fnf_fnd_de:VAT_RU>59</fnf_fnd_de:VAT_RU><fnf_fnd_de:BrandNameML><fnf_fnd_de:BrandNameML language="EN">Magic book</fnf_fnd_de:BrandNameML><fnf_fnd_de:BrandNameML language="RU">Волшебная книга</fnf_fnd_de:BrandNameML></fnf_fnd_de:BrandNameML><fnf_fnd_de:PLUDescriptionML><fnf_fnd_de:PLUDescriptionML language="RU">Волш книга 2</fnf_fnd_de:PLUDescriptionML></fnf_fnd_de:PLUDescriptionML><fnf_fnd_de:ItemNameShortML><fnf_fnd_de:ItemNameShortML language="EN">Magic Book 2</fnf_fnd_de:ItemNameShortML><fnf_fnd_de:ItemNameShortML language="RU">Волшебная книга 2</fnf_fnd_de:ItemNameShortML></fnf_fnd_de:ItemNameShortML><fnf_fnd_de:GPC>10000926</fnf_fnd_de:GPC><fnf_fnd_de:PricingOnTheProduct>N</fnf_fnd_de:PricingOnTheProduct><fnf_fnd_de:FreshnessDateOnProduct>
+<fnf_fnd_de:freshnessDatesOnProduct>
+  <fnf_fnd_de:freshnessDateOnProduct>
+    <fnf_fnd_de:freshnessDateOnProduct>NOD</fnf_fnd_de:freshnessDateOnProduct>
+  </fnf_fnd_de:freshnessDateOnProduct>
+</fnf_fnd_de:freshnessDatesOnProduct>
+</fnf_fnd_de:FreshnessDateOnProduct><fnf_fnd_de:RightOfReturnForNonSoldTradeItems>N</fnf_fnd_de:RightOfReturnForNonSoldTradeItems><fnf_fnd_de:DangerousGoodsIndication>N</fnf_fnd_de:DangerousGoodsIndication><fnf_fnd_de:MaterialSafetyDataSheet>N</fnf_fnd_de:MaterialSafetyDataSheet><fnf_fnd_de:Biocide>N</fnf_fnd_de:Biocide><fnf_fnd_de:CertificatesOfQuality>
+<fnf_fnd_de:certificatesOfQuality>
+  <fnf_fnd_de:certificateOfQuality>
+    <fnf_fnd_de:certificateOfQualityNumber>23847932749234932749</fnf_fnd_de:certificateOfQualityNumber>
+    <fnf_fnd_de:certificateOfQualityStartDate>2009-08-24</fnf_fnd_de:certificateOfQualityStartDate>
+    <fnf_fnd_de:certificateOfQualityEndDate>2009-08-31</fnf_fnd_de:certificateOfQualityEndDate>
+  </fnf_fnd_de:certificateOfQuality>
+  <fnf_fnd_de:certificateOfQuality>
+    <fnf_fnd_de:certificateOfQualityNumber>32432423984798327498</fnf_fnd_de:certificateOfQualityNumber>
+    <fnf_fnd_de:certificateOfQualityStartDate>2009-08-30</fnf_fnd_de:certificateOfQualityStartDate>
+    <fnf_fnd_de:certificateOfQualityEndDate>2009-09-30</fnf_fnd_de:certificateOfQualityEndDate>
+  </fnf_fnd_de:certificateOfQuality>
+</fnf_fnd_de:certificatesOfQuality>
+</fnf_fnd_de:CertificatesOfQuality>
+<fnf_fnd_de:MinimumDurabilityFromArrival>12</fnf_fnd_de:MinimumDurabilityFromArrival>
+<fnf_fnd_de:CountryOfOrigin>RU</fnf_fnd_de:CountryOfOrigin><fnf_fnd_de:NonPublicGLNList>4607154959985</fnf_fnd_de:NonPublicGLNList><fnf_fnd_de:PackagingTypeFNF>BX</fnf_fnd_de:PackagingTypeFNF><fnf_fnd_de:MeasurementTradeItemHeight>40</fnf_fnd_de:MeasurementTradeItemHeight><fnf_fnd_de:MeasurementTradeItemHeightUnitOfMeasure>MMT</fnf_fnd_de:MeasurementTradeItemHeightUnitOfMeasure><fnf_fnd_de:MeasurementTradeItemLengthDepth>240</fnf_fnd_de:MeasurementTradeItemLengthDepth><fnf_fnd_de:MeasurementTradeItemLengthDepthUnitOfMeasure>MMT</fnf_fnd_de:MeasurementTradeItemLengthDepthUnitOfMeasure><fnf_fnd_de:MeasurementTradeItemWidth>120</fnf_fnd_de:MeasurementTradeItemWidth><fnf_fnd_de:MeasurementTradeItemWidthUnitOfMeasure>MMT</fnf_fnd_de:MeasurementTradeItemWidthUnitOfMeasure><fnf_fnd_de:Barcoded>Y</fnf_fnd_de:Barcoded><fnf_fnd_de:TradeItemIsReleased>Y</fnf_fnd_de:TradeItemIsReleased><fnf_fnd_de:ReleasedAtDateTime>2009-08-26T16:58:00</fnf_fnd_de:ReleasedAtDateTime><fnf_fnd_de:LastChangedDateTime>2009-08-26T16:58:00</fnf_fnd_de:LastChangedDateTime><fnf_fnd_de:CreatedAtDateTime>2008-11-10T14:17:00</fnf_fnd_de:CreatedAtDateTime><fnf_fnd_de:ChangedBy>USERS/4607154959985_maxim</fnf_fnd_de:ChangedBy><fnf_fnd_de:GlobalTradeItemIndicator>N</fnf_fnd_de:GlobalTradeItemIndicator><fnf_fnd_de:ReleaseStatusOfTradeItem>5000</fnf_fnd_de:ReleaseStatusOfTradeItem></fnf_fnd_de:BaseItemVersion></fnf_fnd_de:BaseItem></fnf_fnd_de:Item></sinfos:Items></sinfos:TradeItemMessage>

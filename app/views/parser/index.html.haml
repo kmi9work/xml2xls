@@ -1,0 +1,21 @@
+%html
+  %head
+    %meta(http-equiv="Content-Language" content="ru")
+    %meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+  %body
+    =form_tag "parser/process_xml", :multipart => true do
+      Choose xml:
+      =file_field_tag "file"
+      Select template(in brackets -- suffixes):
+      =select_tag("template",
+        options_for_select({"7continent(_)" => "7continent",
+        "auchan(_)" => "auchan",
+        "countries(_)" => "countries",
+        "general(_h)" => "general",
+        "globus(_gen, style)" => "globus",
+        "lenta(_sep)" => "lenta",
+        "lenta_with_comments(_sep)" => "lenta_with_comments",
+        "magnit(_)" => "magnit",
+        "merge" => "merge",
+        "x5(_)" => "x5"}))
+      =submit_tag

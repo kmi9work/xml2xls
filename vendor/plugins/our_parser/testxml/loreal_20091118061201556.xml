@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="iso-8859-5"?>
+<sinfos:TradeItemMessage xmlns:sinfos="http://schemas.sinfos.de/TradeItemMessages/1.2.0/TradeItemMessage">
+  <sinfos:MessageInformation>
+    <sinfos:CreationDate>2009-11-18</sinfos:CreationDate>
+    <sinfos:MessageSender>4607154959992</sinfos:MessageSender>
+    <sinfos:MessageReceiver>4607154959992</sinfos:MessageReceiver>
+    <sinfos:ContentOwner>4607154959992</sinfos:ContentOwner>
+    <sinfos:Sector>FNF</sinfos:Sector>
+    <sinfos:SelectionName>loreal</sinfos:SelectionName>
+    <sinfos:SelectionInitiator>4607154959992</sinfos:SelectionInitiator>
+  </sinfos:MessageInformation>
+  <sinfos:Items>
+    <fnf_fnd_fi:Item xmlns:fnf_fnd_fi="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FI">
+      <fnf_fnd_fi:BaseItem>
+        <fnf_fnd_fi:BaseItemVersion>
+          <fnf_fnd_fi:GTIN>3600540772145</fnf_fnd_fi:GTIN>
+          <fnf_fnd_fi:StartValidityDate>2009-09-01</fnf_fnd_fi:StartValidityDate>
+          <fnf_fnd_fi:GLNofDataSupplier>6420610189997</fnf_fnd_fi:GLNofDataSupplier>
+          <fnf_fnd_fi:NameOfDataSupplier>L'Oreal Finland Oy</fnf_fnd_fi:NameOfDataSupplier>
+          <fnf_fnd_fi:TargetMarketCountryCode>FI</fnf_fnd_fi:TargetMarketCountryCode>
+          <fnf_fnd_fi:SectorCode>FNF</fnf_fnd_fi:SectorCode>
+          <fnf_fnd_fi:FnFRelevantPartOfProfile>FNF</fnf_fnd_fi:FnFRelevantPartOfProfile>
+          <fnf_fnd_fi:ActionRequest>ADD</fnf_fnd_fi:ActionRequest>
+          <fnf_fnd_fi:PublicationDate>2009-09-15</fnf_fnd_fi:PublicationDate>
+          <fnf_fnd_fi:BaseUnit>BI</fnf_fnd_fi:BaseUnit>
+          <fnf_fnd_fi:NonPublicTradeItem>N</fnf_fnd_fi:NonPublicTradeItem>
+          <fnf_fnd_fi:InternalItemIDofSupplier>C264670</fnf_fnd_fi:InternalItemIDofSupplier>
+          <fnf_fnd_fi:NumberOfBaseUnitContained>1</fnf_fnd_fi:NumberOfBaseUnitContained>
+          <fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="EN">Garnier Herba Shine 200</fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="FI">Garnier Herba Shine 200 Kevytvari</fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="SV">Garnier Herba Shine 200</fnf_fnd_fi:ItemNameLongML>
+          </fnf_fnd_fi:ItemNameLongML>
+          <fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="EN">Garnier Herba Shine 200</fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="FI">Garnier Herba Shine 200 Mustanruskea Kevytvari</fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="SV">Garnier Herba Shine 200</fnf_fnd_fi:ItemName>
+          </fnf_fnd_fi:ItemName>
+          <fnf_fnd_fi:DespatchUnit>N</fnf_fnd_fi:DespatchUnit>
+          <fnf_fnd_fi:InvoiceUnit>Y</fnf_fnd_fi:InvoiceUnit>
+          <fnf_fnd_fi:OrderingUnit>Y</fnf_fnd_fi:OrderingUnit>
+          <fnf_fnd_fi:AdditionalInformation>ADD</fnf_fnd_fi:AdditionalInformation>
+          <fnf_fnd_fi:BulkProduct>N</fnf_fnd_fi:BulkProduct>
+          <fnf_fnd_fi:ConsumerUnit>Y</fnf_fnd_fi:ConsumerUnit>
+          <fnf_fnd_fi:GLNofManufacturer>6420610189997</fnf_fnd_fi:GLNofManufacturer>
+          <fnf_fnd_fi:ManufacturersName>L'OREAL FINLAND</fnf_fnd_fi:ManufacturersName>
+          <fnf_fnd_fi:Content>0.170</fnf_fnd_fi:Content>
+          <fnf_fnd_fi:ContentUnitOfMeasure>GRM</fnf_fnd_fi:ContentUnitOfMeasure>
+          <fnf_fnd_fi:GrossWeightFNFTSS>200</fnf_fnd_fi:GrossWeightFNFTSS>
+          <fnf_fnd_fi:GrossWeightUnitOfMeasure>GRM</fnf_fnd_fi:GrossWeightUnitOfMeasure>
+          <fnf_fnd_fi:BasePriceDeclarationRelevant>N</fnf_fnd_fi:BasePriceDeclarationRelevant>
+          <fnf_fnd_fi:VAT_FI>16</fnf_fnd_fi:VAT_FI>
+          <fnf_fnd_fi:BrandNameML>
+            <fnf_fnd_fi:BrandNameML language="FI">Garnier Herba Shine</fnf_fnd_fi:BrandNameML>
+          </fnf_fnd_fi:BrandNameML>
+          <fnf_fnd_fi:MarketingNameML>
+            <fnf_fnd_fi:MarketingNameML language="FI">Garnier Herba Shine 200 Kevytvari</fnf_fnd_fi:MarketingNameML>
+          </fnf_fnd_fi:MarketingNameML>
+          <fnf_fnd_fi:ItemNameShortML>
+            <fnf_fnd_fi:ItemNameShortML language="FI">HerbaS 200 Kevytvari</fnf_fnd_fi:ItemNameShortML>
+          </fnf_fnd_fi:ItemNameShortML>
+          <fnf_fnd_fi:ProductClassificationFI>3544</fnf_fnd_fi:ProductClassificationFI>
+          <fnf_fnd_fi:CPVClassification>24200000-6</fnf_fnd_fi:CPVClassification>
+          <fnf_fnd_fi:PricingOnTheProduct>N</fnf_fnd_fi:PricingOnTheProduct>
+          <fnf_fnd_fi:FreshnessDateOnProduct>
+<fnf_fnd_fi:freshnessDatesOnProduct>
+  <fnf_fnd_fi:freshnessDateOnProduct>
+    <fnf_fnd_fi:freshnessDateOnProduct>NOD</fnf_fnd_fi:freshnessDateOnProduct>
+  </fnf_fnd_fi:freshnessDateOnProduct>
+</fnf_fnd_fi:freshnessDatesOnProduct>
+</fnf_fnd_fi:FreshnessDateOnProduct>
+          <fnf_fnd_fi:RightOfReturnForNonSoldTradeItems>N</fnf_fnd_fi:RightOfReturnForNonSoldTradeItems>
+          <fnf_fnd_fi:DangerousGoodsIndication>N</fnf_fnd_fi:DangerousGoodsIndication>
+          <fnf_fnd_fi:DangerousSubstancesDeclaration>N</fnf_fnd_fi:DangerousSubstancesDeclaration>
+          <fnf_fnd_fi:MaterialSafetyDataSheet>N</fnf_fnd_fi:MaterialSafetyDataSheet>
+          <fnf_fnd_fi:Biocide>N</fnf_fnd_fi:Biocide>
+          <fnf_fnd_fi:VariableMeasureTradeItem>N</fnf_fnd_fi:VariableMeasureTradeItem>
+          <fnf_fnd_fi:CountryOfOrigin>FR</fnf_fnd_fi:CountryOfOrigin>
+          <fnf_fnd_fi:CustomsTariffNumber>00033059000</fnf_fnd_fi:CustomsTariffNumber>
+          <fnf_fnd_fi:ListOfIngredients>
+            <fnf_fnd_fi:ListOfIngredients language="FI">1079562 - VARIVOIDE / FARGCREME: AQUA / WATER CETEARYL ALCOHOL DECETH-3 PROPYLENE GLYCOL LAURETH-12 ETHANOLAMINE OLETH-30 LAURIC ACID HEXADIMETHRINE CHLORIDE GLYCOL DISTEARATE SODIUM METASILICATE TOLUENE-2,5- DIAMINE SILICA DIMETHYL SILYLATE POLYQUATERNIUM-6 RESORCINOL CI 77891 / TITANIUM DIOXIDE 2,4-DIAMINOPHENOXYETHANOL HClm-AMINOPHENOL p-AMINOPHENOL MICA HYDROXYBENZOMORPHOLINE THIOLACTIC ACID 2-METHYLRESORCINOL PHYLLOSTACHYS EDULIS EXTRACT PENTASODIUM PENTETATE N,N-BIS(2-HYDROXYETHYL)-p- PHENYLENEDIAMINE SULFATE CARBOMER ERYTHORBIC ACID PARFUM / FRAGRANCE. FIL C32880/1 178914 - KEHITE-EMULSIO / FRAMKALLNINGSCREME: AQUA/WATER HYDROGEN PEROXIDE CETEARYL ALCOHOL SODIUM STANNATE TRIDECETH-2 CARBOXAMIDE MEA PENTASODIUM PENTETATEPHOSPHORIC ACID CETEARETH-25 TETRASODIUM PYROPHOSPHATE GLYCERIN. FIL C13169/25 1068159 A -</fnf_fnd_fi:ListOfIngredients>
+          </fnf_fnd_fi:ListOfIngredients>
+          <fnf_fnd_fi:PackagingTypeFNF>PK</fnf_fnd_fi:PackagingTypeFNF>
+          <fnf_fnd_fi:MeasurementTradeItemHeight>170</fnf_fnd_fi:MeasurementTradeItemHeight>
+          <fnf_fnd_fi:MeasurementTradeItemHeightUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemHeightUnitOfMeasure>
+          <fnf_fnd_fi:MeasurementTradeItemLengthDepth>61</fnf_fnd_fi:MeasurementTradeItemLengthDepth>
+          <fnf_fnd_fi:MeasurementTradeItemLengthDepthUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemLengthDepthUnitOfMeasure>
+          <fnf_fnd_fi:MeasurementTradeItemWidth>93</fnf_fnd_fi:MeasurementTradeItemWidth>
+          <fnf_fnd_fi:MeasurementTradeItemWidthUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemWidthUnitOfMeasure>
+          <fnf_fnd_fi:Barcoded>Y</fnf_fnd_fi:Barcoded>
+          <fnf_fnd_fi:TradeItemIsReleased>Y</fnf_fnd_fi:TradeItemIsReleased>
+          <fnf_fnd_fi:ReleasedAtDateTime>2009-11-17T16:09:00</fnf_fnd_fi:ReleasedAtDateTime>
+          <fnf_fnd_fi:LastChangedDateTime>2009-11-17T15:55:00</fnf_fnd_fi:LastChangedDateTime>
+          <fnf_fnd_fi:CreatedAtDateTime>2009-09-08T09:24:00</fnf_fnd_fi:CreatedAtDateTime>
+          <fnf_fnd_fi:ChangedBy>USERS/6420610189997_user1</fnf_fnd_fi:ChangedBy>
+          <fnf_fnd_fi:GlobalTradeItemIndicator>N</fnf_fnd_fi:GlobalTradeItemIndicator>
+          <fnf_fnd_fi:ReleaseStatusOfTradeItem>5100</fnf_fnd_fi:ReleaseStatusOfTradeItem>
+        </fnf_fnd_fi:BaseItemVersion>
+      </fnf_fnd_fi:BaseItem>
+    </fnf_fnd_fi:Item>
+    <fnf_fnd_fi:Item xmlns:fnf_fnd_fi="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FI">
+      <fnf_fnd_fi:BaseItem>
+        <fnf_fnd_fi:BaseItemVersion>
+          <fnf_fnd_fi:GTIN>3600540772152</fnf_fnd_fi:GTIN>
+          <fnf_fnd_fi:StartValidityDate>2009-09-01</fnf_fnd_fi:StartValidityDate>
+          <fnf_fnd_fi:GLNofDataSupplier>6420610189997</fnf_fnd_fi:GLNofDataSupplier>
+          <fnf_fnd_fi:NameOfDataSupplier>L'Oreal Finland Oy</fnf_fnd_fi:NameOfDataSupplier>
+          <fnf_fnd_fi:TargetMarketCountryCode>FI</fnf_fnd_fi:TargetMarketCountryCode>
+          <fnf_fnd_fi:SectorCode>FNF</fnf_fnd_fi:SectorCode>
+          <fnf_fnd_fi:FnFRelevantPartOfProfile>FNF</fnf_fnd_fi:FnFRelevantPartOfProfile>
+          <fnf_fnd_fi:ActionRequest>ADD</fnf_fnd_fi:ActionRequest>
+          <fnf_fnd_fi:BaseUnit>BI</fnf_fnd_fi:BaseUnit>
+          <fnf_fnd_fi:NonPublicTradeItem>N</fnf_fnd_fi:NonPublicTradeItem>
+          <fnf_fnd_fi:InternalItemIDofSupplier>C264680</fnf_fnd_fi:InternalItemIDofSupplier>
+          <fnf_fnd_fi:NumberOfBaseUnitContained>1</fnf_fnd_fi:NumberOfBaseUnitContained>
+          <fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="EN">Garnier Herba Shine 400 </fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="FI">Garnier Herba Shine 400 Kevytvari</fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="SV">Garnier Herba Shine 400 </fnf_fnd_fi:ItemNameLongML>
+          </fnf_fnd_fi:ItemNameLongML>
+          <fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="EN">Garnier Herba Shine 400 </fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="FI">Garnier Herba Shine 400 Tummanruskea Kevytvari</fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="SV">Garnier Herba Shine 400 </fnf_fnd_fi:ItemName>
+          </fnf_fnd_fi:ItemName>
+          <fnf_fnd_fi:DespatchUnit>N</fnf_fnd_fi:DespatchUnit>
+          <fnf_fnd_fi:InvoiceUnit>Y</fnf_fnd_fi:InvoiceUnit>
+          <fnf_fnd_fi:OrderingUnit>Y</fnf_fnd_fi:OrderingUnit>
+          <fnf_fnd_fi:AdditionalInformation>ADD</fnf_fnd_fi:AdditionalInformation>
+          <fnf_fnd_fi:BulkProduct>N</fnf_fnd_fi:BulkProduct>
+          <fnf_fnd_fi:ConsumerUnit>Y</fnf_fnd_fi:ConsumerUnit>
+          <fnf_fnd_fi:GLNofManufacturer>6420610189997</fnf_fnd_fi:GLNofManufacturer>
+          <fnf_fnd_fi:ManufacturersName>L'OREAL FINLAND</fnf_fnd_fi:ManufacturersName>
+          <fnf_fnd_fi:Content>0.170</fnf_fnd_fi:Content>
+          <fnf_fnd_fi:ContentUnitOfMeasure>GRM</fnf_fnd_fi:ContentUnitOfMeasure>
+          <fnf_fnd_fi:GrossWeightFNFTSS>200</fnf_fnd_fi:GrossWeightFNFTSS>
+          <fnf_fnd_fi:GrossWeightUnitOfMeasure>GRM</fnf_fnd_fi:GrossWeightUnitOfMeasure>
+          <fnf_fnd_fi:BasePriceDeclarationRelevant>N</fnf_fnd_fi:BasePriceDeclarationRelevant>
+          <fnf_fnd_fi:VAT_FI>16</fnf_fnd_fi:VAT_FI>
+          <fnf_fnd_fi:BrandNameML>
+            <fnf_fnd_fi:BrandNameML language="FI">Garnier Herba Shine</fnf_fnd_fi:BrandNameML>
+          </fnf_fnd_fi:BrandNameML>
+          <fnf_fnd_fi:MarketingNameML>
+            <fnf_fnd_fi:MarketingNameML language="FI">Garnier Herba Shine 400 Kevytvari</fnf_fnd_fi:MarketingNameML>
+          </fnf_fnd_fi:MarketingNameML>
+          <fnf_fnd_fi:ItemNameShortML>
+            <fnf_fnd_fi:ItemNameShortML language="FI">HerbaS 400 Kevytvari</fnf_fnd_fi:ItemNameShortML>
+          </fnf_fnd_fi:ItemNameShortML>
+          <fnf_fnd_fi:ProductClassificationFI>3544</fnf_fnd_fi:ProductClassificationFI>
+          <fnf_fnd_fi:CPVClassification>24200000-6</fnf_fnd_fi:CPVClassification>
+          <fnf_fnd_fi:PricingOnTheProduct>N</fnf_fnd_fi:PricingOnTheProduct>
+          <fnf_fnd_fi:FreshnessDateOnProduct>
+<fnf_fnd_fi:freshnessDatesOnProduct>
+  <fnf_fnd_fi:freshnessDateOnProduct>
+    <fnf_fnd_fi:freshnessDateOnProduct>NOD</fnf_fnd_fi:freshnessDateOnProduct>
+  </fnf_fnd_fi:freshnessDateOnProduct>
+</fnf_fnd_fi:freshnessDatesOnProduct>
+</fnf_fnd_fi:FreshnessDateOnProduct>
+          <fnf_fnd_fi:RightOfReturnForNonSoldTradeItems>N</fnf_fnd_fi:RightOfReturnForNonSoldTradeItems>
+          <fnf_fnd_fi:DangerousGoodsIndication>N</fnf_fnd_fi:DangerousGoodsIndication>
+          <fnf_fnd_fi:DangerousSubstancesDeclaration>N</fnf_fnd_fi:DangerousSubstancesDeclaration>
+          <fnf_fnd_fi:MaterialSafetyDataSheet>N</fnf_fnd_fi:MaterialSafetyDataSheet>
+          <fnf_fnd_fi:Biocide>N</fnf_fnd_fi:Biocide>
+          <fnf_fnd_fi:VariableMeasureTradeItem>N</fnf_fnd_fi:VariableMeasureTradeItem>
+          <fnf_fnd_fi:CountryOfOrigin>FR</fnf_fnd_fi:CountryOfOrigin>
+          <fnf_fnd_fi:CustomsTariffNumber>00033059000</fnf_fnd_fi:CustomsTariffNumber>
+          <fnf_fnd_fi:ListOfIngredients>
+            <fnf_fnd_fi:ListOfIngredients language="FI">1063992 - VARIVOIDE / FARGCREME:AQUA / WATER CETEARYL ALCOHOL DECETH-3 PROPYLENE GLYCOL LAURETH-12 ETHANOLAMINE OLETH-30 LAURIC ACID HEXADIMETHRINE CHLORIDE GLYCOL DISTEARATE SODIUM METASILICATE TOLUENE-2,5- DIAMINE SILICA DIMETHYL SILYLATE POLYQUATERNIUM-6 RESORCINOLCI 77891 / TITANIUM DIOXIDE 2,4-DIAMINOPHENOXYETHANOL HCl m-AMINOPHENOL p-AMINOPHENOL 2-AMINO-3-HYDROXYPYRIDINE MICASODIUM METABISULFITE HYDROXYBENZOMORPHOLINE 2-METHYLRESORCINOL PHYLLOSTACHYS EDULIS EXTRACT PENTASODIUM PENTETATE N,N-BIS(2-HYDROXYETHYL)-p-PHENYLENEDIAMINE SULFATE CARBOMER ERYTHORBIC ACID PARFUM / FRAGRANCE. FIL C32381/1 178914 - KEHITE-EMULSIO / FRAMKALLNINGSCREME: AQUA/WATER HYDROGEN PEROXIDE CETEARYL ALCOHOL SODIUM STANNATE TRIDECETH-2 CARBOXAMIDE MEA PENTASODIUM PENTETATE PHOSPHORIC ACID CETEARETH-25 TETRASODIUM PYROPHOSPHATE GLYCERIN. FIL C13169/25 1068159 A -</fnf_fnd_fi:ListOfIngredients>
+          </fnf_fnd_fi:ListOfIngredients>
+          <fnf_fnd_fi:PackagingTypeFNF>PK</fnf_fnd_fi:PackagingTypeFNF>
+          <fnf_fnd_fi:MeasurementTradeItemHeight>170</fnf_fnd_fi:MeasurementTradeItemHeight>
+          <fnf_fnd_fi:MeasurementTradeItemHeightUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemHeightUnitOfMeasure>
+          <fnf_fnd_fi:MeasurementTradeItemLengthDepth>61</fnf_fnd_fi:MeasurementTradeItemLengthDepth>
+          <fnf_fnd_fi:MeasurementTradeItemLengthDepthUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemLengthDepthUnitOfMeasure>
+          <fnf_fnd_fi:MeasurementTradeItemWidth>93</fnf_fnd_fi:MeasurementTradeItemWidth>
+          <fnf_fnd_fi:MeasurementTradeItemWidthUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemWidthUnitOfMeasure>
+          <fnf_fnd_fi:Barcoded>Y</fnf_fnd_fi:Barcoded>
+          <fnf_fnd_fi:TradeItemIsReleased>Y</fnf_fnd_fi:TradeItemIsReleased>
+          <fnf_fnd_fi:ReleasedAtDateTime>2009-11-17T16:07:00</fnf_fnd_fi:ReleasedAtDateTime>
+          <fnf_fnd_fi:LastChangedDateTime>2009-11-17T16:06:00</fnf_fnd_fi:LastChangedDateTime>
+          <fnf_fnd_fi:CreatedAtDateTime>2009-09-08T09:30:00</fnf_fnd_fi:CreatedAtDateTime>
+          <fnf_fnd_fi:ChangedBy>USERS/6420610189997_user1</fnf_fnd_fi:ChangedBy>
+          <fnf_fnd_fi:GlobalTradeItemIndicator>N</fnf_fnd_fi:GlobalTradeItemIndicator>
+          <fnf_fnd_fi:ReleaseStatusOfTradeItem>5100</fnf_fnd_fi:ReleaseStatusOfTradeItem>
+        </fnf_fnd_fi:BaseItemVersion>
+      </fnf_fnd_fi:BaseItem>
+    </fnf_fnd_fi:Item>
+    <fnf_fnd_fi:Item xmlns:fnf_fnd_fi="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FI">
+      <fnf_fnd_fi:Assortment>
+        <fnf_fnd_fi:AssortmentVersion>
+          <fnf_fnd_fi:GTIN>6438144012889</fnf_fnd_fi:GTIN>
+          <fnf_fnd_fi:StartValidityDate>2010-01-01</fnf_fnd_fi:StartValidityDate>
+          <fnf_fnd_fi:GLNofDataSupplier>6420610189997</fnf_fnd_fi:GLNofDataSupplier>
+          <fnf_fnd_fi:NameOfDataSupplier>L'Oreal Finland Oy</fnf_fnd_fi:NameOfDataSupplier>
+          <fnf_fnd_fi:TargetMarketCountryCode>FI</fnf_fnd_fi:TargetMarketCountryCode>
+          <fnf_fnd_fi:SectorCode>FNF</fnf_fnd_fi:SectorCode>
+          <fnf_fnd_fi:FnFRelevantPartOfProfile>FNF</fnf_fnd_fi:FnFRelevantPartOfProfile>
+          <fnf_fnd_fi:ActionRequest>ADD</fnf_fnd_fi:ActionRequest>
+          <fnf_fnd_fi:PublicationDate>2010-01-15</fnf_fnd_fi:PublicationDate>
+          <fnf_fnd_fi:BaseUnit>BA</fnf_fnd_fi:BaseUnit>
+          <fnf_fnd_fi:NonPublicTradeItem>N</fnf_fnd_fi:NonPublicTradeItem>
+          <fnf_fnd_fi:InternalItemIDofSupplier>T159003</fnf_fnd_fi:InternalItemIDofSupplier>
+          <fnf_fnd_fi:NumberOfBaseUnitContained>1</fnf_fnd_fi:NumberOfBaseUnitContained>
+          <fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="EN">DSPL Franck Provost 114un</fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="FI">DSPL Franck Provost 114kpl</fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="SV">DSPL Franck Provost 114st</fnf_fnd_fi:ItemNameLongML>
+          </fnf_fnd_fi:ItemNameLongML>
+          <fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="EN">Franck Provost 114 un Euro 1/2 </fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="FI">Franck Provost 114 kpl Euro 1/2 shampoo ja hoitoaine lajielma</fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="SV">Franck Provost 114 st Euro 1/2 </fnf_fnd_fi:ItemName>
+          </fnf_fnd_fi:ItemName>
+          <fnf_fnd_fi:DespatchUnit>Y</fnf_fnd_fi:DespatchUnit>
+          <fnf_fnd_fi:InvoiceUnit>N</fnf_fnd_fi:InvoiceUnit>
+          <fnf_fnd_fi:OrderingUnit>Y</fnf_fnd_fi:OrderingUnit>
+          <fnf_fnd_fi:ConsumerUnit>N</fnf_fnd_fi:ConsumerUnit>
+          <fnf_fnd_fi:GLNofManufacturer>6420610189997</fnf_fnd_fi:GLNofManufacturer>
+          <fnf_fnd_fi:ManufacturersName>L'OREAL FINLAND</fnf_fnd_fi:ManufacturersName>
+          <fnf_fnd_fi:Content>114</fnf_fnd_fi:Content>
+          <fnf_fnd_fi:ContentUnitOfMeasure>PCE</fnf_fnd_fi:ContentUnitOfMeasure>
+          <fnf_fnd_fi:GrossWeightFNFTSS>93200</fnf_fnd_fi:GrossWeightFNFTSS>
+          <fnf_fnd_fi:GrossWeightUnitOfMeasure>GRM</fnf_fnd_fi:GrossWeightUnitOfMeasure>
+          <fnf_fnd_fi:VAT_FI>16</fnf_fnd_fi:VAT_FI>
+          <fnf_fnd_fi:BrandNameML>
+            <fnf_fnd_fi:BrandNameML language="EN">Franck Provost </fnf_fnd_fi:BrandNameML>
+            <fnf_fnd_fi:BrandNameML language="FI">Franck Provost </fnf_fnd_fi:BrandNameML>
+            <fnf_fnd_fi:BrandNameML language="SV">Franck Provost </fnf_fnd_fi:BrandNameML>
+          </fnf_fnd_fi:BrandNameML>
+          <fnf_fnd_fi:ProductClassificationFI>3540</fnf_fnd_fi:ProductClassificationFI>
+          <fnf_fnd_fi:CPVClassification>33711600-3</fnf_fnd_fi:CPVClassification>
+          <fnf_fnd_fi:PricingOnTheProduct>N</fnf_fnd_fi:PricingOnTheProduct>
+          <fnf_fnd_fi:FreshnessDateOnProduct>
+<fnf_fnd_fi:freshnessDatesOnProduct>
+<fnf_fnd_fi:freshnessDateOnProduct>
+<fnf_fnd_fi:freshnessDateOnProduct>NOD</fnf_fnd_fi:freshnessDateOnProduct>
+</fnf_fnd_fi:freshnessDateOnProduct>
+</fnf_fnd_fi:freshnessDatesOnProduct>
+</fnf_fnd_fi:FreshnessDateOnProduct>
+          <fnf_fnd_fi:RightOfReturnForNonSoldTradeItems>N</fnf_fnd_fi:RightOfReturnForNonSoldTradeItems>
+          <fnf_fnd_fi:DangerousGoodsIndication>N</fnf_fnd_fi:DangerousGoodsIndication>
+          <fnf_fnd_fi:DangerousSubstancesDeclaration>N</fnf_fnd_fi:DangerousSubstancesDeclaration>
+          <fnf_fnd_fi:MaterialSafetyDataSheet>N</fnf_fnd_fi:MaterialSafetyDataSheet>
+          <fnf_fnd_fi:VariableMeasureTradeItem>N</fnf_fnd_fi:VariableMeasureTradeItem>
+          <fnf_fnd_fi:CountryOfOrigin>FI</fnf_fnd_fi:CountryOfOrigin>
+          <fnf_fnd_fi:PackagingTypeFNF>CCE</fnf_fnd_fi:PackagingTypeFNF>
+          <fnf_fnd_fi:MeasurementTradeItemHeight>1050</fnf_fnd_fi:MeasurementTradeItemHeight>
+          <fnf_fnd_fi:MeasurementTradeItemHeightUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemHeightUnitOfMeasure>
+          <fnf_fnd_fi:MeasurementTradeItemLengthDepth>550</fnf_fnd_fi:MeasurementTradeItemLengthDepth>
+          <fnf_fnd_fi:MeasurementTradeItemLengthDepthUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemLengthDepthUnitOfMeasure>
+          <fnf_fnd_fi:MeasurementTradeItemWidth>850</fnf_fnd_fi:MeasurementTradeItemWidth>
+          <fnf_fnd_fi:MeasurementTradeItemWidthUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemWidthUnitOfMeasure>
+          <fnf_fnd_fi:Barcoded>Y</fnf_fnd_fi:Barcoded>
+          <fnf_fnd_fi:PalletDataPalletTypeFNF>201</fnf_fnd_fi:PalletDataPalletTypeFNF>
+          <fnf_fnd_fi:GTINCodedPallet>N</fnf_fnd_fi:GTINCodedPallet>
+          <fnf_fnd_fi:PalletDataPalletHandling>RUP</fnf_fnd_fi:PalletDataPalletHandling>
+          <fnf_fnd_fi:PalletDataNumberOfDespatchUnitsPerPallet>2</fnf_fnd_fi:PalletDataNumberOfDespatchUnitsPerPallet>
+          <fnf_fnd_fi:NumberOfLayersPerPallet>1</fnf_fnd_fi:NumberOfLayersPerPallet>
+          <fnf_fnd_fi:PalletDataPalletLoadingHeight>1200</fnf_fnd_fi:PalletDataPalletLoadingHeight>
+          <fnf_fnd_fi:StorageStackingFactor>1</fnf_fnd_fi:StorageStackingFactor>
+          <fnf_fnd_fi:PalletDataPalletGrossWeight>206400</fnf_fnd_fi:PalletDataPalletGrossWeight>
+          <fnf_fnd_fi:TradeItemIsReleased>Y</fnf_fnd_fi:TradeItemIsReleased>
+          <fnf_fnd_fi:ReleasedAtDateTime>2009-11-17T14:51:00</fnf_fnd_fi:ReleasedAtDateTime>
+          <fnf_fnd_fi:LastChangedDateTime>2009-11-17T14:50:00</fnf_fnd_fi:LastChangedDateTime>
+          <fnf_fnd_fi:CreatedAtDateTime>2009-11-16T13:38:00</fnf_fnd_fi:CreatedAtDateTime>
+          <fnf_fnd_fi:ChangedBy>USERS/6420610189997_user1</fnf_fnd_fi:ChangedBy>
+          <fnf_fnd_fi:GlobalTradeItemIndicator>N</fnf_fnd_fi:GlobalTradeItemIndicator>
+          <fnf_fnd_fi:ReleaseStatusOfTradeItem>5100</fnf_fnd_fi:ReleaseStatusOfTradeItem>
+          <fnf_fnd_fi:AssortmentComponents>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175417</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>24</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175165</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>12</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175516</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>24</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175110</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>18</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175363</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>12</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175561</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>12</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175219</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>6</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175318</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>6</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+          </fnf_fnd_fi:AssortmentComponents>
+        </fnf_fnd_fi:AssortmentVersion>
+      </fnf_fnd_fi:Assortment>
+    </fnf_fnd_fi:Item>
+    <fnf_fnd_fi:Item xmlns:fnf_fnd_fi="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FI">
+      <fnf_fnd_fi:Assortment>
+        <fnf_fnd_fi:AssortmentVersion>
+          <fnf_fnd_fi:GTIN>6438144013930</fnf_fnd_fi:GTIN>
+          <fnf_fnd_fi:StartValidityDate>2010-01-01</fnf_fnd_fi:StartValidityDate>
+          <fnf_fnd_fi:GLNofDataSupplier>6420610189997</fnf_fnd_fi:GLNofDataSupplier>
+          <fnf_fnd_fi:NameOfDataSupplier>L'Oreal Finland Oy</fnf_fnd_fi:NameOfDataSupplier>
+          <fnf_fnd_fi:TargetMarketCountryCode>FI</fnf_fnd_fi:TargetMarketCountryCode>
+          <fnf_fnd_fi:SectorCode>FNF</fnf_fnd_fi:SectorCode>
+          <fnf_fnd_fi:FnFRelevantPartOfProfile>FNF</fnf_fnd_fi:FnFRelevantPartOfProfile>
+          <fnf_fnd_fi:ActionRequest>ADD</fnf_fnd_fi:ActionRequest>
+          <fnf_fnd_fi:PublicationDate>2010-01-15</fnf_fnd_fi:PublicationDate>
+          <fnf_fnd_fi:BaseUnit>BA</fnf_fnd_fi:BaseUnit>
+          <fnf_fnd_fi:NonPublicTradeItem>N</fnf_fnd_fi:NonPublicTradeItem>
+          <fnf_fnd_fi:InternalItemIDofSupplier>T159004</fnf_fnd_fi:InternalItemIDofSupplier>
+          <fnf_fnd_fi:NumberOfBaseUnitContained>1</fnf_fnd_fi:NumberOfBaseUnitContained>
+          <fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="EN">DSPL Franck Provost 114un</fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="FI">DSPL Franck Provost 114kpl</fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="SV">DSPL Franck Provost 114st</fnf_fnd_fi:ItemNameLongML>
+          </fnf_fnd_fi:ItemNameLongML>
+          <fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="EN">Franck Provost 114 un Euro 1/2 </fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="FI">Franck Provost 114 kpl Euro 1/2 shampoo ja hoitoaine lajielma</fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="SV">Franck Provost 114 st Euro 1/2 </fnf_fnd_fi:ItemName>
+          </fnf_fnd_fi:ItemName>
+          <fnf_fnd_fi:DespatchUnit>Y</fnf_fnd_fi:DespatchUnit>
+          <fnf_fnd_fi:InvoiceUnit>N</fnf_fnd_fi:InvoiceUnit>
+          <fnf_fnd_fi:OrderingUnit>Y</fnf_fnd_fi:OrderingUnit>
+          <fnf_fnd_fi:ConsumerUnit>N</fnf_fnd_fi:ConsumerUnit>
+          <fnf_fnd_fi:GLNofManufacturer>6420610189997</fnf_fnd_fi:GLNofManufacturer>
+          <fnf_fnd_fi:ManufacturersName>L'OREAL FINLAND</fnf_fnd_fi:ManufacturersName>
+          <fnf_fnd_fi:Content>114</fnf_fnd_fi:Content>
+          <fnf_fnd_fi:ContentUnitOfMeasure>PCE</fnf_fnd_fi:ContentUnitOfMeasure>
+          <fnf_fnd_fi:GrossWeightFNFTSS>93200</fnf_fnd_fi:GrossWeightFNFTSS>
+          <fnf_fnd_fi:GrossWeightUnitOfMeasure>GRM</fnf_fnd_fi:GrossWeightUnitOfMeasure>
+          <fnf_fnd_fi:VAT_FI>16</fnf_fnd_fi:VAT_FI>
+          <fnf_fnd_fi:BrandNameML>
+            <fnf_fnd_fi:BrandNameML language="EN">Franck Provost </fnf_fnd_fi:BrandNameML>
+            <fnf_fnd_fi:BrandNameML language="FI">Franck Provost </fnf_fnd_fi:BrandNameML>
+            <fnf_fnd_fi:BrandNameML language="SV">Franck Provost </fnf_fnd_fi:BrandNameML>
+          </fnf_fnd_fi:BrandNameML>
+          <fnf_fnd_fi:ProductClassificationFI>3540</fnf_fnd_fi:ProductClassificationFI>
+          <fnf_fnd_fi:CPVClassification>33711600-3</fnf_fnd_fi:CPVClassification>
+          <fnf_fnd_fi:PricingOnTheProduct>N</fnf_fnd_fi:PricingOnTheProduct>
+          <fnf_fnd_fi:FreshnessDateOnProduct>
+<fnf_fnd_fi:freshnessDatesOnProduct>
+<fnf_fnd_fi:freshnessDateOnProduct>
+<fnf_fnd_fi:freshnessDateOnProduct>NOD</fnf_fnd_fi:freshnessDateOnProduct>
+</fnf_fnd_fi:freshnessDateOnProduct>
+</fnf_fnd_fi:freshnessDatesOnProduct>
+</fnf_fnd_fi:FreshnessDateOnProduct>
+          <fnf_fnd_fi:RightOfReturnForNonSoldTradeItems>N</fnf_fnd_fi:RightOfReturnForNonSoldTradeItems>
+          <fnf_fnd_fi:DangerousGoodsIndication>N</fnf_fnd_fi:DangerousGoodsIndication>
+          <fnf_fnd_fi:DangerousSubstancesDeclaration>N</fnf_fnd_fi:DangerousSubstancesDeclaration>
+          <fnf_fnd_fi:MaterialSafetyDataSheet>N</fnf_fnd_fi:MaterialSafetyDataSheet>
+          <fnf_fnd_fi:VariableMeasureTradeItem>N</fnf_fnd_fi:VariableMeasureTradeItem>
+          <fnf_fnd_fi:CountryOfOrigin>FI</fnf_fnd_fi:CountryOfOrigin>
+          <fnf_fnd_fi:PackagingTypeFNF>CCE</fnf_fnd_fi:PackagingTypeFNF>
+          <fnf_fnd_fi:MeasurementTradeItemHeight>1050</fnf_fnd_fi:MeasurementTradeItemHeight>
+          <fnf_fnd_fi:MeasurementTradeItemHeightUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemHeightUnitOfMeasure>
+          <fnf_fnd_fi:MeasurementTradeItemLengthDepth>550</fnf_fnd_fi:MeasurementTradeItemLengthDepth>
+          <fnf_fnd_fi:MeasurementTradeItemLengthDepthUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemLengthDepthUnitOfMeasure>
+          <fnf_fnd_fi:MeasurementTradeItemWidth>850</fnf_fnd_fi:MeasurementTradeItemWidth>
+          <fnf_fnd_fi:MeasurementTradeItemWidthUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemWidthUnitOfMeasure>
+          <fnf_fnd_fi:Barcoded>Y</fnf_fnd_fi:Barcoded>
+          <fnf_fnd_fi:PalletDataPalletTypeFNF>201</fnf_fnd_fi:PalletDataPalletTypeFNF>
+          <fnf_fnd_fi:GTINCodedPallet>N</fnf_fnd_fi:GTINCodedPallet>
+          <fnf_fnd_fi:PalletDataPalletHandling>RUP</fnf_fnd_fi:PalletDataPalletHandling>
+          <fnf_fnd_fi:PalletDataNumberOfDespatchUnitsPerPallet>2</fnf_fnd_fi:PalletDataNumberOfDespatchUnitsPerPallet>
+          <fnf_fnd_fi:NumberOfLayersPerPallet>1</fnf_fnd_fi:NumberOfLayersPerPallet>
+          <fnf_fnd_fi:PalletDataPalletLoadingHeight>1200</fnf_fnd_fi:PalletDataPalletLoadingHeight>
+          <fnf_fnd_fi:StorageStackingFactor>1</fnf_fnd_fi:StorageStackingFactor>
+          <fnf_fnd_fi:PalletDataPalletGrossWeight>206400</fnf_fnd_fi:PalletDataPalletGrossWeight>
+          <fnf_fnd_fi:TradeItemIsReleased>Y</fnf_fnd_fi:TradeItemIsReleased>
+          <fnf_fnd_fi:ReleasedAtDateTime>2009-11-17T15:45:00</fnf_fnd_fi:ReleasedAtDateTime>
+          <fnf_fnd_fi:LastChangedDateTime>2009-11-17T15:45:00</fnf_fnd_fi:LastChangedDateTime>
+          <fnf_fnd_fi:CreatedAtDateTime>2009-11-17T15:38:00</fnf_fnd_fi:CreatedAtDateTime>
+          <fnf_fnd_fi:ChangedBy>USERS/6420610189997_user1</fnf_fnd_fi:ChangedBy>
+          <fnf_fnd_fi:GlobalTradeItemIndicator>N</fnf_fnd_fi:GlobalTradeItemIndicator>
+          <fnf_fnd_fi:ReleaseStatusOfTradeItem>5100</fnf_fnd_fi:ReleaseStatusOfTradeItem>
+          <fnf_fnd_fi:AssortmentComponents>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175417</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>24</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175165</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>12</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175516</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>24</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175110</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>18</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175219</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>6</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175561</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>12</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175318</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>6</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175363</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>12</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+          </fnf_fnd_fi:AssortmentComponents>
+        </fnf_fnd_fi:AssortmentVersion>
+      </fnf_fnd_fi:Assortment>
+    </fnf_fnd_fi:Item>
+    <fnf_fnd_fi:Item xmlns:fnf_fnd_fi="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FI">
+      <fnf_fnd_fi:Assortment>
+        <fnf_fnd_fi:AssortmentVersion>
+          <fnf_fnd_fi:GTIN>6438144013947</fnf_fnd_fi:GTIN>
+          <fnf_fnd_fi:StartValidityDate>2010-01-01</fnf_fnd_fi:StartValidityDate>
+          <fnf_fnd_fi:GLNofDataSupplier>6420610189997</fnf_fnd_fi:GLNofDataSupplier>
+          <fnf_fnd_fi:NameOfDataSupplier>L'Oreal Finland Oy</fnf_fnd_fi:NameOfDataSupplier>
+          <fnf_fnd_fi:TargetMarketCountryCode>FI</fnf_fnd_fi:TargetMarketCountryCode>
+          <fnf_fnd_fi:SectorCode>FNF</fnf_fnd_fi:SectorCode>
+          <fnf_fnd_fi:FnFRelevantPartOfProfile>FNF</fnf_fnd_fi:FnFRelevantPartOfProfile>
+          <fnf_fnd_fi:ActionRequest>ADD</fnf_fnd_fi:ActionRequest>
+          <fnf_fnd_fi:PublicationDate>2010-01-15</fnf_fnd_fi:PublicationDate>
+          <fnf_fnd_fi:BaseUnit>BA</fnf_fnd_fi:BaseUnit>
+          <fnf_fnd_fi:NonPublicTradeItem>N</fnf_fnd_fi:NonPublicTradeItem>
+          <fnf_fnd_fi:InternalItemIDofSupplier>T159005</fnf_fnd_fi:InternalItemIDofSupplier>
+          <fnf_fnd_fi:NumberOfBaseUnitContained>1</fnf_fnd_fi:NumberOfBaseUnitContained>
+          <fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="EN">DSPL Franck Provost 192un</fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="FI">DSPL Franck Provost 192kpl</fnf_fnd_fi:ItemNameLongML>
+            <fnf_fnd_fi:ItemNameLongML language="SV">DSPL Franck Provost 192st</fnf_fnd_fi:ItemNameLongML>
+          </fnf_fnd_fi:ItemNameLongML>
+          <fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="EN">Franck Provost 192un display</fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="FI">Franck Provost 192kpl shampoo ja hoitoaine lajitelma</fnf_fnd_fi:ItemName>
+            <fnf_fnd_fi:ItemName language="SV">Franck Provost 192 st display</fnf_fnd_fi:ItemName>
+          </fnf_fnd_fi:ItemName>
+          <fnf_fnd_fi:DespatchUnit>Y</fnf_fnd_fi:DespatchUnit>
+          <fnf_fnd_fi:InvoiceUnit>N</fnf_fnd_fi:InvoiceUnit>
+          <fnf_fnd_fi:OrderingUnit>Y</fnf_fnd_fi:OrderingUnit>
+          <fnf_fnd_fi:ConsumerUnit>N</fnf_fnd_fi:ConsumerUnit>
+          <fnf_fnd_fi:GLNofManufacturer>6420610189997</fnf_fnd_fi:GLNofManufacturer>
+          <fnf_fnd_fi:ManufacturersName>L'OREAL FINLAND</fnf_fnd_fi:ManufacturersName>
+          <fnf_fnd_fi:Content>192</fnf_fnd_fi:Content>
+          <fnf_fnd_fi:ContentUnitOfMeasure>PCE</fnf_fnd_fi:ContentUnitOfMeasure>
+          <fnf_fnd_fi:GrossWeightFNFTSS>155000</fnf_fnd_fi:GrossWeightFNFTSS>
+          <fnf_fnd_fi:GrossWeightUnitOfMeasure>GRM</fnf_fnd_fi:GrossWeightUnitOfMeasure>
+          <fnf_fnd_fi:VAT_FI>16</fnf_fnd_fi:VAT_FI>
+          <fnf_fnd_fi:BrandNameML>
+            <fnf_fnd_fi:BrandNameML language="EN">Franck Provost </fnf_fnd_fi:BrandNameML>
+            <fnf_fnd_fi:BrandNameML language="FI">Franck Provost </fnf_fnd_fi:BrandNameML>
+            <fnf_fnd_fi:BrandNameML language="SV">Franck Provost </fnf_fnd_fi:BrandNameML>
+          </fnf_fnd_fi:BrandNameML>
+          <fnf_fnd_fi:ProductClassificationFI>3540</fnf_fnd_fi:ProductClassificationFI>
+          <fnf_fnd_fi:CPVClassification>33711600-3</fnf_fnd_fi:CPVClassification>
+          <fnf_fnd_fi:PricingOnTheProduct>N</fnf_fnd_fi:PricingOnTheProduct>
+          <fnf_fnd_fi:FreshnessDateOnProduct>
+<fnf_fnd_fi:freshnessDatesOnProduct>
+<fnf_fnd_fi:freshnessDateOnProduct>
+<fnf_fnd_fi:freshnessDateOnProduct>NOD</fnf_fnd_fi:freshnessDateOnProduct>
+</fnf_fnd_fi:freshnessDateOnProduct>
+</fnf_fnd_fi:freshnessDatesOnProduct>
+</fnf_fnd_fi:FreshnessDateOnProduct>
+          <fnf_fnd_fi:RightOfReturnForNonSoldTradeItems>N</fnf_fnd_fi:RightOfReturnForNonSoldTradeItems>
+          <fnf_fnd_fi:DangerousGoodsIndication>N</fnf_fnd_fi:DangerousGoodsIndication>
+          <fnf_fnd_fi:DangerousSubstancesDeclaration>N</fnf_fnd_fi:DangerousSubstancesDeclaration>
+          <fnf_fnd_fi:MaterialSafetyDataSheet>N</fnf_fnd_fi:MaterialSafetyDataSheet>
+          <fnf_fnd_fi:VariableMeasureTradeItem>N</fnf_fnd_fi:VariableMeasureTradeItem>
+          <fnf_fnd_fi:CountryOfOrigin>FI</fnf_fnd_fi:CountryOfOrigin>
+          <fnf_fnd_fi:PackagingTypeFNF>CCE</fnf_fnd_fi:PackagingTypeFNF>
+          <fnf_fnd_fi:MeasurementTradeItemHeight>1050</fnf_fnd_fi:MeasurementTradeItemHeight>
+          <fnf_fnd_fi:MeasurementTradeItemHeightUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemHeightUnitOfMeasure>
+          <fnf_fnd_fi:MeasurementTradeItemLengthDepth>550</fnf_fnd_fi:MeasurementTradeItemLengthDepth>
+          <fnf_fnd_fi:MeasurementTradeItemLengthDepthUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemLengthDepthUnitOfMeasure>
+          <fnf_fnd_fi:MeasurementTradeItemWidth>850</fnf_fnd_fi:MeasurementTradeItemWidth>
+          <fnf_fnd_fi:MeasurementTradeItemWidthUnitOfMeasure>MMT</fnf_fnd_fi:MeasurementTradeItemWidthUnitOfMeasure>
+          <fnf_fnd_fi:Barcoded>Y</fnf_fnd_fi:Barcoded>
+          <fnf_fnd_fi:PalletDataPalletTypeFNF>201</fnf_fnd_fi:PalletDataPalletTypeFNF>
+          <fnf_fnd_fi:GTINCodedPallet>N</fnf_fnd_fi:GTINCodedPallet>
+          <fnf_fnd_fi:PalletDataPalletHandling>RUP</fnf_fnd_fi:PalletDataPalletHandling>
+          <fnf_fnd_fi:PalletDataNumberOfDespatchUnitsPerPallet>2</fnf_fnd_fi:PalletDataNumberOfDespatchUnitsPerPallet>
+          <fnf_fnd_fi:NumberOfLayersPerPallet>1</fnf_fnd_fi:NumberOfLayersPerPallet>
+          <fnf_fnd_fi:PalletDataPalletLoadingHeight>1200</fnf_fnd_fi:PalletDataPalletLoadingHeight>
+          <fnf_fnd_fi:StorageStackingFactor>1</fnf_fnd_fi:StorageStackingFactor>
+          <fnf_fnd_fi:PalletDataPalletGrossWeight>320000</fnf_fnd_fi:PalletDataPalletGrossWeight>
+          <fnf_fnd_fi:TradeItemIsReleased>Y</fnf_fnd_fi:TradeItemIsReleased>
+          <fnf_fnd_fi:ReleasedAtDateTime>2009-11-17T15:07:00</fnf_fnd_fi:ReleasedAtDateTime>
+          <fnf_fnd_fi:LastChangedDateTime>2009-11-17T15:06:00</fnf_fnd_fi:LastChangedDateTime>
+          <fnf_fnd_fi:CreatedAtDateTime>2009-11-17T14:55:00</fnf_fnd_fi:CreatedAtDateTime>
+          <fnf_fnd_fi:ChangedBy>USERS/6420610189997_user1</fnf_fnd_fi:ChangedBy>
+          <fnf_fnd_fi:GlobalTradeItemIndicator>N</fnf_fnd_fi:GlobalTradeItemIndicator>
+          <fnf_fnd_fi:ReleaseStatusOfTradeItem>5100</fnf_fnd_fi:ReleaseStatusOfTradeItem>
+          <fnf_fnd_fi:AssortmentComponents>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175516</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>24</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175165</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>24</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175417</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>24</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175561</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>24</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175318</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>24</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175363</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>24</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175110</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>24</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+            <fnf_fnd_fi:AssortmentComponent>
+              <fnf_fnd_fi:GTINofAssortmentComponent>3600550175219</fnf_fnd_fi:GTINofAssortmentComponent>
+              <fnf_fnd_fi:ContentAssortmentNumberOfComponents>24</fnf_fnd_fi:ContentAssortmentNumberOfComponents>
+            </fnf_fnd_fi:AssortmentComponent>
+          </fnf_fnd_fi:AssortmentComponents>
+        </fnf_fnd_fi:AssortmentVersion>
+      </fnf_fnd_fi:Assortment>
+    </fnf_fnd_fi:Item>
+  </sinfos:Items>
+</sinfos:TradeItemMessage>

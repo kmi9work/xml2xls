@@ -1,4 +1,4 @@
-# Include hook code here
-require "our_parser"
-
-p OurParser.new ARGV[0], ARGV[1]
+require 'our_parser'
+#Debugger.start
+#puts xls.out_xml
+#

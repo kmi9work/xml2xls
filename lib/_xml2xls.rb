@@ -1,5 +1,5 @@
 #only Ruby 1.9
-
+=begin
 class _Xml2xl
   require 'rubygems'
   require 'libxml-ruby'
@@ -399,3 +399,4 @@ include Xml2xls
 # puts sheet.row(0).format(0).inspect.gsub(", ", "\n")
 
 puts xsl_transform ARGV[0], ARGV[1]
+=end

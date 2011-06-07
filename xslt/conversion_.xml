@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapping>
+  <row>
+    <code>801</code>
+    <name>Year</name>
+    <tocode>804</tocode>
+    <coefficient>365</coefficient>
+    <rus>Год</rus>
+ </row>
+  <row>
+    <code>802</code>
+    <name>Month</name>
+    <tocode>804</tocode>
+    <coefficient>30</coefficient>
+    <rus>Месяц</rus>
+ </row>
+  <row>
+    <code>803</code>
+    <name>Week</name>
+    <tocode>804</tocode>
+    <coefficient>7</coefficient>
+    <rus>Неделя</rus>
+ </row>
+  <row>
+    <code>804</code>
+    <name>Day/s</name>
+    <tocode>805</tocode>
+    <coefficient>24</coefficient>
+    <rus>День</rus>
+ </row>
+  <row>
+    <code>805</code>
+    <name>Hour</name>
+    <tocode>806</tocode>
+    <coefficient>60</coefficient>
+    <rus>Час</rus>
+ </row>
+  <row>
+    <code>806</code>
+    <name>Minute</name>
+    <rus>Минута</rus>
+ </row>
+  <row>
+    <code>APX</code>
+    <name>Troy ounce (31,10348 g)</name>
+    <tocode>GRM</tocode>
+    <coefficient>31,10348</coefficient>
+    <rus>Тройская унция (31,10348 g)</rus>
+ </row>
+  <row>
+    <code>APX</code>
+    <name>Troy ounce (31,10348 g)</name>
+    <tocode>KGM</tocode>
+    <coefficient>0,03110348</coefficient>
+    <rus>Тройская унция (31,10348 g)</rus>
+  </row>
+  <row>
+    <code>AV</code>
+    <name>Capsule</name>
+    <rus>Капсула</rus>
+ </row>
+  <row>
+    <code>CEL</code>
+    <name>Degree Celsius</name>
+    <rus>Градус по Цельсию</rus>
+ </row>
+  <row>
+    <code>CLT</code>
+    <name>Centilitre</name>
+    <tocode>MLT</tocode>
+    <coefficient>10</coefficient>
+    <rus>Сантилитр</rus>
+ </row>
+  <row>
+    <code>CLT</code>
+    <name>Centilitre</name>
+    <tocode>LTR</tocode>
+    <coefficient>0,01</coefficient>
+    <rus>Сантилитр</rus>
+  </row>
+  <row>
+    <code>CMK</code>
+    <name>Square centimetre</name>
+    <tocode>MTK</tocode>
+    <coefficient>0,0001</coefficient>
+    <rus>Квадратный сантиметр</rus>
+    <short_rus>см.кв.</short_rus>
+ </row>
+  <row>
+    <code>CMK</code>
+    <name>Square centimetre</name>
+    <tocode>MMK</tocode>
+    <coefficient>100</coefficient>
+    <rus>Квадратный сантиметр</rus>
+    <short_rus>см.кв.</short_rus>
+  </row>
+  <row>
+    <code>CMQ</code>
+    <name>Cubic centimetre</name>
+    <tocode>MTQ</tocode>
+    <coefficient>0,000001</coefficient>
+    <rus>Кубический сантиметр</rus>
+    <short_rus>см.куб.</short_rus>
+ </row>
+  <row>
+    <code>CMQ</code>
+    <name>Cubic centimetre</name>
+    <tocode>MMQ</tocode>
+    <coefficient>1000</coefficient>
+    <rus>Кубический сантиметр</rus>
+    <short_rus>см.куб.</short_rus>
+  </row>
+  <row>
+    <code>CMQ</code>
+    <name>Cubic centimetre</name>
+    <tocode>LTR</tocode>
+    <coefficient>0,001</coefficient>
+    <rus>Кубический сантиметр</rus>
+    <short_rus>см.куб.</short_rus>
+  </row>
+  <row>
+    <code>CMT</code>
+    <name>Centimetre</name>
+    <tocode>MTR</tocode>
+    <coefficient>0,01</coefficient>
+    <rus>Сантиметр</rus>
+    <short_rus>см.</short_rus>
+ </row>
+  <row>
+    <code>CMT</code>
+    <name>Centimetre</name>
+    <tocode>MMT</tocode>
+    <coefficient>10</coefficient>
+    <rus>Сантиметр</rus>
+    <short_rus>см.</short_rus>
+  </row>
+  <row>
+    <code>DOS</code>
+    <name>Dose</name>
+    <rus>Доза</rus>
+ </row>
+  <row>
+    <code>DRG</code>
+    <name>Dragee</name>
+    <rus>Драже</rus>
+ </row>
+  <row>
+    <code>DZN</code>
+    <name>Dozen</name>
+    <tocode>EA</tocode>
+    <coefficient>12</coefficient>
+    <rus>Дюжина</rus>
+ </row>
+  <row>
+    <code>DZN</code>
+    <name>Dozen</name>
+    <tocode>PCE</tocode>
+    <coefficient>12</coefficient>
+    <rus>Дюжина</rus>
+  </row>
+  <row>
+    <code>EA</code>
+    <name>Each</name>
+    <rus>Штука</rus>
+    <short_rus>шт.</short_rus>
+ </row>
+  <row>
+    <code>FAH</code>
+    <name>Degree Fahrenheit</name>
+    <rus>Градус по Фаренгейту</rus>
+ </row>
+  <row>
+    <code>FOT</code>
+    <name>FOOT</name>
+    <tocode>CMT</tocode>
+    <coefficient>30,48</coefficient>
+    <rus>Фут</rus>
+ </row>
+  <row>
+    <code>FOT</code>
+    <name>FOOT</name>
+    <tocode>MMT</tocode>
+    <coefficient>304,8</coefficient>
+    <rus>Фут</rus>
+  </row>
+  <row>
+    <code>FOT</code>
+    <name>FOOT</name>
+    <tocode>MTR</tocode>
+    <coefficient>0,3048</coefficient>
+    <rus>Фут</rus>
+  </row>
+  <row>
+    <code>FTQ</code>
+    <name>Cubic foot</name>
+    <tocode>CMQ</tocode>
+    <coefficient>28316,846592</coefficient>
+    <rus>Кубический фут</rus>
+ </row>
+  <row>
+    <code>FTQ</code>
+    <name>Cubic foot</name>
+    <tocode>MMQ</tocode>
+    <coefficient>28316846,592</coefficient>
+    <rus>Кубический фут</rus>
+  </row>
+  <row>
+    <code>FTQ</code>
+    <name>Cubic foot</name>
+    <tocode>MTQ</tocode>
+    <coefficient>0,028316846592</coefficient>
+    <rus>Кубический фут</rus>
+  </row>
+  <row>
+    <code>GLI</code>
+    <name>Gallon (UK)</name>
+    <tocode>LTR</tocode>
+    <coefficient>4,546092</coefficient>
+    <rus>Галлон (Великобритания)</rus>
+ </row>
+  <row>
+    <code>GLI</code>
+    <name>Gallon (UK)</name>
+    <tocode>MTQ</tocode>
+    <coefficient>0,004546092</coefficient>
+    <rus>Галлон (Великобритания)</rus>
+  </row>
+  <row>
+    <code>GLI</code>
+    <name>Gallon (UK)</name>
+    <tocode>CMQ</tocode>
+    <coefficient>4546,092</coefficient>
+    <rus>Галлон (Великобритания)</rus>
+  </row>
+  <row>
+    <code>GLI</code>
+    <name>Gallon (UK)</name>
+    <tocode>MMQ</tocode>
+    <coefficient>4546092</coefficient>
+    <rus>Галлон (Великобритания)</rus>
+  </row>
+  <row>
+    <code>GM</code>
+    <name>Gram per square metre</name>
+    <rus>Грамм на квадратный метр</rus>
+ </row>
+  <row>
+    <code>GPD</code>
+    <name>g per 100 g</name>
+    <rus>Грамм на 100 грам</rus>
+ </row>
+  <row>
+    <code>GRM</code>
+    <name>Gram</name>
+    <tocode>MGM</tocode>
+    <coefficient>1000</coefficient>
+    <rus>Грамм</rus>
+    <short_rus>г.</short_rus>
+ </row>
+  <row>
+    <code>GRM</code>
+    <name>Gram</name>
+    <tocode>KGM</tocode>
+    <coefficient>0,001</coefficient>
+    <rus>Грамм</rus>
+    <short_rus>г.</short_rus>
+  </row>
+  <row>
+    <code>GRO</code>
+    <name>Gross</name>
+    <rus>Gross</rus>
+ </row>
+  <row>
+    <code>HLT</code>
+    <name>Hectolitre</name>
+    <tocode>LTR</tocode>
+    <coefficient>100</coefficient>
+    <rus>Гектолитр</rus>
+ </row>
+  <row>
+    <code>HLT</code>
+    <name>Hectolitre</name>
+    <tocode>MMQ</tocode>
+    <coefficient>100000000</coefficient>
+    <rus>Гектолитр</rus>
+  </row>
+  <row>
+    <code>HLT</code>
+    <name>Hectolitre</name>
+    <tocode>CMQ</tocode>
+    <coefficient>100000</coefficient>
+    <rus>Гектолитр</rus>
+  </row>
+  <row>
+    <code>HLT</code>
+    <name>Hectolitre</name>
+    <tocode>LTR</tocode>
+    <coefficient>0,1</coefficient>
+    <rus>Гектолитр</rus>
+  </row>
+  <row>
+    <code>INH</code>
+    <name>Inch (25,4 mm)</name>
+    <tocode>MMT</tocode>
+    <coefficient>25,4</coefficient>
+    <rus>Дюйм (25,4 мм)</rus>
+ </row>
+  <row>
+    <code>INH</code>
+    <name>Inch (25,4 mm)</name>
+    <tocode>CMT</tocode>
+    <coefficient>2,54</coefficient>
+    <rus>Дюйм (25,4 мм)</rus>
+  </row>
+  <row>
+    <code>INH</code>
+    <name>Inch (25,4 mm)</name>
+    <tocode>MTR</tocode>
+    <coefficient>0,0254</coefficient>
+    <rus>Дюйм (25,4 мм)</rus>
+  </row>
+  <row>
+    <code>KEL</code>
+    <name>Kelvin</name>
+    <rus>Кельвин</rus>
+ </row>
+  <row>
+    <code>KGM</code>
+    <name>Kilogram</name>
+    <tocode>GRM</tocode>
+    <coefficient>1000</coefficient>
+    <rus>Килограмм</rus>
+    <short_rus>кг.</short_rus>
+ </row>
+  <row>
+    <code>KGM</code>
+    <name>Kilogram</name>
+    <tocode>MGM</tocode>
+    <coefficient>1000000</coefficient>
+    <rus>Килограмм</rus>
+    <short_rus>кг.</short_rus>
+  </row>
+  <row>
+    <code>LTR</code>
+    <name>Litre (1 dm3)</name>
+    <tocode>MTQ</tocode>
+    <coefficient>0,001</coefficient>
+    <rus>Литр (1 дм.куб.)</rus>
+    <short_rus>л.</short_rus>
+ </row>
+  <row>
+    <code>LTR</code>
+    <name>Litre (1 dm3)</name>
+    <tocode>CMQ</tocode>
+    <coefficient>1000</coefficient>
+    <rus>Литр (1 дм.куб.)</rus>
+    <short_rus>л.</short_rus>
+  </row>
+  <row>
+    <code>LTR</code>
+    <name>Litre (1 dm3)</name>
+    <tocode>MMQ</tocode>
+    <coefficient>1000000</coefficient>
+    <rus>Литр (1 дм.куб.)</rus>
+    <short_rus>л.</short_rus>
+  </row>
+  <row>
+    <code>MC</code>
+    <name>Microgram</name>
+    <tocode>GRM</tocode>
+    <coefficient>0,000001</coefficient>
+    <rus>Микрограмм</rus>
+ </row>
+  <row>
+    <code>MC</code>
+    <name>Microgram</name>
+    <tocode>KGM</tocode>
+    <coefficient>0,000000001</coefficient>
+    <rus>Микрограмм</rus>
+  </row>
+  <row>
+    <code>MGM</code>
+    <name>Milligram</name>
+    <tocode>GRM</tocode>
+    <coefficient>0,001</coefficient>
+    <rus>Миллиграмм</rus>
+    <short_rus>мг.</short_rus>
+ </row>
+  <row>
+    <code>MGM</code>
+    <name>Milligram</name>
+    <tocode>KGM</tocode>
+    <coefficient>0,000001</coefficient>
+    <rus>Миллиграмм</rus>
+    <short_rus>мг.</short_rus>
+  </row>
+  <row>
+    <code>MLT</code>
+    <name>Millilitre</name>
+    <tocode>CMQ</tocode>
+    <coefficient>1</coefficient>
+    <rus>Миллилитр</rus>
+    <short_rus>мл.</short_rus>
+ </row>
+  <row>
+    <code>MLT</code>
+    <name>Millilitre</name>
+    <tocode>LTR</tocode>
+    <coefficient>0,001</coefficient>
+    <rus>Миллилитр</rus>
+    <short_rus>мл.</short_rus>
+  </row>
+  <row>
+    <code>MLT</code>
+    <name>Millilitre</name>
+    <tocode>MTQ</tocode>
+    <coefficient>0,000001</coefficient>
+    <rus>Миллилитр</rus>
+    <short_rus>мл.</short_rus>
+  </row>
+  <row>
+    <code>MLT</code>
+    <name>Millilitre</name>
+    <tocode>MMQ</tocode>
+    <coefficient>1000</coefficient>
+    <rus>Миллилитр</rus>
+    <short_rus>мл.</short_rus>
+  </row>
+  <row>
+    <code>MMK</code>
+    <name>Square millimetre</name>
+    <tocode>CMQ</tocode>
+    <coefficient>0,01</coefficient>
+    <rus>Квадратный миллиметр</rus>
+    <short_rus>мм.кв.</short_rus>
+ </row>
+  <row>
+    <code>MMK</code>
+    <name>Square millimetre</name>
+    <tocode>MMQ</tocode>
+    <coefficient>0,000001</coefficient>
+    <rus>Квадратный миллиметр</rus>
+    <short_rus>мм.кв.</short_rus>
+  </row>
+  <row>
+    <code>MMT</code>
+    <name>Millimetre</name>
+    <tocode>CMT</tocode>
+    <coefficient>0,1</coefficient>
+    <rus>Миллиметр</rus>
+    <short_rus>мм.</short_rus>
+ </row>
+  <row>
+    <code>MMT</code>
+    <name>Millimetre</name>
+    <tocode>MTR</tocode>
+    <coefficient>0,001</coefficient>
+    <rus>Миллиметр</rus>
+    <short_rus>мм.</short_rus>
+  </row>
+  <row>
+    <code>MTK</code>
+    <name>Square metre</name>
+    <tocode>CMK</tocode>
+    <coefficient>10000</coefficient>
+    <rus>Квадратный метр</rus>
+    <short_rus>м.кв.</short_rus>
+  </row>
+  <row>
+    <code>MTK</code>
+    <name>Square metre</name>
+    <tocode>MMK</tocode>
+    <coefficient>1000000</coefficient>
+    <rus>Квадратный метр</rus>
+    <short_rus>м.кв.</short_rus>
+  </row>
+  <row>
+    <code>MTQ</code>
+    <name>Cubic metre</name>
+    <tocode>CMQ</tocode>
+    <coefficient>1000000</coefficient>
+    <rus>Кубический метр</rus>
+    <short_rus>м.куб.</short_rus>
+ </row>
+  <row>
+    <code>MTQ</code>
+    <name>Cubic metre</name>
+    <tocode>LTR</tocode>
+    <coefficient>1000</coefficient>
+    <rus>Кубический метр</rus>
+    <short_rus>м.куб.</short_rus>
+  </row>
+  <row>
+    <code>MTQ</code>
+    <name>Cubic metre</name>
+    <tocode>MMQ</tocode>
+    <coefficient>1000000000</coefficient>
+    <rus>Кубический метр</rus>
+    <short_rus>м.куб.</short_rus>
+  </row>
+  <row>
+    <code>MTR</code>
+    <name>Metre</name>
+    <tocode>CMT</tocode>
+    <coefficient>100</coefficient>
+    <rus>Метр</rus>
+    <short_rus>м.</short_rus>
+ </row>
+  <row>
+    <code>MTR</code>
+    <name>Metre</name>
+    <tocode>MMT</tocode>
+    <coefficient>1000</coefficient>
+    <rus>Метр</rus>
+    <short_rus>м.</short_rus>
+  </row>
+  <row>
+    <code>NIU</code>
+    <name>Number of intern. units (IU)</name>
+    <rus>Количество внутренних единиц</rus>
+ </row>
+  <row>
+    <code>ON</code>
+    <name>Ounce per square yard</name>
+    <rus>Унция на квадратный ярд</rus>
+ </row>
+  <row>
+    <code>ONZ</code>
+    <name>Ounce GB, US (28,349523 g)</name>
+    <tocode>GRM</tocode>
+    <coefficient>28,349523</coefficient>
+    <rus>Унция</rus>
+ </row>
+  <row>
+    <code>ONZ</code>
+    <name>Ounce GB, US (28,349523 g)</name>
+    <tocode>KGM</tocode>
+    <coefficient>0,028349523</coefficient>
+    <rus>Унция</rus>
+  </row>
+  <row>
+    <code>OZA</code>
+    <name>Fluid ounce (US)</name>
+    <tocode>MLT</tocode>
+    <coefficient>29,573543</coefficient>
+    <rus>Жидкая унция (США)</rus>
+ </row>
+  <row>
+    <code>OZA</code>
+    <name>Fluid ounce (US)</name>
+    <tocode>LTR</tocode>
+    <coefficient>0,029573543</coefficient>
+    <rus>Жидкая унция (США)</rus>
+  </row>
+  <row>
+    <code>OZA</code>
+    <name>Fluid ounce (US)</name>
+    <tocode>MTQ</tocode>
+    <coefficient>0,000029573543</coefficient>
+    <rus>Жидкая унция (США)</rus>
+  </row>
+  <row>
+    <code>OZA</code>
+    <name>Fluid ounce (US)</name>
+    <tocode>CMQ</tocode>
+    <coefficient>29,573543</coefficient>
+    <rus>Жидкая унция (США)</rus>
+  </row>
+  <row>
+    <code>OZA</code>
+    <name>Fluid ounce (US)</name>
+    <tocode>MMQ</tocode>
+    <coefficient>29573,543</coefficient>
+    <rus>Жидкая унция (США)</rus>
+  </row>
+  <row>
+    <code>OZI</code>
+    <name>Fluid ounce (UK)</name>
+    <tocode>MLT</tocode>
+    <coefficient>28,413075</coefficient>
+    <rus>Жидкая унция (Великобритания)</rus>
+  </row>
+  <row>
+    <code>OZI</code>
+    <name>Fluid ounce (UK)</name>
+    <tocode>LTR</tocode>
+    <coefficient>0,028413075</coefficient>
+    <rus>Жидкая унция (Великобритания)</rus>
+  </row>
+  <row>
+    <code>OZI</code>
+    <name>Fluid ounce (UK)</name>
+    <tocode>MTQ</tocode>
+    <coefficient>0,000028413075</coefficient>
+    <rus>Жидкая унция (Великобритания)</rus>
+  </row>
+  <row>
+    <code>OZI</code>
+    <name>Fluid ounce (UK)</name>
+    <tocode>CMQ</tocode>
+    <coefficient>28,413075</coefficient>
+    <rus>Жидкая унция (Великобритания)</rus>
+  </row>
+  <row>
+    <code>OZI</code>
+    <name>Fluid ounce (UK)</name>
+    <tocode>MMQ</tocode>
+    <coefficient>28413,075</coefficient>
+    <rus>Жидкая унция (Великобритания)</rus>
+  </row>
+  <row>
+    <code>PCE</code>
+    <name>Piece</name>
+    <rus>Штука</rus>
+    <short_rus>шт.</short_rus>
+ </row>
+  <row>
+    <code>PND</code>
+    <name>Pound</name>
+    <tocode>GRM</tocode>
+    <coefficient>453,6</coefficient>
+    <rus>Фунт</rus>
+ </row>
+  <row>
+    <code>PND</code>
+    <name>Pound</name>
+    <tocode>KGM</tocode>
+    <coefficient>0,4536</coefficient>
+    <rus>Фунт</rus>
+  </row>
+  <row>
+    <code>PR</code>
+    <name>Pair</name>
+    <rus>Пара</rus>
+ </row>
+  <row>
+    <code>PTI</code>
+    <name>Pint (UK)</name>
+    <tocode>LTR</tocode>
+    <coefficient>0,4731767</coefficient>
+    <rus>rus</rus>
+ </row>
+  <row>
+    <code>PTI</code>
+    <name>Pint (UK)</name>
+    <tocode>MLT</tocode>
+    <coefficient>473,1767</coefficient>
+    <rus>rus</rus>
+  </row>
+  <row>
+    <code>PTI</code>
+    <name>Pint (UK)</name>
+    <tocode>CMQ</tocode>
+    <coefficient>473,1767</coefficient>
+    <rus>rus</rus>
+  </row>
+  <row>
+    <code>PTI</code>
+    <name>Pint (UK)</name>
+    <tocode>MMQ</tocode>
+    <coefficient>473176,7</coefficient>
+    <rus>rus</rus>
+  </row>
+  <row>
+    <code>PTI</code>
+    <name>Pint (UK)</name>
+    <tocode>MTQ</tocode>
+    <coefficient>0,0004731767</coefficient>
+    <rus>rus</rus>
+  </row>
+  <row>
+    <code>PTN</code>
+    <name>Portion</name>
+    <rus>Порция</rus>
+ </row>
+  <row>
+    <code>SET</code>
+    <name>Set</name>
+    <rus>Набор</rus>
+ </row>
+  <row>
+    <code>ST</code>
+    <name>Sheet</name>
+    <rus>Лист</rus>
+ </row>
+  <row>
+    <code>TNE</code>
+    <name>Ton (metric ton)</name>
+    <tocode>GRM</tocode>
+    <coefficient>1000000</coefficient>
+    <rus>Тонна</rus>
+    <short_rus>т.</short_rus>
+ </row>
+  <row>
+    <code>TNE</code>
+    <name>Ton (metric ton)</name>
+    <tocode>KGM</tocode>
+    <coefficient>1000</coefficient>
+    <rus>Тонна</rus>
+    <short_rus>т.</short_rus>
+  </row>
+  <row>
+    <code>U2</code>
+    <name>Tablet</name>
+    <rus>Таблетка</rus>
+ </row>
+  <row>
+    <code>UI</code>
+    <name>Unit of activity, predefined</name>
+    <rus>Единица активности</rus>
+ </row>
+  <row>
+    <code>YRD</code>
+    <name>Yard</name>
+    <tocode>MTR</tocode>
+    <coefficient>0,9144</coefficient>
+    <rus>Ярд</rus>
+ </row>
+  <row>
+    <code>YRD</code>
+    <name>Yard</name>
+    <tocode>CMT</tocode>
+    <coefficient>91,44</coefficient>
+    <rus>Ярд</rus>
+  </row>
+  <row>
+    <code>YRD</code>
+    <name>Yard</name>
+    <tocode>MMT</tocode>
+    <coefficient>914,4</coefficient>
+    <rus>Ярд</rus>
+  </row>
+  <row>
+    <code>WLO</code>
+    <name>Wash load (DE)</name>
+    <rus>Wash load</rus>
+ </row>
+  <row>
+    <code>ZP</code>
+    <name>Page</name>
+    <rus>Страница</rus>
+ </row>
+  <row>
+    <code>1</code>
+    <name>per 1</name>
+    <rus>за один</rus>
+ </row>
+  <row>
+    <code>2</code>
+    <name>per 10</name>
+    <rus>за десять</rus>
+ </row>
+  <row>
+    <code>3</code>
+    <name>per 100</name>
+    <rus>за сто</rus>
+ </row>
+  <row>
+    <code>4</code>
+    <name>per 1000</name>
+    <rus>за тысячу</rus>
+ </row>
+</mapping>

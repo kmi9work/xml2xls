@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapping>
+  <row>
+    <code>801</code>
+    <name>Year</name>
+    <rus>Год</rus><globus_code>год</globus_code><globus>год</globus>
+ </row>
+  <row>
+    <code>802</code>
+    <name>Month</name>
+    <rus>Месяц</rus><globus_code>месяц</globus_code><globus>месяц</globus>
+ </row>
+  <row>
+    <code>803</code>
+    <name>Week</name>
+    <rus>Неделя</rus><globus_code>неделя</globus_code><globus>неделя</globus>
+ </row>
+  <row>
+    <code>804</code>
+    <name>Day/s</name>
+    <rus>День</rus><globus_code>день</globus_code><globus>день</globus>
+ </row>
+  <row>
+    <code>805</code>
+    <name>Hour</name>
+    <rus>Час</rus><globus_code>час</globus_code><globus>час</globus>
+ </row>
+  <row>
+    <code>806</code>
+    <name>Minute</name>
+    <rus>Минута</rus><globus_code>минута</globus_code><globus>минута</globus>
+ </row>
+  <row>
+    <code>APX</code>
+    <name>Troy ounce (31,10348 g)</name>
+    <rus>Тройская унция (31,10348 g)</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>AV</code>
+    <name>Capsule</name>
+    <rus>Капсула</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>CEL</code>
+    <name>Degree Celsius</name>
+    <rus>Градус по Цельсию</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>CLT</code>
+    <name>Centilitre</name>
+    <rus>Сантилитр</rus><globus_code>СЛ</globus_code><globus>СЛ САНТИЛИТР</globus>
+ </row>
+  <row>
+    <code>CMK</code>
+    <name>Square centimetre</name>
+    <rus>Квадратный сантиметр</rus><globus_code>СМ2</globus_code><globus>СМ2 Сантиметр квадратный</globus>
+    <short_rus>см.кв.</short_rus>
+ </row>
+  <row>
+    <code>CMQ</code>
+    <name>Cubic centimetre</name>
+    <rus>Кубический сантиметр</rus><globus_code>СМ3</globus_code><globus>СМ3 Сантиметр кубический</globus>
+    <short_rus>см.куб.</short_rus>
+ </row>
+  <row>
+    <code>CMT</code>
+    <name>Centimetre</name>
+    <rus>Сантиметр</rus><globus_code>СМ</globus_code><globus>СМ Сантиметр</globus>
+    <short_rus>см.</short_rus>
+ </row>
+  <row>
+    <code>DOS</code>
+    <name>Dose</name>
+    <rus>Доза</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>DRG</code>
+    <name>Dragee</name>
+    <rus>Драже</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>DZN</code>
+    <name>Dozen</name>
+    <rus>Дюжина</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>EA</code>
+    <name>Each</name>
+    <rus>Штука</rus><globus_code>ШТ</globus_code><globus>ШТ Штука</globus>
+    <short_rus>шт.</short_rus>
+ </row>
+  <row>
+    <code>FAH</code>
+    <name>Degree Fahrenheit</name>
+    <rus>Градус по Фаренгейту</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>FOT</code>
+    <name>FOOT</name>
+    <rus>Фут</rus><globus_code></globus_code><globus>FT ФУТ</globus>
+ </row>
+  <row>
+    <code>FTQ</code>
+    <name>Cubic foot</name>
+    <rus>Кубический фут</rus><globus_code></globus_code><globus>FT3 Фут кубический</globus>
+ </row>
+  <row>
+    <code>GLI</code>
+    <name>Gallon (UK)</name>
+    <rus>Галлон (Великобритания)</rus><globus_code></globus_code><globus>GLI ГАЛЛОН</globus>
+ </row>
+  <row>
+    <code>GM</code>
+    <name>Gram per square metre</name>
+    <rus>Грамм на квадратный метр</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>GPD</code>
+    <name>g per 100 g</name>
+    <rus>Грамм на 100 грам</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>GRM</code>
+    <name>Gram</name>
+    <rus>Грамм</rus><globus_code>ГР</globus_code><globus>ГР Грамм</globus>
+    <short_rus>г.</short_rus>
+ </row>
+  <row>
+    <code>GRO</code>
+    <name>Gross</name>
+    <rus>Gross</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>HLT</code>
+    <name>Hectolitre</name>
+    <rus>Гектолитр</rus><globus_code>ГЛ</globus_code><globus>ГЛ Гектолитр</globus>
+ </row>
+  <row>
+    <code>INH</code>
+    <name>Inch (25.4 mm)</name>
+    <rus>Дюйм (25.4 мм)</rus><globus_code></globus_code><globus>INH ДЮЙМ (25ММ)</globus>
+ </row>
+  <row>
+    <code>KEL</code>
+    <name>Kelvin</name>
+    <rus>Кельвин</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>KGM</code>
+    <name>Kilogram</name>
+    <rus>Килограмм</rus><globus_code>КГ</globus_code><globus>КГ Килограмм</globus>
+    <short_rus>кг.</short_rus>
+ </row>
+  <row>
+    <code>LTR</code>
+    <name>Litre (1 dm3)</name>
+    <rus>Литр (1 дм.куб.)</rus><globus_code>Л</globus_code><globus>Л Литр</globus>
+    <short_rus>л.</short_rus>
+ </row>
+  <row>
+    <code>MC</code>
+    <name>Microgram</name>
+    <rus>Микрограмм</rus><globus_code>МС</globus_code><globus>MC МИКРОГРАММ</globus>
+ </row>
+  <row>
+    <code>MGM</code>
+    <name>Milligram</name>
+    <rus>Миллиграмм</rus><globus_code>МГ</globus_code><globus>МГ Милиграмм</globus>
+    <short_rus>мг.</short_rus>
+ </row>
+  <row>
+    <code>MLT</code>
+    <name>Millilitre</name>
+    <rus>Миллилитр</rus><globus_code>МЛ</globus_code><globus>МЛ Миллилитр</globus>
+    <short_rus>мл.</short_rus>
+ </row>
+  <row>
+    <code>MMK</code>
+    <name>Square millimetre</name>
+    <rus>Квадратный миллиметр</rus><globus_code></globus_code><globus>MM2 МИЛЛИМЕТР КВАДРАТНЫЙ</globus>
+    <short_rus>мм.кв.</short_rus>
+ </row>
+  <row>
+    <code>MMT</code>
+    <name>Millimetre</name>
+    <rus>Миллиметр</rus><globus_code>ММ</globus_code><globus>ММ Миллиметр</globus>
+    <short_rus>мм.</short_rus>
+ </row>
+  <row>
+    <code>MTK</code>
+    <name>Square metre</name>
+    <rus>Квадратный метр</rus><globus_code>М2</globus_code><globus>М2 Метр квадратный</globus>
+    <short_rus>м.кв.</short_rus>
+  </row>
+  <row>
+    <code>MTQ</code>
+    <name>Cubic metre</name>
+    <rus>Кубический метр</rus><globus_code>М3</globus_code><globus>М3 Метр кубический</globus>
+    <short_rus>м.куб.</short_rus>
+ </row>
+  <row>
+    <code>MTR</code>
+    <name>Metre</name>
+    <rus>Метр</rus><globus_code>М</globus_code><globus>М Метр</globus>
+    <short_rus>м.</short_rus>
+ </row>
+  <row>
+    <code>NIU</code>
+    <name>Number of intern. units (IU)</name>
+    <rus>Количество внутренних единиц</rus><globus_code></globus_code><globus>NIU ВНУТРЕННЕЕ КОЛИЧЕСТВО</globus>
+ </row>
+  <row>
+    <code>ON</code>
+    <name>Ounce per square yard</name>
+    <rus>Унция на квадратный ярд</rus><globus_code></globus_code><globus></globus>
+ </row>
+  <row>
+    <code>ONZ</code>
+    <name>Ounce GB, US (28,349523 g)</name>
+    <rus>Унция</rus><globus_code></globus_code><globus>ONZ УНЦИЯ</globus>
+ </row>
+  <row>
+    <code>OZA</code>
+    <name>Fluid ounce (US)</name>
+    <rus>Жидкая унция (США)</rus><globus_code></globus_code><globus>ONZ УНЦИЯ</globus>
+ </row>
+  <row>
+    <code>OZI</code>
+    <name>Fluid ounce (UK)</name>
+    <rus>Жидкая унция (Великобритания)</rus><globus_code></globus_code><globus>ONZ УНЦИЯ</globus>
+ </row>
+  <row>
+    <code>PCE</code>
+    <name>Piece</name>
+    <rus>Штука</rus><globus_code>ШТ</globus_code><globus>ШТ Штука</globus>
+    <short_rus>шт.</short_rus>
+ </row>
+  <row>
+    <code>PND</code>
+    <name>Pound</name>
+    <rus>Фунт</rus><globus_code></globus_code><globus>PND ФУНТ</globus>
+ </row>
+  <row>
+    <code>PR</code>
+    <name>Pair</name>
+    <rus>Пара</rus><globus_code>ПАР</globus_code><globus>ПАР Пара</globus>
+ </row>
+  <row>
+    <code>PTI</code>
+    <name>Pint (UK)</name>
+    <rus>rus</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>PTN</code>
+    <name>Portion</name>
+    <rus>Порция</rus><globus_code></globus_code><globus>ПОР ПОРЦИЯ</globus>
+ </row>
+  <row>
+    <code>SET</code>
+    <name>Set</name>
+    <rus>Набор</rus><globus_code></globus_code><globus>КМП КОМПЛЕКТ</globus>
+ </row>
+  <row>
+    <code>ST</code>
+    <name>Sheet</name>
+    <rus>Лист</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>TNE</code>
+    <name>Ton (metric ton)</name>
+    <rus>Тонна</rus><globus_code></globus_code><globus>МТ МЕТРИЧЕСКАЯ ТОННА</globus>
+    <short_rus>т.</short_rus>
+ </row>
+  <row>
+    <code>U2</code>
+    <name>Tablet</name>
+    <rus>Таблетка</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>UI</code>
+    <name>Unit of activity, predefined</name>
+    <rus>Единица активности</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>YRD</code>
+    <name>Yard</name>
+    <rus>Ярд</rus><globus_code></globus_code><globus>ЯРД ЯРД</globus>
+ </row>
+  <row>
+    <code>WLO</code>
+    <name>Wash load (DE)</name>
+    <rus>Wash load</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>ZP</code>
+    <name>Page</name>
+    <rus>Страница</rus><globus_code></globus_code><globus>СТР СТРАНИЦА</globus>
+ </row>
+  <row>
+    <code>1</code>
+    <name>per 1</name>
+    <rus>за один</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>2</code>
+    <name>per 10</name>
+    <rus>за десять</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>3</code>
+    <name>per 100</name>
+    <rus>за сто</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+  <row>
+    <code>4</code>
+    <name>per 1000</name>
+    <rus>за тысячу</rus><globus_code></globus_code><globus>PR ПРОЧЕЕ</globus>
+ </row>
+</mapping>

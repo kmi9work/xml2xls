@@ -1,0 +1,1 @@
+﻿<xsl:call-template name="for.item"><xsl:with-param name="firstColumn"><xsl:text>{2}</xsl:text></xsl:with-param><xsl:with-param name="item" select="$Item/fnf_{0}:PackagingItem/fnf_{0}:PackagingItemVersion[fnf_{0}:GTIN='{1}']" /></xsl:call-template>

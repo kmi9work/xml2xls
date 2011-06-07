@@ -4647,15 +4647,13 @@
       <xsl:if test="$BI">
         <xsl:call-template name="dataout">
           <xsl:with-param name="item" select="fnf_{1}:PackagingItem/fnf_{1}:PackagingItemVersion[fnf_{1}:GTIN='{4}']"/>
-          <xsl:with-param name="BI" select="$BI">
-          </xsl:with-param>
+          <xsl:with-param name="BI" select="$BI"/>
         </xsl:call-template>
       </xsl:if>
       <xsl:if test="$BA">
         <xsl:call-template name="dataout">
           <xsl:with-param name="item" select="fnf_{1}:PackagingItem/fnf_{1}:PackagingItemVersion[fnf_{1}:GTIN='{4}']"/>
-          <xsl:with-param name="BI" select="$BA">
-          </xsl:with-param>
+          <xsl:with-param name="BI" select="$BA"/>
         </xsl:call-template>
       </xsl:if>
     </xsl:for-each>
