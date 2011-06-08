@@ -1,9 +1,6 @@
-<?xml version="1.0"?>
-<?mso-application progid="Excel.Sheet"?>
-
-
+04600375040982_14600375040989_kraft_20091117131303772
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:s="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:sinfos="http://schemas.sinfos.de/TradeItemMessages/1.2.0/TradeItemMessage" xmlns:fnf_fnd_at="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_AT" xmlns:fnf_fnd_be="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_BE" xmlns:fnf_fnd_ch="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_CH" xmlns:fnf_fnd_cz="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_CZ" xmlns:fnf_fnd_de="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DE" xmlns:fnf_fnd_dk="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_DK" xmlns:fnf_fnd_ee="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_EE" xmlns:fnf_fnd_es="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_ES" xmlns:fnf_fnd_fi="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FI" xmlns:fnf_fnd_fr="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_FR" xmlns:fnf_fnd_gb="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_GB" xmlns:fnf_fnd_hu="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_HU" xmlns:fnf_fnd_ie="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_IE" xmlns:fnf_fnd_it="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_IT" xmlns:fnf_fnd_nl="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_NL" xmlns:fnf_fnd_pl="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_PL" xmlns:fnf_fnd_pt="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_PT" xmlns:fnf_fnd_ro="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_RO" xmlns:fnf_fnd_ru="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_RU" xmlns:fnf_fnd_se="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_SE" xmlns:fnf_fnd_ua="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_FND_UA" xmlns:fnf_rap_at="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_AT" xmlns:fnf_rap_de="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_DE" xmlns:fnf_rap_dk="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_DK" xmlns:fnf_rap_ee="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_EE" xmlns:fnf_rap_fi="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_FI" xmlns:fnf_rap_pl="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_PL" xmlns:fnf_rap_ru="http://schemas.sinfos.de/TradeItemMessages/1.2.0/FNF/TradeItemFNF_RAP_RU" xmlns:html="http://www.w3.org/TR/REC-html40">
-  <DocumentProperties>
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
     <Author>dana.yakovleva</Author>
     <LastAuthor>Rogozhin Anton Yurevich</LastAuthor>
     <LastPrinted>2008-11-01T11:13:12Z</LastPrinted>
@@ -12,7 +9,7 @@
     <Company>Lenta Cash&amp;Carry</Company>
     <Version>11.9999</Version>
   </DocumentProperties>
-  <ExcelWorkbook>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
     <WindowHeight>7620</WindowHeight>
     <WindowWidth>12120</WindowWidth>
     <WindowTopX>360</WindowTopX>
@@ -3443,7 +3440,7 @@
         <Cell ss:StyleID="s114">
           <Data ss:Type="String">&#x421;&#x442;&#x430;&#x432;&#x43A;&#x430; / &#x41A;&#x41E;&#x414; &#x41D;&#x414;&#x421; &#x437;&#x430;&#x43A;&#x443;&#x43F;&#x43A;&#x430;:  </Data>
           <Comment ss:Author="vladimir.gorichev">
-            <ss:Data>
+            <ss:Data xmlns="http://www.w3.org/TR/REC-html40">
               <B>
                 <Font html:Face="Tahoma" x:CharSet="238" html:Size="8" html:Color="#000000">vladimir.gorichev:</Font>
               </B>
@@ -3468,7 +3465,7 @@
       </Row>
       <Row ss:AutoFitHeight="0" ss:Height="54" ss:StyleID="s26">
         <Cell ss:MergeAcross="1" ss:StyleID="s125">
-          <ss:Data ss:Type="String">
+          <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">
             <B>&#x41D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x430;&#x43B;&#x43A;&#x43E;&#x433;&#x43E;&#x43B;&#x44C;&#x43D;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x435;&#x43B;&#x44F;<Font html:Size="14"> (&#x434;&#x43B;&#x44F; &#x438;&#x43C;&#x43F;&#x43E;&#x440;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x441;&#x442;&#x432;&#x430; - &#x43D;&#x430;&#x437;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x438;&#x43C;&#x43F;&#x43E;&#x440;&#x442;&#x435;&#x440;&#x430;):</Font></B>
           </ss:Data>
         </Cell>
@@ -3489,7 +3486,7 @@
       </Row>
       <Row ss:AutoFitHeight="0" ss:Height="36.75" ss:StyleID="s26">
         <Cell ss:MergeAcross="1" ss:StyleID="s141">
-          <ss:Data ss:Type="String">
+          <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">
             <B>&#x418;&#x41D;&#x41D; &#x43F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x435;&#x43B;&#x44F; &#x430;&#x43B;&#x43A;&#x43E;&#x433;&#x43E;&#x43B;&#x44F; <Font html:Size="14">(&#x434;&#x43B;&#x44F; &#x438;&#x43C;&#x43F;&#x43E;&#x440;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x441;&#x442;&#x432;&#x430; - &#x418;&#x41D;&#x41D; &#x438;&#x43C;&#x43F;&#x43E;&#x440;&#x442;&#x435;&#x440;&#x430;):</Font></B>
           </ss:Data>
         </Cell>
@@ -3749,7 +3746,7 @@
         <Cell ss:StyleID="s244">
           <Data ss:Type="String" x:Ticked="1">&#x415;&#x434;&#x438;&#x43D;&#x438;&#x446;&#x430; &#x438;&#x437;&#x43C;&#x435;&#x440;&#x435;&#x43D;&#x438;&#x44F; (&#x440;&#x430;&#x437;&#x43C;&#x435;&#x449;&#x435;&#x43D;&#x438;&#x44F;) &#x437;&#x430;&#x43A;&#x430;&#x437;&#x430; (&#x415;&#x418;&#x417;):</Data>
           <Comment ss:Author="ekaterina.zarayskaya">
-            <ss:Data>
+            <ss:Data xmlns="http://www.w3.org/TR/REC-html40">
               <B>
                 <Font html:Face="Tahoma" x:CharSet="238" html:Size="8" html:Color="#000000">ekaterina.zarayskaya:</Font>
               </B>
@@ -3761,7 +3758,7 @@
         <Cell ss:MergeAcross="3" ss:StyleID="m20669792">
           <Data ss:Type="Number"/>
           <Comment ss:Author="luchal">
-            <ss:Data>
+            <ss:Data xmlns="http://www.w3.org/TR/REC-html40">
               <B>
                 <Font html:Face="Tahoma" x:CharSet="238" html:Size="8" html:Color="#000000">figure of pieces in one carton</Font>
               </B>
@@ -3788,7 +3785,7 @@
         <Cell ss:MergeAcross="3" ss:StyleID="m20670248">
           <Data ss:Type="String">1 &#x43A;&#x43E;&#x440;&#x43E;&#x431;</Data>
           <Comment ss:Author="luchal">
-            <ss:Data>
+            <ss:Data xmlns="http://www.w3.org/TR/REC-html40">
               <B>
                 <Font html:Face="Tahoma" x:CharSet="238" html:Size="8" html:Color="#000000">figure of cartons in one layer</Font>
               </B>
@@ -3814,7 +3811,7 @@
       <Row ss:AutoFitHeight="0" ss:Height="60" ss:StyleID="s29">
         <Cell ss:StyleID="s265"/>
         <Cell ss:StyleID="s285">
-          <ss:Data ss:Type="String">&#x428;&#x442;.<Font html:Size="12">(&#x43D;&#x435; &#x432;&#x435;&#x441;&#x43E;&#x432;&#x43E;&#x439; &#x442;&#x43E;&#x432;&#x430;&#x440;)</Font></ss:Data>
+          <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">&#x428;&#x442;.<Font html:Size="12">(&#x43D;&#x435; &#x432;&#x435;&#x441;&#x43E;&#x432;&#x43E;&#x439; &#x442;&#x43E;&#x432;&#x430;&#x440;)</Font></ss:Data>
         </Cell>
         <Cell ss:StyleID="s286">
           <Data ss:Type="String">&#x422;&#x440;&#x430;&#x43D;&#x441;&#x43F;. &#x443;&#x43F;&#x430;&#x43A;&#x43E;&#x432;&#x43A;&#x430;</Data>
@@ -3843,7 +3840,7 @@
       </Row>
       <Row ss:AutoFitHeight="0" ss:Height="42" ss:StyleID="s26">
         <Cell ss:StyleID="s290">
-          <ss:Data ss:Type="String">
+          <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">
             <B>&#x41A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E; </B>
             <Font>&#x411;&#x415;&#x418; (&#x448;&#x442;/&#x432;&#x435;&#x441;&#x43E;&#x432;&#x43E;&#x439; - &#x433;&#x440;)</Font>
           </ss:Data>
@@ -3875,7 +3872,7 @@
       </Row>
       <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s26">
         <Cell ss:StyleID="s290">
-          <ss:Data ss:Type="String">
+          <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">
             <B>&#x414;&#x43B;&#x438;&#x43D;&#x430;                            </B>
             <Font>&#x43C;&#x43C;.</Font>
           </ss:Data>
@@ -3909,7 +3906,7 @@
       </Row>
       <Row ss:AutoFitHeight="0" ss:Height="47.25" ss:StyleID="s26">
         <Cell ss:StyleID="s290">
-          <ss:Data ss:Type="String">
+          <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">
             <B>&#x428;&#x438;&#x440;&#x438;&#x43D;&#x430;                         </B>
             <Font>&#x43C;&#x43C;.</Font>
           </ss:Data>
@@ -3938,7 +3935,7 @@
       </Row>
       <Row ss:AutoFitHeight="0" ss:Height="21.75" ss:StyleID="s26">
         <Cell ss:StyleID="s290">
-          <ss:Data ss:Type="String">
+          <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">
             <B>&#x412;&#x44B;&#x441;&#x43E;&#x442;&#x430;                          </B>
             <Font>&#x43C;&#x43C;.</Font>
           </ss:Data>
@@ -3967,7 +3964,7 @@
       </Row>
       <Row ss:AutoFitHeight="0" ss:Height="21.75" ss:StyleID="s26">
         <Cell ss:StyleID="s290">
-          <ss:Data ss:Type="String">
+          <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">
             <B>&#x41C;&#x430;&#x441;&#x441;&#x430; &#x43D;&#x435;&#x442;&#x442;&#x43E;                  </B>
             <Font>&#x433;&#x440;.</Font>
           </ss:Data>
@@ -3996,7 +3993,7 @@
       </Row>
       <Row ss:AutoFitHeight="0" ss:Height="47.25" ss:StyleID="s26">
         <Cell ss:StyleID="s305">
-          <ss:Data ss:Type="String">
+          <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">
             <B>&#x41C;&#x430;&#x441;&#x441;&#x430; &#x431;&#x440;&#x443;&#x442;&#x442;&#x43E;                </B>
             <Font>&#x433;&#x440;.</Font>
           </ss:Data>
@@ -4216,7 +4213,7 @@
       </Row>
       <Row ss:AutoFitHeight="0" ss:Height="21" ss:StyleID="s29">
         <Cell ss:MergeAcross="4" ss:StyleID="s424">
-          <ss:Data ss:Type="String">
+          <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">
             <I>&#x417;&#x410;&#x41A;&#x423;&#x41F;&#x41E;&#x427;&#x41D;&#x42B;&#x415; &#x426;&#x415;&#x41D;&#x42B; </I>
             <B>
               <I>&#x411;&#x415;&#x417;</I>
@@ -4296,7 +4293,7 @@
         <Cell ss:StyleID="s454">
           <Data ss:Type="String">&#x426;&#x435;&#x43D;&#x430; &#x434;&#x43B;&#x44F; &#x41B;&#x435;&#x43D;&#x442;&#x44B;:</Data>
           <Comment ss:Author="ekaterina.zarayskaya">
-            <ss:Data>
+            <ss:Data xmlns="http://www.w3.org/TR/REC-html40">
               <B>
                 <Font html:Face="Tahoma" x:CharSet="238" html:Size="8" html:Color="#000000">ekaterina.zarayskaya:</Font>
               </B>
@@ -4316,7 +4313,7 @@
         <Cell ss:MergeAcross="4" ss:StyleID="s47">
           <Data ss:Type="String">&#x421;&#x41A;&#x418;&#x414;&#x41A;&#x410;</Data>
           <Comment ss:Author="ekaterina.zarayskaya">
-            <ss:Data>
+            <ss:Data xmlns="http://www.w3.org/TR/REC-html40">
               <B>
                 <Font html:Face="Tahoma" x:CharSet="238" html:Size="8" html:Color="#000000">ekaterina.zarayskaya:</Font>
               </B>
@@ -4370,7 +4367,7 @@
         <Cell ss:StyleID="s478">
           <Data ss:Type="String">&#x417;&#x426; &#x431;&#x435;&#x437; &#x41D;&#x414;&#x421; &#x441;&#x43E; &#x441;&#x43A;&#x438;&#x434;&#x43A;&#x43E;&#x439;:</Data>
           <Comment ss:Author="ekaterina.zarayskaya">
-            <ss:Data>
+            <ss:Data xmlns="http://www.w3.org/TR/REC-html40">
               <B>
                 <Font html:Face="Tahoma" x:CharSet="238" html:Size="8" html:Color="#000000">ekaterina.zarayskaya:</Font>
               </B>
@@ -4429,7 +4426,7 @@
         <Cell ss:StyleID="s494">
           <Data ss:Type="String">SKU &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x443;&#x435;&#x442; &#x432;:</Data>
           <Comment ss:Author="ekaterina.zarayskaya">
-            <ss:Data>
+            <ss:Data xmlns="http://www.w3.org/TR/REC-html40">
               <B>
                 <Font html:Face="Tahoma" x:CharSet="238" html:Size="12" html:Color="#000000">&#x422;&#x41A;, &#x432; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x445; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x442;&#x43E;&#x432;&#x430;&#x440; &#x434;&#x43E;&#x43B;&#x436;&#x435;&#x43D; &#x431;&#x44B;&#x442;&#x44C; &#x432; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x43E;&#x439; &#x43C;&#x430;&#x442;&#x440;&#x438;&#x446;&#x435;</Font>
               </B>
@@ -4457,7 +4454,7 @@
         <Cell ss:MergeDown="1" ss:StyleID="m20672358">
           <Data ss:Type="String">&#x420;&#x430;&#x437;&#x432;&#x43E;&#x437;&#x43A;&#x430; &#x447;&#x435;&#x440;&#x435;&#x437; &#x420;&#x426;:</Data>
           <Comment ss:Author="ekaterina.zarayskaya">
-            <ss:Data>
+            <ss:Data xmlns="http://www.w3.org/TR/REC-html40">
               <Font html:Face="Tahoma" x:CharSet="238" html:Size="12" html:Color="#000000">&#x421;&#x43F;&#x43E;&#x441;&#x43E;&#x431; &#x434;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x43A;&#x438; &#x442;&#x43E;&#x432;&#x430;&#x440;&#x430; &#x432; &#x443;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x440;&#x435;&#x433;&#x438;&#x43E;&#x43D;</Font>
             </ss:Data>
           </Comment>
@@ -4659,7 +4656,7 @@
         <Cell ss:Index="4" ss:StyleID="s21"/>
       </Row>
     </Table>
-    <WorksheetOptions>
+    <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
       <PageSetup>
         <Header x:Margin="0.31496062992125984"/>
         <Footer x:Margin="0.31496062992125984"/>
@@ -4688,7 +4685,7 @@
       <ProtectObjects>False</ProtectObjects>
       <ProtectScenarios>False</ProtectScenarios>
     </WorksheetOptions>
-    <DataValidation>
+    <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
       <Range>R12C10:R12C11</Range>
       <Type>TextLength</Type>
       <Qualifier>LessOrEqual</Qualifier>

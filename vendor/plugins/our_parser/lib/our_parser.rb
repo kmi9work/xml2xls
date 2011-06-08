@@ -13,12 +13,16 @@ class OurParser
   end
   
   def initialize xml, template_name, filename
-    @filename = file_name
+    @filename = filename
     set_up_vars
     xsl_folder_path = FILEMANAGER["xslt"]
     if File.file? File.join(xsl_folder_path, template_name + "_sep.xsl")
       processed_nodes = sep_transform(xml, template_name)
-      @out_xml = processed_nodes.map{|pnode| pnode.map{|n| make_stylesheet(n.to_s)}}
+      @out_xml = processed_nodes.map do |h_xml| 
+        h_xml.each_key do |filename|
+          h_xml[filename] = make_stylesheet(h_xml[filename])
+        end
+      end
       #make a stylesheet from each element.
     else
       @is_sep = false
@@ -43,8 +47,8 @@ class OurParser
   protected
   
   FILEMANAGER = {
-    "xslt" => File.join(Rails.root, "xslt"),
-    "xls" => File.join(Rails.root, "tmp")
+    "xslt" => File.join(Rails.root, "xslt")
+    # "xls" => File.join(Rails.root, "tmp")
   }
   
   def sep_transform xml, template_name
@@ -162,7 +166,7 @@ class OurParser
     leaves, pi_statuses = get_leaf_pi(get_reader(node_xml), suffix)
     leaves.each do |key, value|
       value.each do |pi|
-        filename = File.join(FILEMANAGER[:xls], "#{key}_#{pi}_#{@filename}")
+        filename = "#{key}_#{pi}_#{@filename}"
         doc = Nokogiri::XML(node_xml)
         xslt = Nokogiri::XSLT(xsl.format(country.upcase, suffix.downcase, suffix.upcase, key, pi))
         processed_xml = xslt.transform(doc).to_s.gsub('<?xml version="1.0"?>','')
@@ -438,6 +442,9 @@ class OurParser
   end
 
   def make_stylesheet doc
+    f = File.open("ololo.xml", "w")
+    f.puts doc
+    f.close
     book = Spreadsheet::Workbook.new
     xml = (Nokogiri::XML doc).child
     styles = {}
