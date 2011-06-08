@@ -13,12 +13,13 @@ class OurParser
   end
   
   def initialize xml, template_name, filename
-    @filename = file_name
+    @filename = filename
     set_up_vars
     xsl_folder_path = FILEMANAGER["xslt"]
     if File.file? File.join(xsl_folder_path, template_name + "_sep.xsl")
+      @is_sep = true
       processed_nodes = sep_transform(xml, template_name)
-      @out_xml = processed_nodes.map{|pnode| pnode.map{|n| make_stylesheet(n.to_s)}}
+      @out_xml = processed_nodes.map{|pnode| a.update(a){|key, val| make_stylesheet(val.to_s)}}
       #make a stylesheet from each element.
     else
       @is_sep = false
