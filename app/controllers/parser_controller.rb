@@ -12,10 +12,10 @@ class ParserController < ApplicationController
       dir_name = make_dir(prefix + name, 0)
       t = Tempfile.new("zipfile_to_#{request.remote_ip}")
       Zip::ZipOutputStream.open(t.path) do |zos|
-        xls.out_xml.each do |h_xml|
-          h_xml.each do |filename, xml| 
+        xls.out_xls.each do |h_xml|
+          h_xml.each do |filename, xls| 
             filename += ".xls"
-            xml.write(File.join(dir_name, filename))
+            xls.write(File.join(dir_name, filename))
             puts "entry name:#{File.join(name, filename)}"
             zos.put_next_entry(File.join(name, filename))
             puts "zip name: #{File.join(dir_name, filename)}"
@@ -26,7 +26,7 @@ class ParserController < ApplicationController
       send_file t.path, :type => 'application/zip', :disposition => 'attachment', :filename => "#{File.basename dir_name}.zip"
     else
       fname = prefix + "#{name}.xls"
-      xls.out_xml.write(fname)
+      xls.out_xls.write(fname)
       send_file fname, :filename => "#{name}.xls"
     end
   end

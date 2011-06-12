@@ -1,12 +1,16 @@
 #only Ruby 1.9
 #require 'ruby-debug'
+
+=begin
+
+=end
 require 'nokogiri'
 require 'spreadsheet'
 require 'mapping'
 require 'core_ext'
 
 class OurParser  
-  attr_reader :out_xml
+  attr_reader :out_xls
   
   def is_sep?
     @is_sep
@@ -19,7 +23,7 @@ class OurParser
     if File.file? File.join(xsl_folder_path, template_name + "_sep.xsl")
       @is_sep = true
       processed_nodes = sep_transform(xml, template_name)
-      @out_xml = processed_nodes.map{|pnode| pnode.update(pnode){|key, val| make_stylesheet(val.to_s)}}
+      @out_xls = processed_nodes.map{|pnode| pnode.update(pnode){|key, val| make_stylesheet(val.to_s)}}
       #make a stylesheet from each element.
     else
       @is_sep = false
@@ -33,19 +37,18 @@ class OurParser
       else
         out_xml = style_transform(processed_xml, xml, template_name)
       end
-      @out_xml = make_stylesheet(out_xml)
+      @out_xls = make_stylesheet(out_xml)
     end
   rescue Exception => ex
-    puts ex.message + "OurParser.initialize"
+    puts ex.message + " (OurParser.initialize)"
     puts ex.backtrace
-    @out_xml = nil
+    @out_xls = nil
   end
 
   protected
   
   FILEMANAGER = {
     "xslt" => File.join(Rails.root, "xslt")
-    # "xls" => File.join(Rails.root, "tmp")
   }
   
   def sep_transform xml, template_name
@@ -361,7 +364,7 @@ class OurParser
   }
 
   def build_hierarchy reader, suffix
-    #build hierarchy by GTIN's
+    #build hierarchy by GTIN's. I don't know how.
     dict = {}
     added_deleted_pi = {}
     while reader.read
