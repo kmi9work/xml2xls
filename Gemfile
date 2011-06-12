@@ -7,6 +7,7 @@ gem 'libxml-ruby'
 gem 'nokogiri'
 gem 'spreadsheet'
 gem 'haml'
+gem 'rubyzip'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

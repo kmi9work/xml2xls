@@ -19,7 +19,15 @@ class OurParser
     if File.file? File.join(xsl_folder_path, template_name + "_sep.xsl")
       @is_sep = true
       processed_nodes = sep_transform(xml, template_name)
-      @out_xml = processed_nodes.map{|pnode| pnode.update(pnode){|key, val| make_stylesheet(val.to_s)}}
+<<<<<<< HEAD
+      @out_xml = processed_nodes.map{|pnode| a.update(a){|key, val| make_stylesheet(val.to_s)}}
+=======
+      @out_xml = processed_nodes.map do |h_xml| 
+        h_xml.each_key do |filename|
+          h_xml[filename] = make_stylesheet(h_xml[filename])
+        end
+      end
+>>>>>>> 2da054852f82142db25a039b7010a7a5976fe951
       #make a stylesheet from each element.
     else
       @is_sep = false
